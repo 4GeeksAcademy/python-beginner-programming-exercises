@@ -1,1 +1,4 @@
 _app
+*.pyc
+__pycache__/
+.pytest_cache/
