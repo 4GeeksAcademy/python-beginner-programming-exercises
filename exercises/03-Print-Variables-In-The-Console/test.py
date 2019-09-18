@@ -4,12 +4,19 @@ sys.stdout = buffer = io.StringIO()
 
 # from app import my_function
 import pytest
+import app
+import os
 
-@pytest.mark.it('Your code needs to print hello on the console')
+@pytest.mark.it("1. You should create a variable named color")
+def test_use_forLoop():
+
+    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
+    content = f.read()
+    assert content.find("color") > 0
+@pytest.mark.it('2. You should print on the console the value red ')
 def test_for_file_output(capsys):
     captured = buffer.getvalue()
-    assert captured == "hello\n" #add \n because the console jumps the line on every print
-
+    assert captured == "red\n" #add \n because the console jumps the line on every print
 # @pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
 # def test_for_function_output(capsys):
 #     my_function()

@@ -4,8 +4,8 @@ Since 2015, Javascript also allows the usage of constants, they differ from vari
 
 To declare a constant, you have to use the reserved word **const** instead of **var**, like this:
 
-```Javascript
-const VERSION = '1.2';
+```py
+VERSION = '1.2'
 ```
 
 Constants are super useful because some times, as a developer, you want to make sure parts of your data are read-only.
