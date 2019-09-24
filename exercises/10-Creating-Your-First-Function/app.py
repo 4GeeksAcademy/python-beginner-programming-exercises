@@ -1,7 +1,5 @@
-function addNumbers(a,b)
-{
-	//your code here
+def add_numbers(a,b):
+    print(a+b)
 
-}
 
-console.log(addNumbers(3,4))
+add_numbers(3,4)
