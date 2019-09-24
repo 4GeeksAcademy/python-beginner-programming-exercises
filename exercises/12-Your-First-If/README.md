@@ -1,7 +1,7 @@
 # `12` Your First if...
 
 The current application is prompting asking how much money the user has. Once the user inputs
-the amount, we need to **console.log** one of the following answers:
+the amount, we need to **print** one of the following answers:
 
 
 
@@ -13,5 +13,5 @@ the amount, we need to **console.log** one of the following answers:
 
 ## 💡 Hint:
 
-Use an If/else statement to check the value of the "total" variable.
-
+- Use an If/else statement to check the value of the "total" variable.
+- https://docs.python.org/3/tutorial/controlflow.html#if-statements
