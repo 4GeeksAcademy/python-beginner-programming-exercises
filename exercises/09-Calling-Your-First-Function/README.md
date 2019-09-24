@@ -11,7 +11,7 @@ those after this first Function exercise. (And then, come back).
 
 ## 📝 Instructions:
 
-1. The function isOdd is defined at the beginning of the code, please call that function passing
+1. The function **is_odd** is defined at the beginning of the code, please call that function passing
 it the number 45345 and print the result on the console.
 
 
