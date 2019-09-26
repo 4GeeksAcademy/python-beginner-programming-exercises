@@ -1,12 +1,12 @@
-function getColor(selection)
-{
+def getColor(selection):
+
 	switch(selection){
 		//Add more options here
 	    default :
 	    	return false;//return false because the user pick a unavailable color
-	    break;
-	}
-}
+	    break
+
+
 
 var colorname = window.prompt('What color do you want?');
 var isAvailable = getColor(colorname);
