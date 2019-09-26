@@ -1,8 +1,9 @@
-function getRandomInt()
-{
-	var randomNumber = Math.floor(Math.random() * 10)+ 1;
-	return randomNumber;
-}
+import random
+
+def get_randomInt():
+	random_number = random.randrange(10)
+	return random_number
 
 
-console.log(getRandomInt())
+
+print(get_randomInt())

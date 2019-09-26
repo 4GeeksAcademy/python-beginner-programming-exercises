@@ -5,6 +5,23 @@ sys.stdout = buffer = io.StringIO()
 # from app import my_function
 import pytest
 
+@pytest.mark.it("1. You should not delete or change the existing code")
+def test_existing_code():
+    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
+    content = f.readlines()
+
+    original_input = r"# user_input = int\(input\('How many people are coming to your wedding\?'\)\)"
+    assert re.match(original_input, content[0])
+    regex = r"print\('Your wedding will cost '\+str\(price\)\+' dollars'\);"
+    assert re.match(regex, content[(len(content)-1)])
+
+@pytest.mark.it("2. You should create a price variable before the if statement")
+def test_existingPriceVariable():
+    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
+    content = f.readlines()
+    content = [x.strip() for x in content]  ####  With this line of code I removed all the whitespace characters like `\n` at the end of each line
+    price_variable = r"price = (.+)"
+    assert re.match(price_variable, content[2])
 @pytest.mark.it('Your code needs to print hello on the console')
 def test_for_file_output(capsys):
     captured = buffer.getvalue()
