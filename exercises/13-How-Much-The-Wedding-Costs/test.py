@@ -1,6 +1,5 @@
 import io
 import sys
-sys.stdout = buffer = io.StringIO()
 
 # from app import my_function
 import pytest
@@ -13,7 +12,7 @@ import re
 def test_existing_code():
     f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
     content = f.readlines()
-    print("####",content[0])
+
     original_input = r"# user_input = int\(input\('How many people are coming to your wedding\?'\)\)"
     assert re.match(original_input, content[0])
     regex = r"print\('Your wedding will cost '\+str\(price\)\+' dollars'\);"
@@ -37,9 +36,13 @@ def test_existingPriceVariable():
 
 
 @pytest.mark.it('3. Your code needs to print the correct outpu on the console')
-def test_for_file_output(capsys):
-    captured = buffer.getvalue()
-    assert captured == "hello\n" #add \n because the console jumps the line on every print
+def test_for_file_output():
+    # sys.stdout = buffer = io.StringIO()
+    test =sys.stdin.read()
+    # captured = buffer.getvalue()
+    # print("####",buffer.getvalue())
+    print("$$$$",test)
+    # assert captured == "hello\n" #add \n because the console jumps the line on every print
 
 # @pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
 # def test_for_function_output(capsys):

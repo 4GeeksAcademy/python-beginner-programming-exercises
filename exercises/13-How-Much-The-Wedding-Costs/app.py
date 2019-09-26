@@ -1,5 +1,5 @@
-user_input = int(input('How many people are coming to your wedding?'))
-# user_input = 99
+# user_input = int(input('How many people are coming to your wedding?'))
+user_input = 99
 price = 0
 if( user_input < 51):
     price = 4000
