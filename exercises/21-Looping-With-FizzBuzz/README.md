@@ -13,7 +13,7 @@ Example output:
 
 ```py
 
-<!-- 1
+1
 2
 Fizz
 4
@@ -33,7 +33,7 @@ FizzBuzz
 ....
 98
 Fizz
-Buzz -->
+Buzz
 
 
 ```
