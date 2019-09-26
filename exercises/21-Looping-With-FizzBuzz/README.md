@@ -11,9 +11,9 @@ Write the code needed to print in the console all the numbers from 1 to 100.
 
 Example output:
 
-```js
-/* output
-1
+```py
+
+<!-- 1
 2
 Fizz
 4
@@ -33,8 +33,8 @@ FizzBuzz
 ....
 98
 Fizz
-Buzz
-*/
+Buzz -->
+
 
 ```
 
