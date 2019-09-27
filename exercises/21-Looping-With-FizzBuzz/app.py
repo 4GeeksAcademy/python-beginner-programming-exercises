@@ -12,4 +12,4 @@ def fizz_buzz():
         else:
             print(i)    
     
-fizz_buzz(); 
+fizz_buzz()
