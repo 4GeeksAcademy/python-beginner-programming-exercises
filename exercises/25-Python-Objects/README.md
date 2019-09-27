@@ -1,44 +1,37 @@
-# `25` Javascript Objects
+# `25` Python Objects
 
 Often you'll find yourself wanting to save more information in less space, especially if it's all related. For example:
 
 Let's say that we want to represent cars into variables:
 
-```Javascript
-var car1Model = "corolla";
-var car1Make = "Toyota";
-var car1Color = "green";
-var car1Year = 2015;
+```py
+car_1_Model = "corolla"
+car_1_Make = "Toyota"
+car_1_Color = "green"
+car_1_Year = 2015
 
-var car2Model = "santa fe";
-var car2Make = "Hyundai";
-var car2Color = "purple";
-var car2Year = 2013;
-//... (you get the idea)
+car_2_Model = "santa fe"
+car_2_Make = "Hyundai"
+car_2_Color = "purple"
+car_2_Year = 2013
+#... (you get the idea)
 ```
 
 There's an optimized approach to this, it is called Objects. Objects are a type of variable that contains information (other variables) in a key: value manner.
 
 So if we want to translate (and optimize) the variables from the car into an Object, we do:
 
-```js
-var car1 = { model: "corolla", make: "toyota", color: "green",  year: 2015};
+```py
+class ClassName:
+    def __init__():
+        self.model = "Corolla"
+        self.make = "Toyota"
+        self.color = "Green"
+        self.year = "2015"
 
 ```
 
-You can see the key: value separated by a comma.
 
-And for us (developers) to read it easier we write it like this:
-
-```js
-var car1 = {
-    model: "corolla",
-    make: "toyota",
-    color: "green",
-    year: 2015
-};
-
-```
 Looks like a function, right? But it's not.
 
 Now we are storing information into a more organized way, and if we want to get that information we can do:
@@ -70,8 +63,8 @@ var family = {
 ```
 So, if on this scenario if we want to know the name of the first member of the Doe family we do:
 
-```js
-console.log(family.members[0].name);
+```py
+print(family.members[0].name);
 ```
 
 Or the 3rd lucky number of the significant other of the second member of Doe's family:
@@ -82,12 +75,8 @@ console.log( family.members[1].significant_other.lucky_numbers[2]);
 
 Easy stuff :)
 ## 📝 Instructions:
-1. Programmatically, change the fourth lucky number of John Doe to 33 (use a command, don't manually change the code)
-2. Programmatically, create a new person and add it to the family object. Jimmy Doe, 13, male, lucky numbers: 1, 2, 3, 4; significant other: null. (use a command, don't manually change the code)
-3. Now please print ( console.log() ) the SUM of all of the lucky numbers of the Doe family.
+1. **1** Programmatically, change the fourth lucky number of John Doe to 33 (use a command, don't manually change the code)
+2. **2** Programmatically, create a new person and add it to the family object. Jimmy Doe, 13, male, lucky numbers: 1, 2, 3, 4; significant other: null. (use a command, don't manually change the code)
+3. **3** Now please print ( console.log() ) the SUM of all of the lucky numbers of the Doe family.
 
-## 💡 Hint:
 
-- You can get each array of lucky numbers from each person object inside the family object.
-- Once you get each array just loop over it adding every element (like we've been doing so far). And then add each sum of the 3 family members.
-- Null is also an object.
