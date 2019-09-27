@@ -30,10 +30,17 @@ def test_existing_code():
     # assert re.match(regex, content[(len(content)-1)])
 
 
-@pytest.mark.it('Your code needs to print the correct sum on the console')
+
+@pytest.mark.it('STEP 3. Your code needs to print the correct sum on the console')
 def test_for_file_output(capsys):
     captured = buffer.getvalue()
-    assert captured == str(94)+'\n'
+    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
+    content = f.readlines()
+    content = [x.strip() for x in content]
+    print("@@@@", content)
+    regex = r"print\(add_allFamilyLuckyNumbers\(Family\.members\)\) "
+    assert re.match(regex, content[(len(content)-1)])
+    # assert captured == str(94)+'\n'
 
 # @pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
 # def test_for_function_output(capsys):
