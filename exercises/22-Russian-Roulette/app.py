@@ -10,11 +10,10 @@ def spin_chamber():
 def fire_gun():
 	#you code here
 	if(spin_chamber() == bullet_position):
-	  return False
+	  return 'Keep playing :)'
 	else:
-	  return True
-	  
- 
+	  return 'You are dead!'
 
-if(fire_gun()): print('Keep playing :)')
-else: print('You are dead!')
+
+
+print(fire_gun())
