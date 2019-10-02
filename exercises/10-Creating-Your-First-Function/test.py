@@ -8,46 +8,21 @@ import app
 import os
 import re
 
-# @pytest.mark.it('1. You should return the result of a + b ')
-# def test_add_number():
-#     regex = (r"def add_numbers\(a,b\):\n"
-# 	    r"  	return a\s*\+\s*b")
-#     # regex = (r"def add_numbers\(a,b\):\n"
-# 	  #   r"  	return a\s*\+\s*b")
-#     f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
-#     content = f.read()
-#     print("content", content)
-#     # matches = re.finditer(regex, content, re.MULTILINE)
-#     print("matches",regex)
 
+@pytest.mark.it("1. You should add the return statement inside the existing function")
+def test_use_my_var1():
+
+    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
+    content = f.readlines()
+    content = [x.strip() for x in content]
+    my_return = [s for s in content if "return a+b" in s]
+    my_returnIndex = content.index(my_return[0])
+    # print(my_print_index)
+    regex = r"return a(\s*)\+(\s*)b"
+    assert re.match(regex, content[my_returnIndex])
 
 #     assert re.match(regex, content)
-@pytest.mark.it('Add all three numbers')
+@pytest.mark.it('2. The console should return 7')
 def test_add_variables(capsys):
-    app.add_numbers(3,4)
-    captured = capsys.readouterr()
-    print(captured.out)
-
-    if captured.out == str(7) + "\n":
-        assert True
-    else:
-        assert False
-# @pytest.mark.it('2. Your code needs to print 7 on the console')
-# def test_for_file_output(capsys):
-#     my_result = 3+4
-#     captured = buffer.getvalue()
-#     assert captured == str(my_result)+"\n" #add \n because the console jumps the line on every print
-# @pytest.mark.it('2. You should print on the console the variables_are_cool value ')
-# def test_for_file_output(capsys):
-#     my_result = 2345 *7323
-#     captured = buffer.getvalue()
-#     assert captured == str(my_result)+'\n'
-# @pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
-# def test_for_function_output(capsys):
-#     my_function()
-#     captured = capsys.readouterr()
-#     assert captured.out == "Hello Inside Function\n"
-
-# @pytest.mark.it('Your function needs to return True')
-# def test_for_function_return(capsys):
-#     assert my_function() == True
+    captured = buffer.getvalue()
+    assert captured == str(7)+"\n"
