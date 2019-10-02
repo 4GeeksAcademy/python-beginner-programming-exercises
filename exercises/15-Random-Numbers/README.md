@@ -1,7 +1,9 @@
 # `15` Random Numbers
 
-You can use the **randint()** function to get a random decimal number. **randint()** is an inbuilt function of the random module in Python3.
+You can use the **randint()** function to get a random integer number. **randint()** is an inbuilt function of the random module in Python3.
 The random module gives access to various useful functions and one of them being able to generate random numbers, which is **randint()**.
+
+The code now is returning random decimal numbers.
 
 ## 📝 Instructions:
 

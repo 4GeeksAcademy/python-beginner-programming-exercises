@@ -1,13 +1,14 @@
-# `16` Rand From 1 to 6
+# `16` Rand From 0 to 12
 
 
 ## 📝 Instructions:
 
-1. Okay, now change whatever you need to change to make the algorithm print random integers between 1 and 6.
+1. Okay, now change whatever you need to change to make the algorithm print random integers between 1 and 12.
+This time use **randrange()**
 
 ## 💡 Hint:
 
-- It should print between 1 and 6, not between 0 and 6.
+- It should print between 1 and 12, not between 0 and 12.
 - This exercise is super simple, don't over complicate things....
 
 

@@ -4,35 +4,16 @@ sys.stdout = buffer = io.StringIO()
 
 # from app import my_function
 import pytest
+import os
+import re
 
-@pytest.mark.it("1. You should not delete or change the existing code")
-def test_existing_code():
-    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
+@pytest.mark.it("1. You should update only line 5 using randint()")
+def test_conditional():
+    f = open(os.path.dirname(os.path.abspath(__file__))+ '/app.py')
     content = f.readlines()
+    content = [x.strip() for x in content]
+    my_print = [s for s in content if "random_number =" in s]
+    my_printVar = content.index(my_print[0])
+    regex = r"random_number(\s*)=(\s*)random\.rand\w+\(1,10\)"
+    assert re.match(regex, content[my_printVar])
 
-    original_input = r"# user_input = int\(input\('How many people are coming to your wedding\?'\)\)"
-    assert re.match(original_input, content[0])
-    regex = r"print\('Your wedding will cost '\+str\(price\)\+' dollars'\);"
-    assert re.match(regex, content[(len(content)-1)])
-
-@pytest.mark.it("2. You should create a price variable before the if statement")
-def test_existingPriceVariable():
-    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
-    content = f.readlines()
-    content = [x.strip() for x in content]  ####  With this line of code I removed all the whitespace characters like `\n` at the end of each line
-    price_variable = r"price = (.+)"
-    assert re.match(price_variable, content[2])
-@pytest.mark.it('Your code needs to print hello on the console')
-def test_for_file_output(capsys):
-    captured = buffer.getvalue()
-    assert captured == "hello\n" #add \n because the console jumps the line on every print
-
-# @pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
-# def test_for_function_output(capsys):
-#     my_function()
-#     captured = capsys.readouterr()
-#     assert captured.out == "Hello Inside Function\n"
-
-# @pytest.mark.it('Your function needs to return True')
-# def test_for_function_return(capsys):
-#     assert my_function() == True

@@ -4,18 +4,16 @@ sys.stdout = buffer = io.StringIO()
 
 # from app import my_function
 import pytest
+import os
+import app
+import re
 
-@pytest.mark.it('Your code needs to print hello on the console')
-def test_for_file_output(capsys):
-    captured = buffer.getvalue()
-    assert captured == "hello\n" #add \n because the console jumps the line on every print
-
-# @pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
-# def test_for_function_output(capsys):
-#     my_function()
-#     captured = capsys.readouterr()
-#     assert captured.out == "Hello Inside Function\n"
-
-# @pytest.mark.it('Your function needs to return True')
-# def test_for_function_return(capsys):
-#     assert my_function() == True
+@pytest.mark.it("1. You should return a random number between 1 and 12 included")
+def test_conditional():
+    f = open(os.path.dirname(os.path.abspath(__file__))+ '/app.py')
+    content = f.readlines()
+    content = [x.strip() for x in content]
+    my_print = [s for s in content if "random_number =" in s]
+    my_printVar = content.index(my_print[0])
+    regex = r"random_number(\s*)=(\s*)random\.randrange+\(13\)"
+    assert re.match(regex, content[my_printVar])

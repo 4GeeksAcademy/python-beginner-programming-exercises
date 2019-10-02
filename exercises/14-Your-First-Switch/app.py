@@ -1,14 +1,20 @@
-def getColor(selection):
+def get_color(color_name):
 
-	switch(selection){
-		//Add more options here
-	    default :
-	    	return false;//return false because the user pick a unavailable color
-	    break
+    switcher = {
+        0:'Red',
+        1:'red',
+        2:'blue',
+        3:'Blue',
+        4:'green',
+        5:'Green'
+    }
+    return switcher.get(color_name,"Invalid day of week")
 
 
-
-var colorname = window.prompt('What color do you want?');
-var isAvailable = getColor(colorname);
-if(isAvailable) console.log('Good news! That color is available');
-else console.log('We are sorry, that color is not available');
+color_input= str(input('What color do you want?\n'))
+#print("$$$",get_color(color_input)
+is_available = get_color(color_input)
+if(is_available):
+    print('Good news! That color is available')
+else:
+    print('We are sorry, that color is not available')
