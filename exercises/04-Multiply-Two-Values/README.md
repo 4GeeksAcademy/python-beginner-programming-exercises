@@ -10,7 +10,8 @@ In this case, we stored the result value of the multiplication into a variable c
 
 ## 📝 Instructions:
 
-1. Please store the result of multiplying 2345 times 7323 in a variable called **variables_are_cool** and the print the result in the console.
+1. Please store the result of multiplying 2345 times 7323 in a variable called **variables_are_cool**
+2. Now print the result in the console.
 
 
 
