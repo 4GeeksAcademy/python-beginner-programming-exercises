@@ -1,1 +1,2 @@
-
+name = "Yellow"
+print(name)

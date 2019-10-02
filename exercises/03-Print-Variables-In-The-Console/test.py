@@ -6,13 +6,18 @@ sys.stdout = buffer = io.StringIO()
 import pytest
 import app
 import os
+import re
 
 @pytest.mark.it("1. You should create a variable named color")
 def test_use_forLoop():
 
     f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
-    content = f.read()
-    assert content.find("color") > 0
+    content = f.readlines()
+    content = [x.strip() for x in content]
+
+    # regex = r"color = \"red\""
+    regex = r"color(\s*)=(\s*)\"red\""
+    assert re.match(regex, content[0])
 @pytest.mark.it('2. You should print on the console the value red ')
 def test_for_file_output(capsys):
     captured = buffer.getvalue()

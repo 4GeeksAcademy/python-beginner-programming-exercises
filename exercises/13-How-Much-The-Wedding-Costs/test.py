@@ -23,7 +23,7 @@ def test_existingPriceVariable():
     f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
     content = f.readlines()
     content = [x.strip() for x in content]  ####  With this line of code I removed all the whitespace characters like `\n` at the end of each line
-        price_variable = r"price = (.+)"
+    price_variable = r"price = (.+)"
     assert re.match(price_variable, content[2])
     # for price in content:
     #     if price == price_variable:
