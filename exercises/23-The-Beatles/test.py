@@ -1,28 +1,30 @@
 import io
 import sys
 sys.stdout = buffer = io.StringIO()
+from app import sing
 
-# from app import my_function
 import pytest
 import os
 import app
 import re
 
-@pytest.mark.it('STEP 3. Your code needs to print the correct output on the console')
-def test_for_file_output(capsys):
-    captured = buffer.getvalue()
-    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
+
+@pytest.mark.it("1. You should declare a function named sing and call it in the correct way")
+def test_functionSing():
+    f = open(os.path.dirname(os.path.abspath(__file__))+ '/app.py')
     content = f.readlines()
     content = [x.strip() for x in content]
-    print("@@@@", content)
-    regex = r"print\(sing\(\)\)"
-    assert re.match(regex, content[(len(content)-1)])
-# @pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
-# def test_for_function_output(capsys):
-#     my_function()
-#     captured = capsys.readouterr()
-#     assert captured.out == "Hello Inside Function\n"
+    my_funcName = [s for s in content if "def sing():" in s]
+    my_funcNameVar = content.index(my_funcName[0])
+    regex = r"def sing\(\):"
+    my_print = [s for s in content[2:] if "sing()" in s]
+    my_printVar = content.index(my_print[0])
+    regexPrint = r"sing\(\)"
+    assert re.match(regex, content[my_funcNameVar])
+    assert re.match(regexPrint, content[my_printVar])
 
-# @pytest.mark.it('Your function needs to return True')
-# def test_for_function_return(capsys):
-#     assert my_function() == True
+@pytest.mark.it('2. Your function needs to print the correct output')
+def test_for_function_output(capsys):
+    sing()
+    captured = capsys.readouterr()
+    assert captured.out == "let it be,\nlet it be,\nlet it be,\nlet it be,\nwhisper words of wisdom, let it be, let it be,\nlet it be,\nlet it be,\nlet it be,\nthere will be an answer, let it be\n"
