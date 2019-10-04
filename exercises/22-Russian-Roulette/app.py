@@ -6,13 +6,10 @@ def spin_chamber():
 	chamber_position = random.randint(1,6)
 	return chamber_position
 
-
+#  DON'T CHANGE THE CODE ABOVE
 def fire_gun():
-	#you code here
-	if(spin_chamber() == bullet_position):
-	  return 'Keep playing :)'
-	else:
-	  return 'You are dead!'
+	# YOUR CODE HERE
+
 
 
 
