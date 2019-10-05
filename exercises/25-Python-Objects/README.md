@@ -77,6 +77,7 @@ Easy stuff :)
 ## 📝 Instructions:
 1. **1** Programmatically, change the fourth lucky number of John Doe to 33 (use a command, don't manually change the code)
 2. **2** Programmatically, create a new person and add it to the family object. Jimmy Doe, 13, male, lucky numbers: 1, 2, 3, 4; significant other: null. (use a command, don't manually change the code)
-3. **3** Now please print ( console.log() ) the SUM of all of the lucky numbers of the Doe family.
+3. **3** Loop through all the family members to get all the lucky numbers.
+3. **4** Now please print ( console.log() ) the SUM of all of the lucky numbers of the Doe family.
 
 

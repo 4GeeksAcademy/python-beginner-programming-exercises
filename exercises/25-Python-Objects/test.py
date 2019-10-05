@@ -8,38 +8,41 @@ import app
 import os
 import re
 
-@pytest.mark.it("1. You should not delete or change the existing code")
-def test_existing_code():
+
+
+
+@pytest.mark.it('1. You should change the fourth lucky number of John Doe!')
+def test_forLuckyNumber(capsys):
     f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
     content = f.readlines()
     content = [x.strip() for x in content]
-    print("@@@@",content)
+    my_print = [s for s in content if "Person.lucky_numbers" in s]
+    my_printVar = content.index(my_print[0])
+    regex = r"Person\.lucky_numbers\[3](\s*)=(\s*)33"
+    assert re.match(regex, content[my_printVar])
+@pytest.mark.it('2. You should create a new person and then add it to the familoy object')
+def test_forFamilyMember(capsys):
+    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
+    content = f.readlines()
+    content = [x.strip() for x in content]
+    my_print = [s for s in content if "Family.members.append" in s]
+    my_printVar = content.index(my_print[0])
+    regex = r"Family\.members\.append\(\w+\)"
+    assert re.match(regex, content[my_printVar])
 
-    original_input = [
-        r"class Person:",
-	      r"(\s*)name = \"John\"",
-	      r"(\s*)lastname = \"Doe\"",
-	      r"(\s*)age = 35",
-	      r"(\s*)gender = \"male\"",
-	      r"(\s*)lucky_numbers = \[ 7, 11, 13, 17]"
-    ]
-    print("$$$$$$",[i for i, j in zip(original_input, content) if i == j ])
-
-
-    # regex = r"print\('Your wedding will cost '\+str\(price\)\+' dollars'\);"
-    # assert re.match(regex, content[(len(content)-1)])
-
-
-
-@pytest.mark.it('STEP 3. Your code needs to print the correct sum on the console')
+@pytest.mark.it('3. Your code needs to print the SUM of all the lucky numbers of the Doe family on the console')
 def test_for_file_output(capsys):
     captured = buffer.getvalue()
     f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
     content = f.readlines()
     content = [x.strip() for x in content]
-    print("@@@@", content)
-    regex = r"print\(add_allFamilyLuckyNumbers\(Family\.members\)\) "
-    assert re.match(regex, content[(len(content)-1)])
+    my_print = [s for s in content if "print(add_allFamilyLuckyNumbers(Family.members))" in s]
+    my_printVar = content.index(my_print[0])
+    regex = r"print\(add_allFamilyLuckyNumbers\(Family\.members\)\)"
+    assert re.match(regex, content[my_printVar])
+    assert captured == str(94)+"\n"
+
+
     # assert captured == str(94)+'\n'
 
 # @pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')

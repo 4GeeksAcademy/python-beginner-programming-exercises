@@ -5,10 +5,9 @@ here you can here it: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
 
 ## 📝 Instructions:
-1. Please write an algorithm to print the exact same lyrics.
+1. Please declare a function named **number_of_bottles()**
+2. The function needs to **print** (use the print statement and no return)  the exact same lyrics in the song.
 
-let it be, let it be, let it be, let it be, words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be
-(https://www.youtube.com/watch?v=2xDzVZcqtYI)
 
 ## 💡 Hint:
 
