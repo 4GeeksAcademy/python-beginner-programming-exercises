@@ -1,2 +1,0 @@
-name = "Yellow"
-print(name)
