@@ -20,6 +20,14 @@ def test_use_forLoop():
     assert re.match(regex, content[0])
 @pytest.mark.it('2. You should print on the console the value red ')
 def test_for_file_output(capsys):
+    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
+    content = f.readlines()
+    content = [x.strip() for x in content]
+    my_print = [s for s in content if "print" in s]
+    my_printIndex = content.index(my_print[0])
+    # print(my_print_index)
+    regex = r"print(\s*)\(color\)"
+    assert re.match(regex, content[my_printIndex])
     captured = buffer.getvalue()
     assert captured == "red\n" #add \n because the console jumps the line on every print
 # @pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
