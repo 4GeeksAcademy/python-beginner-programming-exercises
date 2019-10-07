@@ -7,6 +7,7 @@ For example, the application right now is prompting the user for its age, and th
 ## 📝 Instructions:
 
 1. Please add 10 years to the value of the age variable.
-The content of the variable its being previously filled with whatever the user inputs.
+
+- The content of the variable its being previously filled with whatever the user inputs.
 
 
