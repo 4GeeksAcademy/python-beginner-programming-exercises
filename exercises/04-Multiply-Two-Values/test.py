@@ -20,7 +20,7 @@ def test_use_variable_name():
 
 @pytest.mark.it('2. You should print on the console the variables_are_cool value ')
 def test_for_file_output(capsys):
-    regex = r"print\(variables_are_cool\)"
+    regex = r"print(\s*)\(variables_are_cool\)"
     f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
     content = f.readlines()
     content = [x.strip() for x in content]
