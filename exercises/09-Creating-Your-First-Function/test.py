@@ -15,7 +15,7 @@ def test_use_my_var1():
     f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
     content = f.readlines()
     content = [x.strip() for x in content]
-    my_return = [s for s in content if "return a+b" in s]
+    my_return = [s for s in content if "return" in s]
     my_returnIndex = content.index(my_return[0])
     # print(my_print_index)
     regex = r"return a(\s*)\+(\s*)b"

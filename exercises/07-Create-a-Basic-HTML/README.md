@@ -12,7 +12,7 @@ the variables and concatenate them together to set the value of the variable **h
 a new string that has the content of a typical HTML document (with the HTML tags in the
 right order).
 
-2. Then, print the value of html_document on the console.
+2. Then, print the value of **html_document** on the console.
 
 The output should look like this:
 

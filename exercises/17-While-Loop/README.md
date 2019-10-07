@@ -6,7 +6,7 @@ Fix the problem, to print from 100 - 0. And return 0.
 
 ## 💡 Hint:
 
-- To stop the infinite loop press **ctrl + c** and then run again **bc run:exercises -e=gitpod**
+- To stop the infinite loop press **ctrl + c** (It could take a while before it stops, be patient!)and then run again **bc run:exercises -e=gitpod**
 
 
 IMPORTANT: there's a Classroom Exercise dedicated to Arrays, we encourage you to go and finish those after this first Array exercise. (And then, come back).
