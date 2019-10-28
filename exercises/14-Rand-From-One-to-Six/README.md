@@ -1,4 +1,4 @@
-# `14` Rand From 0 to 12
+# `14` Rand From 1 to 12
 
 
 ## 📝 Instructions:
@@ -9,7 +9,6 @@ This time use **randrange()**
 ## 💡 Hint:
 
 - It should print between 1 and 12, not between 0 and 12.
-- Use randrange(n) (Specify only 1 argument, randrange(99))
 - This exercise is super simple, don't over complicate things....
 
 
