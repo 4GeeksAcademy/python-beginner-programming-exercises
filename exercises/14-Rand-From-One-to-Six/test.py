@@ -15,5 +15,5 @@ def test_conditional():
     content = [x.strip() for x in content]
     my_print = [s for s in content if "random_number =" in s]
     my_printVar = content.index(my_print[0])
-    regex = r"random_number(\s*)=(\s*)random\.randrange+\(13\)"
+    regex = r"random_number(\s*)=(\s*)random\.randrange+\(1,13\)"
     assert re.match(regex, content[my_printVar])
