@@ -18,7 +18,7 @@ def test_use_my_var1():
     my_return = [s for s in content if "return" in s]
     my_returnIndex = content.index(my_return[0])
     # print(my_print_index)
-    regex = r"return a(\s*)\+(\s*)b"
+    regex = r"return(\s*)(\W*)a(\s*)\+(\s*)b(\s*)(\W*)"
     assert re.match(regex, content[my_returnIndex])
 
 #     assert re.match(regex, content)
