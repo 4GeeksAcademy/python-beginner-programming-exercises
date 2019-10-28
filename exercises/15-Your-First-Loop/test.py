@@ -16,5 +16,5 @@ def test_conditional():
     content = [x.strip() for x in content]
     my_print = [s for s in content if "for" in s]
     my_printVar = content.index(my_print[0])
-    regex = r"for i in range\(101\):"
+    regex = r"for (\w+) in range\(101\):"
     assert re.match(regex, content[my_printVar])
