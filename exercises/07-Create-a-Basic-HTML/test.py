@@ -31,5 +31,5 @@ def test_use_my_var1():
     my_print = [s for s in content if "html_document =" in s]
     my_htmlDocumentIndex = content.index(my_print[0])
     # print(my_print_index)
-    regex = r"html_document(\s*)=(\s*)e(\s*)\+(\s*)c(\s*)\+(\s*)g(\s*)\+(\s*)a(\s*)\+(\s*)f(\s*)\+(\s*)h(\s*)\+(\s*)d(\s*)\+(\s*) b"
+    regex = r"html_document(\s*)=(\s*)e(\s*)\+(\s*)c(\s*)\+(\s*)g(\s*)\+(\s*)a(\s*)\+(\s*)f(\s*)\+(\s*)h(\s*)\+(\s*)d(\s*)\+(\s*)b"
     assert re.match(regex, content[my_htmlDocumentIndex])
