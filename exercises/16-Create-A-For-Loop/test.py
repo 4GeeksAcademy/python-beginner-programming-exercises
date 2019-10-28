@@ -25,7 +25,7 @@ def test_print():
     content = [x.strip() for x in content]
     my_for = [s for s in content if "for x in range(300):" in s]
     my_forVar = content.index(my_for[0])
-    regex_for = r"for x in range\(300\):"
+    regex_for = r"for (\w+) in range(\s*)\(300\):"
     my_print = [s for s in content if 'print("I will write questions if I am stuck")' in s]
     my_printVar = content.index(my_print[0])
     regex_print = r"print\(\"I will write questions if I am stuck\"\)"
