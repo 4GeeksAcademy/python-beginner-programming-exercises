@@ -23,11 +23,10 @@ So if we want to translate (and optimize) the variables from the car into an Obj
 
 ```py
 class ClassName:
-    def __init__():
-        self.model = "Corolla"
-        self.make = "Toyota"
-        self.color = "Green"
-        self.year = "2015"
+      model = "Corolla"
+      make = "Toyota"
+      color = "Green"
+      year = "2015"
 
 ```
 
