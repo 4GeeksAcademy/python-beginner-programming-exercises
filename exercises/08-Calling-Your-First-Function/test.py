@@ -1,27 +1,23 @@
-import io
-import sys
-sys.stdout = buffer = io.StringIO()
+import io, mock, pytest, os, re, sys
 
-# from app import my_function
-import pytest
-import app
-import os
-import re
-# @pytest.mark.it('Your code needs to print hello on the console')
-# def test_for_file_output(capsys):
-#     captured = buffer.getvalue()
-#     assert captured == "hello\n" #add \n because the console jumps the line on every print
-@pytest.mark.it("1. You should call is_odd function in your print statement and pass the value 45345")
-def test_conditional():
-    f = open(os.path.dirname(os.path.abspath(__file__))+ '/app.py')
-    content = f.readlines()
-    content = [x.strip() for x in content]
-    my_print = [s for s in content if "print" in s]
-    my_printVar = content.index(my_print[0])
-    regex = r"print\(is_odd\(45345\)\)"
-    assert re.match(regex, content[my_printVar])
+@pytest.mark.it('Use the function print()')
+def test_for_print():
+    path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+        regex = re.compile(r"print\(.+\)")
+        assert bool(regex.search(content)) == True
 
-@pytest.mark.it('2. The console should return True ')
+@pytest.mark.it("Call the is_odd function and pass the value 45345")
+def test_call_is_odd():
+    with mock.patch('app.is_odd') as mocked_is_odd:
+        from app import my_main_code
+        my_main_code()
+        mocked_is_odd.assert_called_with(45345)
+
+@pytest.mark.it('The console should output "True" inside the function my_main_code ')
 def test_for_file_output(capsys):
-    captured = buffer.getvalue()
-    assert captured == "True\n"
+    from app import my_main_code
+    my_main_code()
+    captured = capsys.readouterr()
+    assert captured.out == "True\n"

@@ -29,7 +29,7 @@ of them being able to generate random numbers, which is randint().
 
 ## 📝 Instructions:
 
-1. Please now create a function called **generate_random** that generates and print a random number
+1. Please now create a function called **generate_random** that prints AND returns a random number
 between 0 and 9 every time it is called.
 
 ## 💡 Hint:

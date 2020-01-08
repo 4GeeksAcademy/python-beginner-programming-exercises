@@ -7,7 +7,7 @@ import pytest
 import os
 import re
 
-@pytest.mark.it('1. You need to use the function print()')
+@pytest.mark.it('Use the function print()')
 def test_for_print():
     path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
     with open(path, 'r') as content_file:
@@ -15,7 +15,7 @@ def test_for_print():
         regex = re.compile(r"print\(['\"]?.+['\"]?\)")
         assert bool(regex.search(content)) == True
 
-@pytest.mark.it('2. Declare a variable and assign it the value "Yellow"')
+@pytest.mark.it('Declare a variable and assign it the value "Yellow"')
 def test_for_variable():
     path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
     with open(path, 'r') as content_file:
@@ -23,7 +23,7 @@ def test_for_variable():
         regex = re.compile(r"\w*(\s*)=(\s*)\"Yellow\"")
         assert bool(regex.search(content)) == True
 
-@pytest.mark.it('3. Your code needs to print Yellow on the console')
+@pytest.mark.it('Print "Yellow" on the console')
 def test_for_file_output(capsys):
     captured = buffer.getvalue()
     assert captured == "Yellow\n" #add \n because the console jumps the line on every print

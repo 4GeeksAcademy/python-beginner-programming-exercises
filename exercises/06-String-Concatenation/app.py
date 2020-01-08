@@ -1,4 +1,4 @@
-# Set the values here
+# Set the values for my_var1 and my_var2 here
 
 
 ## Don't change below this line

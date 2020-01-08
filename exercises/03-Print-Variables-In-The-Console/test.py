@@ -8,7 +8,7 @@ import app
 import os
 import re
 
-@pytest.mark.it("1. Create a variable named 'color' with the string value red")
+@pytest.mark.it("Create a variable named 'color' with the string value red")
 def test_declare_variable():
     path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
     with open(path, 'r') as content_file:
@@ -16,7 +16,7 @@ def test_declare_variable():
         regex = re.compile(r"color(\s*)=(\s*)\"red\"")
         assert bool(regex.search(content)) == True
 
-@pytest.mark.it('2. You should print on the console the value of the variable ')
+@pytest.mark.it('Print on the console the value of the variable ')
 def test_for_printing_variable():
     path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
     with open(path, 'r') as content_file:
@@ -24,7 +24,7 @@ def test_for_printing_variable():
         regex = re.compile(r"print(\s*)\(color\)")
         assert bool(regex.search(content)) == True
 
-@pytest.mark.it('3. The printed value on the console should be "red"')
+@pytest.mark.it('The printed value on the console should be "red"')
 def test_for_file_output(capsys):
     captured = buffer.getvalue()
     assert captured == "red\n"
