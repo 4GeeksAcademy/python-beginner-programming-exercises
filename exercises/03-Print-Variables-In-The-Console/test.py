@@ -8,34 +8,23 @@ import app
 import os
 import re
 
-@pytest.mark.it("1. You should create a variable named color")
-def test_use_forLoop():
+@pytest.mark.it("1. Create a variable named 'color' with the string value red")
+def test_declare_variable():
+    path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+        regex = re.compile(r"color(\s*)=(\s*)\"red\"")
+        assert bool(regex.search(content)) == True
 
-    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
-    content = f.readlines()
-    content = [x.strip() for x in content]
+@pytest.mark.it('2. You should print on the console the value of the variable ')
+def test_for_printing_variable():
+    path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+        regex = re.compile(r"print(\s*)\(color\)")
+        assert bool(regex.search(content)) == True
 
-    # regex = r"color = \"red\""
-    regex = r"color(\s*)=(\s*)\"red\""
-    assert re.match(regex, content[0])
-@pytest.mark.it('2. You should print on the console the value red ')
+@pytest.mark.it('3. The printed value on the console should be "red"')
 def test_for_file_output(capsys):
-    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
-    content = f.readlines()
-    content = [x.strip() for x in content]
-    my_print = [s for s in content if "print" in s]
-    my_printIndex = content.index(my_print[0])
-    # print(my_print_index)
-    regex = r"print(\s*)\(color\)"
-    assert re.match(regex, content[my_printIndex])
     captured = buffer.getvalue()
-    assert captured == "red\n" #add \n because the console jumps the line on every print
-# @pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
-# def test_for_function_output(capsys):
-#     my_function()
-#     captured = capsys.readouterr()
-#     assert captured.out == "Hello Inside Function\n"
-
-# @pytest.mark.it('Your function needs to return True')
-# def test_for_function_return(capsys):
-#     assert my_function() == True
+    assert captured == "red\n"

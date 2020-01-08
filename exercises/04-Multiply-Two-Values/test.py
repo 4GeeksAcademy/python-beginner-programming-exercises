@@ -9,28 +9,23 @@ import app
 import re
 
 @pytest.mark.it('1. You should create a variable named variables_are_cool')
-def test_use_variable_name():
-    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
-    content = f.readlines()
-    content = [x.strip() for x in content]
-    regex = r"variables_are_cool(\s*)=(\s*)2345(\s*)\*(\s*)7323"
-    # regex = r"color = \"red\""
-    # regex = r"color(\s*)=(\s*)\"red\""
-    assert re.match(regex, content[0])
+def test_variable_exists():
+    try:
+        from app import variables_are_cool
+    except ImportError:
+        raise ImportError("The variable 'variables_are_cool' should exist on app.py")
 
-@pytest.mark.it('2. You should print on the console the variables_are_cool value ')
+@pytest.mark.it('2. variables_are_cool value should be like 2345 * 7323 ')
+def test_use_variable_name():
+    path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+        regex = re.compile(r"variables_are_cool(\s*)=(\s*)2345(\s*)\*(\s*)7323")
+        assert bool(regex.search(content)) == True
+
+@pytest.mark.it('3. You should print on the console the variables_are_cool value ')
 def test_for_file_output(capsys):
-    regex = r"print(\s*)\(variables_are_cool\)"
-    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
-    content = f.readlines()
-    content = [x.strip() for x in content]
-    # indices = [i for i, s in enumerate(content) if 'print' in s]
-    # print(int(indices))
-    my_print = [s for s in content if "print" in s]
-    my_print_index = content.index(my_print[0])
-    print(my_print_index)
-    # print([s for s in content if "print" in s])
-    my_result = 2345 *7323
+
+    from app import variables_are_cool
     captured = buffer.getvalue()
-    assert captured == str(my_result)+'\n'
-    assert re.match(regex, content[my_print_index])
+    assert captured == str(variables_are_cool)+'\n'
