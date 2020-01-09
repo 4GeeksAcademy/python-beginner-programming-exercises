@@ -8,7 +8,7 @@ import os
 import app
 import re
 
-@pytest.mark.it("1. You should return a random number between 1 and 12 included")
+@pytest.mark.it("You should return a random number between 1 and 12 included")
 def test_conditional():
     f = open(os.path.dirname(os.path.abspath(__file__))+ '/app.py')
     content = f.readlines()

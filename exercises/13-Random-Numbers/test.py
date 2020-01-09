@@ -7,7 +7,7 @@ import pytest
 import os
 import re
 
-@pytest.mark.it("1. You should update only line 5 using randint()")
+@pytest.mark.it("You should update only line 5 using randint()")
 def test_conditional():
     f = open(os.path.dirname(os.path.abspath(__file__))+ '/app.py')
     content = f.readlines()

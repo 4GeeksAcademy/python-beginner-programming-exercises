@@ -8,32 +8,28 @@ import os
 import app
 import re
 
-@pytest.mark.it("1. You should declare a function named standards_maker")
-def test_function_name():
-    f = open(os.path.dirname(os.path.abspath(__file__))+ '/app.py')
-    content = f.readlines()
-    content = [x.strip() for x in content]
-    my_print = [s for s in content if "def standards_maker():" in s]
-    my_printVar = content.index(my_print[0])
-    regex = r"def standards_maker\(\):"
-    assert re.match(regex, content[my_printVar])
+@pytest.mark.it("You should declare a function named standards_maker")
+def test_variable_exists():
+    try:
+        from app import standards_maker
+    except ImportError:
+        raise ImportError("The function 'standards_maker' should exist on app.py")
 
-@pytest.mark.it("2. You should include in the function standards_maker a for loop which prints the string in the instructions 300 times")
-def test_print():
-    f = open(os.path.dirname(os.path.abspath(__file__))+ '/app.py')
-    content = f.readlines()
-    content = [x.strip() for x in content]
-    my_for = [s for s in content if "for x in range(300):" in s]
-    my_forVar = content.index(my_for[0])
-    regex_for = r"for (\w+) in range(\s*)\(300\):"
-    my_print = [s for s in content if 'print("I will write questions if I am stuck")' in s]
-    my_printVar = content.index(my_print[0])
-    regex_print = r"print\(\"I will write questions if I am stuck\"\)"
+@pytest.mark.it("You should include in the function standards_maker a for loop which prints the string in the instructions 300 times")
+def test_for_file_output(capsys):
+    captured = buffer.getvalue()
+    expected = ["I will write questions if I am stuck\n" for x in range(300)]
+    assert captured == "".join(expected) #add \n because the console jumps the line on every print
 
-    assert re.match(regex_for, content[my_forVar])
-    assert re.match(regex_print, content[my_printVar])
+@pytest.mark.it('Use the function print()')
+def test_for_print():
+    path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+        regex = re.compile(r"print\(.+\)")
+        assert bool(regex.search(content)) == True
 
-@pytest.mark.it("3. You should call the function standards_maker ")
+@pytest.mark.it("You should call the function standards_maker ")
 def test_callTheFunction():
     f = open(os.path.dirname(os.path.abspath(__file__))+ '/app.py')
     content = f.readlines()

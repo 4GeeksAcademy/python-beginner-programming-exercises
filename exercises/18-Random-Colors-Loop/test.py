@@ -8,13 +8,12 @@ import app
 import os
 import re
 
-@pytest.mark.it('STEP 3. Your code needs to print the correct output on the console')
+@pytest.mark.it('Print the correct output on the console')
 def test_for_file_output(capsys):
     captured = buffer.getvalue()
     f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
     content = f.readlines()
     content = [x.strip() for x in content]
-    print("@@@@", content)
     regex = r"print\(get_allStudentColors\(\)\)"
     assert re.match(regex, content[(len(content)-1)])
 

@@ -10,11 +10,6 @@ import re
 
 
 @pytest.mark.it("1. You should return a list of number between 0 and 100")
-def test_conditional():
-    f = open(os.path.dirname(os.path.abspath(__file__))+ '/app.py')
-    content = f.readlines()
-    content = [x.strip() for x in content]
-    my_print = [s for s in content if "for" in s]
-    my_printVar = content.index(my_print[0])
-    regex = r"for (\w+) in range\(101\):"
-    assert re.match(regex, content[my_printVar])
+def test_for_file_output(capsys):
+    captured = buffer.getvalue()
+    assert captured == "0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n" #add \n because the console jumps the line on every print

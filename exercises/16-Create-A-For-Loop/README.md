@@ -13,7 +13,7 @@ https://www.w3schools.com/python/python_for_loops.asp
 
 1. Create a function called **standards_maker**
 2. The function has to print 300 times the phrase "I will write questions if I am stuck".
-3. Call the finction **standards_maker()**
+3. Call the function **standards_maker()**
 
 ## 💡 Hint:
 
