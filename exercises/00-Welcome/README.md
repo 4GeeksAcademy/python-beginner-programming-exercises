@@ -8,9 +8,9 @@ During this course you will be learning the following concepts:
 2. How to create and call variables.
 3. How to concatenate strings.
 4. How to use loops and if statements.
-5. How to combine and use all these concepts.
+5. How to combine and use all these concepts in different ways.
 
-
+Please click on the `Next Exercise →` button on the top right to proceed to the first challenge.
 
 ## Contributors
 
