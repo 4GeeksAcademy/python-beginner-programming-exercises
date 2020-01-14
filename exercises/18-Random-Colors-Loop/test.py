@@ -10,19 +10,9 @@ import re
 
 @pytest.mark.it('Print the correct output on the console')
 def test_for_file_output(capsys):
-    captured = buffer.getvalue()
-    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
-    content = f.readlines()
-    content = [x.strip() for x in content]
-    regex = r"print\(get_allStudentColors\(\)\)"
-    assert re.match(regex, content[(len(content)-1)])
-
-# @pytest.mark.it('Your function needs to print "Hello Inside Function" on the console')
-# def test_for_function_output(capsys):
-#     my_function()
-#     captured = capsys.readouterr()
-#     assert captured.out == "Hello Inside Function\n"
-
-# @pytest.mark.it('Your function needs to return True')
-# def test_for_function_return(capsys):
-#     assert my_function() == True
+    path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+        pattern = r"print\(get_allStudentColors\(\)\)"
+        regex = re.compile(pattern)
+        assert bool(regex.search(content)) == True

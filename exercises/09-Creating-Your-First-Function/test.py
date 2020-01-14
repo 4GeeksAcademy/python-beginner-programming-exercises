@@ -33,15 +33,12 @@ def test_call_sample2():
 
 @pytest.mark.it("Add the return statement inside the existing function")
 def test_use_my_var1():
-
-    f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
-    content = f.readlines()
-    content = [x.strip() for x in content]
-    my_return = [s for s in content if "return" in s]
-    my_returnIndex = content.index(my_return[0])
-    # print(my_print_index)
-    regex = r"return\s+.+"
-    assert re.match(regex, content[my_returnIndex])
+    path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+        pattern = r"return\s+.+"
+        regex = re.compile(pattern)
+        assert bool(regex.search(content)) == True
 
 #     assert re.match(regex, content)
 @pytest.mark.it('Console should output 7')

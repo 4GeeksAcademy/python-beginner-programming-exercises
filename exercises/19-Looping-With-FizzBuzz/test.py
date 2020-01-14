@@ -22,6 +22,7 @@ def test_forExistingCode(capsys):
 
     assert re.match(regex, content[my_codeVar])
     assert re.match(regexCall, content[my_codeCallVar])
+    
 @pytest.mark.it('2. Your function needs to print the correct output')
 def test_for_function_output(capsys):
     fizz_buzz()

@@ -11,8 +11,9 @@ def test_for_file_output(capsys):
     path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
     with open(path, 'r') as content_file:
         content = content_file.read()
-        regex = r"print\("
-        assert re.match(regex, content) != None
+        pattern = r"print\("
+        regex = re.compile(pattern)
+        assert bool(regex.search(content)) == True
 
 @pytest.mark.it('Print Hello World! on the console')
 def test_for_console_log(capsys):

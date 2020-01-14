@@ -31,13 +31,9 @@ def test_for_print():
 
 @pytest.mark.it("You should call the function standards_maker ")
 def test_callTheFunction():
-    f = open(os.path.dirname(os.path.abspath(__file__))+ '/app.py')
-    content = f.readlines()
-    content = [x.strip() for x in content]
-    my_call = [s for s in content[2:] if "standards_maker()" in s]
-    my_callVar = content.index(my_call[0])
-    print("###",my_callVar)
-    regex_call = r"standards_maker\(\)"
-
-
-    assert re.match(regex_call, content[my_callVar])
+    path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+        pattern = r"standards_maker\(\)"
+        regex = re.compile(pattern)
+        assert bool(regex.search(content)) == True
