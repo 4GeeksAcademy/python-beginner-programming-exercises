@@ -1,12 +1,16 @@
 {
     "port": 3000,
     "address": "localhost",
+    "editor": "gitpod",
+    "outputPath": "./.breathecode/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": null,
+    "webpack_template": null,
+    "disable_grading": false,
     "language": "python3",
     "compiler": "python3",
     "tester": "pytest",
-    "editor": "gitpod",
-    "ignoreRegex": null,
-    "grading": "isolated",
     "actions": [
         "run",
         "test"
