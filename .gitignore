@@ -13,4 +13,8 @@
 *.pyc
 __pycache__/
 .pytest_cache/
-cached*
+
+!/.breathecode
+/.breathecode/**
+!/.breathecode/resets
+!/.breathecode/resets/**
