@@ -6,7 +6,7 @@ ports:
       onOpen: open-preview
 tasks:
     - command: >
-        bc run;
+        bc run -l python3;
 github:
     prebuilds:
         # enable for the master/default branch (defaults to true)
