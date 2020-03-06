@@ -1,0 +1,207 @@
+{
+    "port": 3000,
+    "address": "localhost",
+    "editor": "gitpod",
+    "outputPath": "./.breathecode/dist",
+    "publicPath": "/preview",
+    "grading": "isolated",
+    "ignoreRegex": null,
+    "webpack_template": null,
+    "disable_grading": false,
+    "onCompilerSuccess": null,
+    "language": "python3",
+    "compiler": "python3",
+    "tester": "pytest",
+    "actions": [
+        "run",
+        "test",
+        "reset"
+    ],
+    "exercisesPath": "./exercises",
+    "exercises": [
+        {
+            "slug": "00-Welcome",
+            "title": "00-Welcome",
+            "path": "exercises/00-Welcome",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "01-Console",
+            "title": "01-Console",
+            "path": "exercises/01-Console",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "02-Declare-Variables",
+            "title": "02-Declare-Variables",
+            "path": "exercises/02-Declare-Variables",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "03-Print-Variables-In-The-Console",
+            "title": "03-Print-Variables-In-The-Console",
+            "path": "exercises/03-Print-Variables-In-The-Console",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "04-Multiply-Two-Values",
+            "title": "04-Multiply-Two-Values",
+            "path": "exercises/04-Multiply-Two-Values",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "05-User-Inputed-Values",
+            "title": "05-User-Inputed-Values",
+            "path": "exercises/05-User-Inputed-Values",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "06-String-Concatenation",
+            "title": "06-String-Concatenation",
+            "path": "exercises/06-String-Concatenation",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "07-Create-a-Basic-HTML",
+            "title": "07-Create-a-Basic-HTML",
+            "path": "exercises/07-Create-a-Basic-HTML",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "08-Your-First-If",
+            "title": "08-Your-First-If",
+            "path": "exercises/08-Your-First-If",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "08.1-How-Much-The-Wedding-Costs",
+            "title": "08.1-How-Much-The-Wedding-Costs",
+            "path": "exercises/08.1-How-Much-The-Wedding-Costs",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "09-Random-Numbers",
+            "title": "09-Random-Numbers",
+            "path": "exercises/09-Random-Numbers",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "10-Calling-Your-First-Function",
+            "title": "10-Calling-Your-First-Function",
+            "path": "exercises/10-Calling-Your-First-Function",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "10.01-Creating-Your-First-Function",
+            "title": "10.01-Creating-Your-First-Function",
+            "path": "exercises/10.01-Creating-Your-First-Function",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "11-Create-A-New-Function",
+            "title": "11-Create-A-New-Function",
+            "path": "exercises/11-Create-A-New-Function",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "14-Rand-From-One-to-Six",
+            "title": "14-Rand-From-One-to-Six",
+            "path": "exercises/14-Rand-From-One-to-Six",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "15-Your-First-Loop",
+            "title": "15-Your-First-Loop",
+            "path": "exercises/15-Your-First-Loop",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "16-Create-A-For-Loop",
+            "title": "16-Create-A-For-Loop",
+            "path": "exercises/16-Create-A-For-Loop",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "18-Random-Colors-Loop",
+            "title": "18-Random-Colors-Loop",
+            "path": "exercises/18-Random-Colors-Loop",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "19-Looping-With-FizzBuzz",
+            "title": "19-Looping-With-FizzBuzz",
+            "path": "exercises/19-Looping-With-FizzBuzz",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "20-Russian-Roulette",
+            "title": "20-Russian-Roulette",
+            "path": "exercises/20-Russian-Roulette",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "21-The-Beatles",
+            "title": "21-The-Beatles",
+            "path": "exercises/21-The-Beatles",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "22-Bottles-Of-Milk",
+            "title": "22-Bottles-Of-Milk",
+            "path": "exercises/22-Bottles-Of-Milk",
+            "translations": [
+                "us"
+            ]
+        },
+        {
+            "slug": "23-Python-Objects",
+            "title": "23-Python-Objects",
+            "path": "exercises/23-Python-Objects",
+            "translations": [
+                "us"
+            ]
+        }
+    ]
+}

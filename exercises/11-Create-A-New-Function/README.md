@@ -1,4 +1,4 @@
-# `10` Create a New Function
+# `11` Create a New Function
 
 As you know, functions are a useful block of code that you can re-use as many times
 as you need or want. In the last exercise, you had a function that received two parameters (two inputs) and returned the sum of those. Like this:

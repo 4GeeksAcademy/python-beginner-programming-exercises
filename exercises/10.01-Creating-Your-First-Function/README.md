@@ -1,4 +1,4 @@
-# `09` Creating Your First Function
+# `10.01` Creating Your First Function
 
 
 ## 📝 Instructions:

@@ -10,4 +10,6 @@ For example, the application right now is prompting the user for its age, and th
 
 - The content of the variable its being previously filled with whatever the user inputs.
 
+# 💡Hint
 
+You can google "how to add number to a python variable"
