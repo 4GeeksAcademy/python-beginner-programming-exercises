@@ -3,7 +3,7 @@
 
 ## 📝 Instructions:
 
-1. Okay, now change whatever you need to change to make the algorithm print random integers between 1 and 12.
+1. Change whatever you need to change to make the algorithm print random integers between 1 and 12.
 This time use **randrange()**
 
 ## 💡 Hint:
