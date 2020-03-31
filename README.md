@@ -18,7 +18,7 @@ If you find any bugs or misspells plese contribute and report them.
 
 ## Or Local Installation (if you prefer not to use gitpod)
 
-1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
+1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 10+ and python version 3+
 ```
 This is the command to install the breathecode-cli
 $ npm i breathecode-cli -g
@@ -34,8 +34,8 @@ Note: Once you finish downloading, you will find a new folder with a subdirector
 3) Start the tutorial/exercises by running the following command from the root of the project:
 
 ```sh
-$ npm i jest@24.8.0 -g
-$ bc run
+$ pip install pytest==4.4.2 mock pytest-testdox
+$ breathecode run
 ```
 
 <p align="center">
