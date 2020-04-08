@@ -8,7 +8,7 @@ name = "Daniel"
 ## 📝 Instructions:
 
 1. Declare a new variable with the string value "Yellow" and print the value to the console.
-
+2. Then, print its value on the console using ```print(name)```
 
 ## 💡 Hint:
 
