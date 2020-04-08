@@ -16,7 +16,6 @@ function content with the code needed to sum variable **a** with variable **b** 
 return the result of that operation.
 
 ## Note:
-For practicing more with functions, there is a specific Repl.it class about functions
-created by 4Geeks Academy that has more than 20 incremental exercises.
+For practicing more with functions, 4Geeks Academy has more than 20 incremental exercises.
 
 

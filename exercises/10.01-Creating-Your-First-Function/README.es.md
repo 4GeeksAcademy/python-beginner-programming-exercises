@@ -16,7 +16,7 @@ el contenido de la función con el código requerido para sumar la variable **a*
 la variable **b** y devolver el resultado de la operación.
 
 ## Nota:
-Para practicar con más funciones, there is a specific Repl.it class about functions
-created by 4Geeks Academy that has more than 20 incremental exercises.
+
+Para practicar con más funciones, 4Geeks Academy tiene más de 20 ejercicios que incrementan en dificultad.
 
 
