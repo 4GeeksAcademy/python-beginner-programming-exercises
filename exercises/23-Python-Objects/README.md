@@ -43,7 +43,7 @@ class Person:
     self.lastname = "Doe"
     self.age = 35                         #Number
     self.gender = "male"
-    self.lucky_numbers = [ 7, 11, 13, 17] #Array
+    self.lucky_numbers = [ 7, 11, 13, 17] #List
     self.significant_other = person2       #Object, yes the same variable/object defined after
 
 class Person2:
@@ -58,7 +58,7 @@ class Person2:
 class Family:
     def __init__():
     self.lastname = "Doe"
-    self.members = [person, person2]       //Array of objects
+    self.members = [person, person2]       #List of objects
 
 ```
 So, if on this scenario if we want to know the name of the first member of the Doe family we do:
