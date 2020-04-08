@@ -8,7 +8,7 @@ Let's say that we are teachers in a 10 student classroom and we want to randomly
 
 (only ONE color PER student)
 
-1. Change the function "**get_allStudentColors**" so it returns an array of 10 colors, with each item in the array representing the color assigned to each student.
+1. Change the function "**get_allStudentColors**" so it returns an list of 10 colors, with each item in the list representing the color assigned to each student.
 
 ## 💡 Hint:
 

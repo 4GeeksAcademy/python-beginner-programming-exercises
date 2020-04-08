@@ -8,7 +8,7 @@ Digamos que somos profesores en un aula con 10 estudiantes y queremos asignar a 
 
 (solo UN color POR estudiante)
 
-1. Cambia la función "**get_allStudentColors**" para que devuelva un arreglo con 10 colores, con cada elemento en el arreglo representando a cada estudiante.
+1. Cambia la función "**get_allStudentColors**" para que devuelva una lista con 10 colores, con cada elemento en la lista representando a cada estudiante.
 
 ## 💡 Sugerencia:
 

@@ -15,7 +15,7 @@ class Person_2:
 
 class Family:
     lastname = "Doe"
-    members = [Person, Person_2]       #Array of objects, don't forget to add Jimmy
+    members = [Person, Person_2]       #List of objects, don't forget to add Jimmy
 
 
 

@@ -43,8 +43,8 @@ class Person:
     self.lastname = "Doe"
     self.age = 35                         #Number
     self.gender = "male"
-    self.lucky_numbers = [ 7, 11, 13, 17] #Array
-    self.significant_other = person2       #Object, sí el mismo variable/objeto definido después
+    self.lucky_numbers = [ 7, 11, 13, 17] #Lista
+    self.significant_other = person2       #Object, sí el mismo objeto definido después
 
 class Person2:
     def __init__():
@@ -58,7 +58,7 @@ class Person2:
 class Family:
     def __init__():
     self.lastname = "Doe"
-    self.members = [person, person2]       //Array de objetos
+    self.members = [person, person2]       #Lista de objetos
 
 ```
 Así que, en este escenario si nosotros queremos saber el nombre del primer miembro de la familia Doe, hacemos:

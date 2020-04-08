@@ -41,4 +41,4 @@ Buzz
 
 ## 💡 Sugerencia:
 
-- Es recomendable hacer el ejercicio de Arreglos antes de este ejercicio.
+- Es recomendable hacer los (ejercicios de listas)[https://github.com/4GeeksAcademy/python-lists-exercises] antes de este ejercicio.
