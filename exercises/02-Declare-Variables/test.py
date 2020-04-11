@@ -12,7 +12,7 @@ def test_for_print():
     path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
     with open(path, 'r') as content_file:
         content = content_file.read()
-        regex = re.compile(r"print\(['\"]?.+['\"]?\)")
+        regex = re.compile(r"print\s*\(['\"]?.+['\"]?\)")
         assert bool(regex.search(content)) == True
 
 @pytest.mark.it('Declare a variable and assign it the value "Yellow"')
