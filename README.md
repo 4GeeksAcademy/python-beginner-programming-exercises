@@ -4,8 +4,9 @@
     <td>
       <h1 align="center"> Python exercises at 4Geeks Academy (beta) </h1>
       <img src="https://img.shields.io/github/last-commit/4geeksacademy/python-beginner-programming-exercises" />
-      <img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter">
-      <img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" />
+      <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
+      <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
+      <a href="https://gitpod.io#https://github.com/4GeeksAcademy/python-beginner-programming-exercises.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
     </td>
   </tr>
 </table>
