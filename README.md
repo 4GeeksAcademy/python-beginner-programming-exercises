@@ -13,7 +13,7 @@ If you find any bugs or misspells plese contribute and report them.
 
 ## Start practicing right now in gitpod:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/python-beginner-exercises.git)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/python-beginner-programming-exercises.git)
 
 
 ## Or Local Installation (if you prefer not to use gitpod)
