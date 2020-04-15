@@ -6,30 +6,25 @@
     <h2 align="center"> Python exercises at 4Geeks Academy (beta) </h2>
 </p>
 
-Complete selection of autograded Python exercises, anyone interested in learning Python!
+My name is Alejandro Sanchez @alesanchezr. I'm really excited to have you here !! 🎉 😂 Learning to code is hard, you need coaching! DM me on twitter if you have any question.
 
-These exercises were built in collaboration, we need you!
-If you find any bugs or misspells plese contribute and report them.
+Complete selection of auto-graded and interactive Python exercises for anyone interested in learning Python!
 
-## Start practicing right now in gitpod:
+These exercises were built in collaboration, we need you! If you find any bugs or misspells plese contribute and report them.
+
+<h2>One click installation:</h2>
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/python-beginner-programming-exercises.git)
 
 
-## Or Local Installation (if you prefer not to use gitpod)
+## Local Installation
 
-1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 10+ and python version 3+
+1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 10+ and python version 3+. This is the command to install the breathecode-cli
 ```
-This is the command to install the breathecode-cli
 $ npm i breathecode-cli -g
 ```
 
-2) Clone this repository:
-```
-$ git clone https://github.com/4GeeksAcademy/python-beginner-exercises.git && cd python-beginner-exercises
-```
-
-Note: Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
+2) Clone or download this repository. Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
 
 3) Start the tutorial/exercises by running the following command from the root of the project:
 
