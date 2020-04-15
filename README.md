@@ -17,6 +17,10 @@ Complete selection of auto-graded and interactive Python exercises for anyone in
 
 These exercises were built in collaboration, we need you! If you find any bugs or misspells plese contribute and report them.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
+</p>
+
 <h2>One click installation:</h2>
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/python-beginner-programming-exercises.git)
@@ -37,10 +41,6 @@ $ npm i breathecode-cli -g
 $ pip install pytest==4.4.2 mock pytest-testdox
 $ breathecode run
 ```
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
-</p>
 
 ## How are the exercises organized?
 
