@@ -15,6 +15,13 @@ My name is Alejandro Sanchez @alesanchezr. I'm really excited to have you here !
 
 Complete selection of auto-graded and interactive Python exercises for anyone interested in learning Python!
 
+<ol>
+  <li><a href="https://github.com/4GeeksAcademy/python-beginner-programming-exercises">Python for Beginners</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/python-functions-programming-exercises">Practice functions</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/python-lists-exercises">Practice functions</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/master-python-programming-exercises">Master Python (intermediate)</a></li>
+</ol>
+
 These exercises were built in collaboration, we need you! If you find any bugs or misspells plese contribute and report them.
 
 <p align="center">
