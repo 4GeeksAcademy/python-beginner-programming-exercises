@@ -1,10 +1,9 @@
-<p align="center">
-  <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,128">
-</p>
-
-<p>
-    <h2 align="center"> Python exercises at 4Geeks Academy (beta) </h2>
-</p>
+<table>
+  <tr>
+    <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,128"></td>
+    <td><h2 align="center"> Python exercises at 4Geeks Academy (beta) </h2></td>
+  </tr>
+</table>
 
 My name is Alejandro Sanchez @alesanchezr. I'm really excited to have you here !! 🎉 😂 Learning to code is hard, you need coaching! DM me on twitter if you have any question.
 
