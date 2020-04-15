@@ -22,7 +22,7 @@ Complete selection of auto-graded and interactive Python exercises for anyone in
   <li><a href="https://github.com/4GeeksAcademy/master-python-programming-exercises">Master Python (intermediate)</a></li>
 </ol>
 
-These exercises were built in collaboration, we need you! If you find any bugs or misspells plese contribute and report them.
+These exercises were built in collaboration, we need you! If you find any bugs or misspells please contribute and report them.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
