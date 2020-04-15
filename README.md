@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,64"></td>
+    <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
     <td><h2 align="center"> Python exercises at 4Geeks Academy (beta) </h2></td>
   </tr>
 </table>
