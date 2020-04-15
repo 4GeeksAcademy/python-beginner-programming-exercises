@@ -2,7 +2,7 @@
   <tr>
     <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
     <td>
-      <h1 align="center"> Python exercises at 4Geeks Academy (beta) </h1>
+      <h1 align="center"> Python Beginner exercises at 4Geeks Academy (beta) </h1>
       <img src="https://img.shields.io/github/last-commit/4geeksacademy/python-beginner-programming-exercises" />
       <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
       <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
