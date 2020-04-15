@@ -1,7 +1,10 @@
 <table>
   <tr>
     <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
-    <td><h2 align="center"> Python exercises at 4Geeks Academy (beta) </h2></td>
+    <td>
+      <h1 align="center"> Python exercises at 4Geeks Academy (beta) </h1>
+      <img src="https://img.shields.io/github/commit-activity/m/badges/shields" />
+    </td>
   </tr>
 </table>
 
