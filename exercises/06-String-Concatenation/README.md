@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=kS4qpQmHwCs"
+---
+
 # `06` String Concatenation
 
 One common task you’ll need to accomplish with any language involves merging or combining strings.
