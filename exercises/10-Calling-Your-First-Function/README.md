@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=6IsSSc-ne9I"
+---
+
 # `10` Calling Your First Function
 
 Functions are amazing because of many things, but mainly because you can encapsulate your code
