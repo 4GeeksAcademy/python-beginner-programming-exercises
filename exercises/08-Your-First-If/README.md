@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=x9wqa5WQZiM"
+---
+
 # `08` Your First if...
 
 The current application is prompting asking how much money the user has. Once the user inputs
