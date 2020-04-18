@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=Ki1LaUKhPgU"
+---
+
 # `03` Print the Variables in the console
 
 You can also use the **print** function to print variables in the console. It's a great way to check their current value, like this:
