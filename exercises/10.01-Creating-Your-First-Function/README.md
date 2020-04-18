@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=K0aDrl41SnQ"
+---
+
 # `10.01` Creating Your First Function
 
 
