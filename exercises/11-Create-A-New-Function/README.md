@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=XazswkTqKJI"
+---
+
 # `11` Create a New Function
 
 As you know, functions are a useful block of code that you can re-use as many times
