@@ -27,4 +27,4 @@ def test_functionSing():
 def test_for_function_output(capsys):
     sing()
     captured = capsys.readouterr()
-    assert captured.out == "let it be,\nlet it be,\nlet it be,\nlet it be,\nwhisper words of wisdom, let it be, let it be,\nlet it be,\nlet it be,\nlet it be,\nthere will be an answer, let it be\n"
+    assert captured.out.lower() == "let it be,\nlet it be,\nlet it be,\nlet it be,\nwhisper words of wisdom, let it be, let it be,\nlet it be,\nlet it be,\nlet it be,\nthere will be an answer, let it be\n".lower()

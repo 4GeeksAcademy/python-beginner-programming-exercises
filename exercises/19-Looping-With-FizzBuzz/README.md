@@ -41,4 +41,4 @@ Buzz
 
 ## 💡 Hint:
 
-- It's recommended to do the (List Exercises)[https://github.com/4GeeksAcademy/python-lists-exercises] before this exercise.
+- It's recommended to do the [List Exercises](https://github.com/4GeeksAcademy/python-lists-exercises) before this exercise.

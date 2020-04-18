@@ -15,5 +15,5 @@ Let's say that we are teachers in a 10 student classroom and we want to randomly
 - You have 10 students, you need to loop 10 times.
 - Each time you loop, generate a random number between 1-4 using the **randint()** function we saw on the last exercise.
 - Use the "**get_color**" function on this exercise to get the color name from the number you get.
-- Print the color on the console.
+- call the function "**get_allStudentColors**" and print the result on the console.
 
