@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=uYqMOZ-jFag"
+---
+
 # `09` Random Numbers
 
 You can use the **randint()** function to get a random integer number. **randint()** is an inbuilt function of the random module in Python3.
