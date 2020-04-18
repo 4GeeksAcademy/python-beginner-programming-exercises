@@ -1,3 +1,7 @@
+---
+video: "https://www.youtube.com/watch?v=dWWvZkaPwDw"
+---
+
 # `02` Declare Variables
 
 Variables act as a box (container) that lets you store different types of data. This is how we set a variable:
