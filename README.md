@@ -17,8 +17,8 @@ Complete selection of auto-graded and interactive Python exercises for anyone in
 
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/python-beginner-programming-exercises">Python for Beginners</a> ← your are here now</li>
-  <li><a href="https://github.com/4GeeksAcademy/python-functions-programming-exercises">Practice functions</a></li>
   <li><a href="https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises">Practice Looping Lists and Tuples</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/python-functions-programming-exercises">Practice functions</a></li>
   <li><a href="https://github.com/4GeeksAcademy/master-python-programming-exercises">Master Python (intermediate)</a></li>
 </ol>
 
