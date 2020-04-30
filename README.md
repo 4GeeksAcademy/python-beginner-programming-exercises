@@ -16,10 +16,11 @@ This particular series are for Python beginners, start learning python from the 
 
 <table>
   <tr>
-    <td>1.<a href="https://github.com/4GeeksAcademy/python-beginner-programming-exercises">Python for Beginners</a> ← your are here now
-    </td>
+    <td>1.<a href="https://github.com/4GeeksAcademy/python-beginner-programming-exercises">Python for Beginners</a> </td>
+    <td>← 🔥 your are here now</td>
+    <td><a href="https://gitpod.io#https://github.com/4GeeksAcademy/python-beginner-programming-exercises.git"><img src="https://gitpod.io/button/open-in-gitpod.svg" /></a></td>
   </tr>
-  <tr><td>2.<a href="https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises">Practice Looping Lists and Tuples</a></td></tr>
+  <tr color="white"><td>2.<a href="https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises">Practice Looping Lists and Tuples</a></td></tr>
   <tr><td>3.<a href="https://github.com/4GeeksAcademy/python-functions-programming-exercises">Practice functions</a></td></tr>
   <tr><td>4.<a href="https://github.com/4GeeksAcademy/master-python-programming-exercises">Master Python (intermediate)</a></td></tr>
   <tr><td>5.<a href="https://github.com/4GeeksAcademy/python-http-requests-api-tutorial-exercises">Python API Requests</a></td></tr>
@@ -30,11 +31,6 @@ These exercises were built in collaboration, we need you! If you find any bugs o
 <p align="center">
   <a href="https://www.youtube.com/watch?v=GjQEotj3t6Y"><img src="https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/master/python-intro.gif?raw=true"></a>
 </p>
-
-<h2>One click installation:</h2>
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/python-beginner-programming-exercises.git)
-
 
 ## Local Installation
 
