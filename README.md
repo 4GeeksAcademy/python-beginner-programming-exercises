@@ -3,6 +3,7 @@
     <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
     <td>
       <h1 align="center"> Python Beginner exercises at 4Geeks Academy</h1>
+      <p>By <a href="https://twitter.com/alesanchezr">@alesanchezr</a></p>
       <img src="https://img.shields.io/github/last-commit/4geeksacademy/python-beginner-programming-exercises" />
       <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
       <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
@@ -11,15 +12,14 @@
   </tr>
 </table>
 
-My name is Alejandro Sanchez @alesanchezr. I'm really excited to have you here !! 🎉 😂 Learning to code is hard, you need coaching! DM me on twitter if you have any question.
-
-Complete selection of auto-graded and interactive Python exercises for anyone interested in learning Python!
+This particular series are for Python beginners, start learning python from the `print` function, data-types, lists and touples, functions and dictionaries, for more complex exercises check the following table of contents:
 
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/python-beginner-programming-exercises">Python for Beginners</a> ← your are here now</li>
   <li><a href="https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises">Practice Looping Lists and Tuples</a></li>
   <li><a href="https://github.com/4GeeksAcademy/python-functions-programming-exercises">Practice functions</a></li>
   <li><a href="https://github.com/4GeeksAcademy/master-python-programming-exercises">Master Python (intermediate)</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/python-http-requests-api-tutorial-exercises">Python API Requests</a></li>
 </ol>
 
 These exercises were built in collaboration, we need you! If you find any bugs or misspells plese contribute and report them.
