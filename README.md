@@ -2,7 +2,7 @@
   <tr>
     <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
     <td>
-      <h1> Python Beginner Tutorial and Exercises</h1>
+      <h1> 🐍 Python Beginner Tutorial and Exercises</h1>
       <p>By <a href="https://twitter.com/alesanchezr">@alesanchezr</a> and <a href="https://github.com/4GeeksAcademy/python-beginner-programming-exercises/graphs/contributors">other contributors</a> at <a href="http://4geeksacademy.co/">4Geeks Academy</a></p>
       <img src="https://img.shields.io/github/last-commit/4geeksacademy/python-beginner-programming-exercises" />
       <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
@@ -12,7 +12,7 @@
   </tr>
 </table>
 
-This particular series are for Python beginners: Start learning python from the `print` function, data-types, lists and touples, functions and dictionaries.
+This particular series are for Python beginners: Start learning python from the `print` function, data-types, lists and touples, functions and dictionaries. The entire tutorial is 👆 interactive, ✅ auto-graded and with. 📹 video tutorials.
 
 <h3>📚 Table of contents:</h3>
 <table>
