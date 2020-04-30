@@ -2,7 +2,7 @@
   <tr>
     <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
     <td>
-      <h1 align="center"> Python Beginner Tutorial and Exercises</h1>
+      <h1> Python Beginner Tutorial and Exercises</h1>
       <p>By <a href="https://twitter.com/alesanchezr">@alesanchezr</a> at <a href="http://4geeksacademy.co/">4Geeks Academy</a></p>
       <img src="https://img.shields.io/github/last-commit/4geeksacademy/python-beginner-programming-exercises" />
       <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
@@ -25,7 +25,7 @@ This particular series are for Python beginners, start learning python from the 
 These exercises were built in collaboration, we need you! If you find any bugs or misspells plese contribute and report them.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
+  <img src="https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/master/python-intro.gif?raw=true">
 </p>
 
 <h2>One click installation:</h2>
