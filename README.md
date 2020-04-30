@@ -16,13 +16,13 @@ This particular series are for Python beginners, start learning python from the 
 
 <table>
   <tr>
-    <td><a href="https://github.com/4GeeksAcademy/python-beginner-programming-exercises">Python for Beginners</a> ← your are here now
+    <td>1.<a href="https://github.com/4GeeksAcademy/python-beginner-programming-exercises">Python for Beginners</a> ← your are here now
     </td>
   </tr>
-  <tr><td><a href="https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises">Practice Looping Lists and Tuples</a></td></tr>
-  <tr><td><a href="https://github.com/4GeeksAcademy/python-functions-programming-exercises">Practice functions</a></td></tr>
-  <tr><td><a href="https://github.com/4GeeksAcademy/master-python-programming-exercises">Master Python (intermediate)</a></td></tr>
-  <tr><td><a href="https://github.com/4GeeksAcademy/python-http-requests-api-tutorial-exercises">Python API Requests</a></td></tr>
+  <tr><td>2.<a href="https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises">Practice Looping Lists and Tuples</a></td></tr>
+  <tr><td>3.<a href="https://github.com/4GeeksAcademy/python-functions-programming-exercises">Practice functions</a></td></tr>
+  <tr><td>4.<a href="https://github.com/4GeeksAcademy/master-python-programming-exercises">Master Python (intermediate)</a></td></tr>
+  <tr><td>5.<a href="https://github.com/4GeeksAcademy/python-http-requests-api-tutorial-exercises">Python API Requests</a></td></tr>
 </table>
 
 These exercises were built in collaboration, we need you! If you find any bugs or misspells plese contribute and report them.
