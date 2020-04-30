@@ -25,7 +25,7 @@ This particular series are for Python beginners, start learning python from the 
 These exercises were built in collaboration, we need you! If you find any bugs or misspells plese contribute and report them.
 
 <p align="center">
-  <img src="https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/master/python-intro.gif?raw=true">
+  <a href="https://www.youtube.com/watch?v=GjQEotj3t6Y"><img src="https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/master/python-intro.gif?raw=true"></a>
 </p>
 
 <h2>One click installation:</h2>
