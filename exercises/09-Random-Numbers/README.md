@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=uYqMOZ-jFag"
+tutorial: "https://www.youtube.com/watch?v=uYqMOZ-jFag"
 ---
 
 # `09` Random Numbers

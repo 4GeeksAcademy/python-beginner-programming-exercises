@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=fw3ukgmlSwQ"
+tutorial: "https://www.youtube.com/watch?v=fw3ukgmlSwQ"
 ---
 
 # `19` Looping With FizzBuzz

@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=mKNqjPh1JE0"
+tutorial: "https://www.youtube.com/watch?v=mKNqjPh1JE0"
 ---
 
 # `22` Bottles Of Milk

@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=x9wqa5WQZiM"
+tutorial: "https://www.youtube.com/watch?v=x9wqa5WQZiM"
 ---
 
 # `08` Your First if...

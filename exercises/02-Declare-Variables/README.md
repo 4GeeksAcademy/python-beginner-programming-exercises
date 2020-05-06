@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=dWWvZkaPwDw"
+tutorial: "https://www.youtube.com/watch?v=dWWvZkaPwDw"
 ---
 
 # `02` Declare Variables

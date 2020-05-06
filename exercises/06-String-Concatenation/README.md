@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=kS4qpQmHwCs"
+tutorial: "https://www.youtube.com/watch?v=kS4qpQmHwCs"
 ---
 
 # `06` String Concatenation

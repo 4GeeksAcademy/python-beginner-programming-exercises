@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=EdyMlVlNUT0"
+tutorial: "https://www.youtube.com/watch?v=EdyMlVlNUT0"
 ---
 
 # `14` Rand From 1 to 12

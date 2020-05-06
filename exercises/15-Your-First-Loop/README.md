@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=30sizcnVdGg"
+tutorial: "https://www.youtube.com/watch?v=30sizcnVdGg"
 ---
 
 # `15` Your First Loop

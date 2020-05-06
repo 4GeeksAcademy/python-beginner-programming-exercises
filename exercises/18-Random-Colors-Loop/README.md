@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=8zH3JT3AuAw"
+tutorial: "https://www.youtube.com/watch?v=8zH3JT3AuAw"
 ---
 
 # `18` Random Colors (Loop)

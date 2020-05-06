@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=2sV-2frucUs"
+tutorial: "https://www.youtube.com/watch?v=2sV-2frucUs"
 ---
 
 # `01` Console

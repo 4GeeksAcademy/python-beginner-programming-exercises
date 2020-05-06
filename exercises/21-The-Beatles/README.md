@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=cuSaRROMTDY"
+tutorial: "https://www.youtube.com/watch?v=cuSaRROMTDY"
 ---
 
 # `21` The Beatles

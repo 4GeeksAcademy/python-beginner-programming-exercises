@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=Ki1LaUKhPgU"
+tutorial: "https://www.youtube.com/watch?v=Ki1LaUKhPgU"
 ---
 
 # `03` Print the Variables in the console

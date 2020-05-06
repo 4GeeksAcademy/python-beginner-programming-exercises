@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=Wu7uK8BN4nI"
+tutorial: "https://www.youtube.com/watch?v=Wu7uK8BN4nI"
 ---
 
 # `08.1` How Much The Wedding Costs (if...else)

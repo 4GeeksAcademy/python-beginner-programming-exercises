@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=XazswkTqKJI"
+tutorial: "https://www.youtube.com/watch?v=XazswkTqKJI"
 ---
 
 # `11` Create a New Function

@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=zeWN4ujg6yU"
+tutorial: "https://www.youtube.com/watch?v=zeWN4ujg6yU"
 ---
 
 # `05` User Inputed Values

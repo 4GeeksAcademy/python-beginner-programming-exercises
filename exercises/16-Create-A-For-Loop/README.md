@@ -1,5 +1,5 @@
 ---
-video: "https://www.youtube.com/watch?v=-HQtwsBnbMQ"
+tutorial: "https://www.youtube.com/watch?v=-HQtwsBnbMQ"
 ---
 
 # `16` Create A For Loop
