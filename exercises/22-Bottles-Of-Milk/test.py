@@ -25,7 +25,6 @@ def test_for_file_output(capsys):
 def test_for_function_output(capsys):
     number_of_bottles()
     captured = capsys.readouterr()
-    print("@@@@", captured.out)
     assert captured.out ==  """99 bottles of milk on the wall, 99 bottles of milk.
 Take one down and pass it around, 98 bottles of milk on the wall.
 98 bottles of milk on the wall, 98 bottles of milk.
