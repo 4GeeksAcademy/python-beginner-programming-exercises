@@ -51,8 +51,17 @@ $ npm i breathecode-cli -g
 3) Start the tutorial/exercises by running the following command from the root of the project:
 
 ```sh
+# install learnpack (learning marketplace)
+$ npm i learnpack
+
+# install the python testing tool
 $ pip install pytest==4.4.2 mock pytest-testdox
-$ breathecode run
+
+# install learnpack python compiler
+$ learnpack plugins:install learnpack-python
+
+# start the exercises
+$ learnpack start
 ```
 
 ## How are the exercises organized?

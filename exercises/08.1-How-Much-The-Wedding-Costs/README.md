@@ -6,11 +6,12 @@ tutorial: "https://www.youtube.com/watch?v=Wu7uK8BN4nI"
 
 Here is a table of prices for a wedding catering company:
 
-Up to 50 people                     $4,000
-Up to 100 people                   $10,000
-Up to 200 people                   $15,000
-More than 200 people               $20,000
-
+| # of guests           | price     |
+| --------------------- | --------- |
+| Up to 50 people       | $4,000    |
+| Up to 100 people      | $10,000   |
+| Up to 200 people      | $15,000   |
+| More than 200 people  | $20,000   |
 
 
 ## 📝 Instructions:
