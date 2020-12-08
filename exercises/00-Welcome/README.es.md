@@ -5,14 +5,14 @@
 Durante este curso aprenderás los siguientes conceptos:
 
 1. Cómo crear y llamar funciones.
-2. Cómo crear y llamar variablesz.
-3. Cómo concatenar cadenas de texto (strings).
-4. Cómo usar ciclos y condicionales.
+2. Cómo crear y llamar variables.
+3. Cómo concatenar strings.
+4. Cómo usar bucles(loops) e declaraciones if.
 5. Cómo combinar y usar todos estos conceptos de diferentes formas.
 
-Por favor, haz clic en el botón de `Siguiente ejercicio →` de arriba a la derecha para dirigirte al primer reto.
+Por favor, haz clic en el botón `Next →` arriba a la derecha para dirigirte al primer ejercicio.
 
-## Contribuyentes
+## Colaboradores
 
 Nuestro agradecimiento para estas maravillosas personas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
