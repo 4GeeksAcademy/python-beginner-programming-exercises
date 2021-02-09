@@ -41,18 +41,30 @@ These exercises were built in collaboration, we need you! If you find any bugs o
 
 ## Local Installation
 
-1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 10+ and python version 3+. This is the command to install the breathecode-cli
+1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
+
 ```
-$ npm i breathecode-cli -g
+$ npm i learnpack -g
+$ learnpack plugins:install learnpack-python
 ```
 
-2) Clone or download this repository. Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
+2. Download this particular exercise using learnpack and `cd` into the folder:
 
-3) Start the tutorial/exercises by running the following command from the root of the project:
+```
+$ learnpack download python-beginner-programming-exercises
+$ cd python-beginner-programming-exercises
+```
+
+Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
+
+3. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
 
 ```sh
-$ pip install pytest==4.4.2 mock pytest-testdox
-$ breathecode run
+$ npm i jest@24.8.0 -g
+$ learnpack start
+```
+
+Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 ```
 
 ## How are the exercises organized?

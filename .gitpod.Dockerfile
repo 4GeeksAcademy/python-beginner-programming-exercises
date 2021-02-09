@@ -2,4 +2,6 @@ FROM gitpod/workspace-full:latest
 
 USER gitpod
 
-RUN pip3 install pytest==4.4.2 mock pytest-testdox && npm i breathecode-cli@1.2.70 -g
+RUN npm i jest@24.8.0 -g
+RUN npm i learnpack -g && learnpack plugins:install learnpack-html
+
