@@ -60,12 +60,11 @@ Note: Once you finish downloading, you will find a "exercises" folder that conta
 3. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
 
 ```sh
-$ npm i jest@24.8.0 -g
+$ $ pip3 install pytest==4.4.2 pytest-testdox mock
 $ learnpack start
 ```
 
 Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
-```
 
 ## How are the exercises organized?
 
