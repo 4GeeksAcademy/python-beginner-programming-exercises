@@ -2,6 +2,6 @@ FROM gitpod/workspace-full:latest
 
 USER gitpod
 
-RUN npm i jest@24.8.0 -g
+RUN $ pip3 install pytest==4.4.2 pytest-testdox mock
 RUN npm i learnpack -g && learnpack plugins:install learnpack-python
 
