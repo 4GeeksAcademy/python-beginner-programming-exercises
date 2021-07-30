@@ -3,9 +3,11 @@ image:
 
 ports:
     - port: 3000
-      onOpen: open-preview
-tasks:
-    - command: learnpack start
+      onOpen: ignore
+
+vscode:
+  extensions:
+    - learnpack.learnpack-vscode
 
 github:
     prebuilds:
