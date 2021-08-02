@@ -1,8 +1,9 @@
-# `06` Concatenación de cadenas de texto
+# `06` Concatenando Strings
 
-Una de las tareas comunes que tú tendrás que realizar con cualquier lenguaje incluye el unir o combinar cadenas de texto.
-Este proceso se denomina concatencación.
-La mejor forma de definirlo es cuando tienes dos *strings* separados – almacenados por el intérprete – y los unes de forma que sean uno solo.
+Una de las tareas más comunes que tú tendrás que realizar con cualquier lenguaje incluye el unir o combinar strings. 
+A esto le llamamos **concatenar**.
+
+La mejor forma de explicarlo es cuando tienes dos *strings* separados – almacenados por el intérprete – y tienes que unirlos de forma que sean uno solo.
 
 ```py
 one = 'a'
@@ -13,7 +14,7 @@ print(one+two); # esto imprimirá 'ab' en la consola.
 
 ## 📝 Instrucciones:
 
-1. Establece valores para my_var1 y my_var2 de forma que el código imprima 'Hello World' en la consola.
+1. Establece valores para las variables `my_var1` y `my_var2` de forma que el código imprima `Hello World` en la consola.
 
 
 

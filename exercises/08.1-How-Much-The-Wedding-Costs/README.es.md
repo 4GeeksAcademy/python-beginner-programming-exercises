@@ -12,11 +12,10 @@ Aquí tenemos una tabla de precios de una compañía de catering de bodas:
 
 ## 📝 Instrucciones:
 
-1. Por favor, escribe un algoritmo que pregunte por el número de personas asistentes
-a la boda y que imprima el precio correspondiente en la consola.
+1. Por favor, escribe un algoritmo que pregunte por el número de invitados a la boda y que imprime el precio correspondiente en la consola.
 
-Por ejemplo, si la persona dice 20 que personas van a la boda, deberá costar $4,000 dólares.
+Por ejemplo, si la persona dice que `20` personas van a la boda, deberìa costar `$4,000` dólares.
 
-## 💡 Sugerencia:
+## 💡 Pista:
 
-Usa if/else para dividir el código y definir el valor de la variable **price** de forma correcta.
++ Usa if/else para dividir el código y definir el valor de la variable `price` de forma correcta.

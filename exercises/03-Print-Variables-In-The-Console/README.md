@@ -12,5 +12,6 @@ print(my_super_variable)
 
 ## 📝 Instructions:
 
-1. Declare a new variable called **color** and assign the value "red" to it.
+1. Declare a new variable called `color` and assign the value `red` to it.
+
 2. Then, print its value on the console (you may have to scroll up in the terminal to see it!)

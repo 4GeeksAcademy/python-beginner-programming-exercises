@@ -16,11 +16,10 @@ Here is a table of prices for a wedding catering company:
 
 ## 📝 Instructions:
 
-1. Please write an algorithm that prompts the user for the number of people attending
-their wedding and prints the corresponding price in the console.
+1. Please write an algorithm that prompts the user for the number of people attending their wedding and prints the corresponding price in the console.
 
-For example, if the user says that 20 people are attending to the wedding, it must cost $4,000 dollars.
+For example, if the user says that `20` people are attending to the wedding, it must cost `$4,000` dollars.
 
 ## 💡 Hint:
 
-Use if/else to divide your code and set the value of the price variable the right way.
++ Use if/else to divide your code and set the value of the `price` variable the right way.

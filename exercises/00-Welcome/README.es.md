@@ -5,9 +5,13 @@
 Durante este curso aprenderás los siguientes conceptos:
 
 1. Cómo crear y llamar funciones.
+
 2. Cómo crear y llamar variables.
+
 3. Cómo concatenar strings.
-4. Cómo usar bucles(loops) e declaraciones if.
+
+4. Cómo usar bucles(loops) y declaraciones if.
+
 5. Cómo combinar y usar todos estos conceptos de diferentes formas.
 
 Por favor, haz clic en el botón `Next →` arriba a la derecha para dirigirte al primer ejercicio.
