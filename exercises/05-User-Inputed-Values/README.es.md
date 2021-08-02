@@ -6,10 +6,10 @@ Por ejemplo, justo ahora la aplicación está preguntando la edad del usuario, y
 
 ## 📝 Instrucciones:
 
-1. Por favor, añade 10 años al valor de la variable **age**.
+1. Por favor, añade 10 años al valor de la variable `age`.
 
-- El contenido de la variable está siendo definido con lo que sea que el usuario coloque.
+Recuerda que el contenido de la variable está siendo definido con lo que sea que el usuario coloque.
 
-# 💡 Sugerencia
+## 💡 Pista:
 
-Puedes buscar "how to add number to a python variable"
++ Puedes buscar "how to add number to a python variable"

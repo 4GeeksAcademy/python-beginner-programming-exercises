@@ -10,9 +10,13 @@ We are very excited to have you here !! 🎉 😂
 During this course you will be learning the following concepts:
 
 1. How to create and call functions.
+
 2. How to create and call variables.
+
 3. How to concatenate strings.
+
 4. How to use loops and if statements.
+
 5. How to combine and use all these concepts in different ways.
 
 Please click on the `Next →` button on the top right to proceed to the first challenge.
