@@ -5,14 +5,18 @@ Aquí puedes escucharla: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
 
 ## 📝 Instrucciones:
-1. Por favor, declara un método **number_of_bottles()**
-2. La función necesita **imprimir** (usa el método `print()` y no `return`)  la letra exacta de la canción.
 
+1. Por favor, declara una función llamada `number_of_bottles()`.
 
-## 💡 Sugerencia:
+2. La función necesita **print** para imprimir la letra exacta de la canción (usa el método `print()` y no `return`).
+
+## :bulb: Pista:
 
 - Al final de la canción, la letra cambia porque es solo una botella (singular en lugar del plural).
+
 - Lee la última parte de la letra y verás como cambia la última línea a "go to the store and by some more".
+
+## Resultado esperado:
 
 El resultado debería ser algo como esto:
 

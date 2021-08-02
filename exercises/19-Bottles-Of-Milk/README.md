@@ -9,14 +9,20 @@ here you can here it: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
 
 ## 📝 Instructions:
-1. Please declare a function named **number_of_bottles()**
-2. The function needs to **print** (use the print statement and no return)  the exact same lyrics in the song.
+
+1. Please declare a function named `number_of_bottles()`.
+
+2. The function needs to **print** (use the `print` statement and not `return`) the exact same lyrics in the song.
 
 
 ## 💡 Hint:
 
 - At the end of the song, the lyrics change because is only one bottle (singular instead of plural).
-- Read the last lyrics and you will see how the last line changes to "go to the store and by some more".
+
+- Read the last lyrics and you will see how the last line changes to `"go to the store and by some more"`.
+
+
+## Expected result:
 
 The result should be something like this:
 

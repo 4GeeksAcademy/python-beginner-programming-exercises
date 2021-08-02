@@ -9,11 +9,11 @@ gira la cámara del revolver para hacer aleatorio el juego. Nadie sabrá dónde 
 
 
 ## 📝 Instrucciones:
-1. El juego casi funciona, por favor completa la función "**fire_gun**" para hacer que el juego funcione
+
+1. El juego casi funciona, por favor completa la función `fire_gun` para hacer que el juego funcione
 (compara la posición de la bala contra la posición de la cámara.)
 
 
-## 💡 Sugerencia:
+## 💡 Pista:
 
-- La función necesita devolver **You are dead!** o **Keep playing!** dependiendo del resultado, si la bala estaba
-en el mismo orificio que la cámara del revolver, entonces fue disparada (**You are dead!**).
+- La función necesita devolver `You are dead!` (Estás muerto) o `Keep playing!` (Sigue jugando) dependiendo del resultado, si la bala está en la misma recámara que la del revolver, entonces fue disparada (You are dead!).
