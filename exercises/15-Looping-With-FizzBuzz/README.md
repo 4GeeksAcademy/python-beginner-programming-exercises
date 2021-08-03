@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=fw3ukgmlSwQ"
 ---
 
-# `19` Looping With FizzBuzz
+# `15` Looping With FizzBuzz
 
 This is a typical beginner test that is required to complete interviews in Google, Facebook and all the other big tech unicorns.
 

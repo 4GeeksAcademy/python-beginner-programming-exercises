@@ -1,4 +1,4 @@
-# `18` Colores aleatorios (ciclo)
+# `16` Colores aleatorios (ciclo)
 
 Hemos creado una función que devuelve un color basado en un número entre 1 y 4 (for any different number, it will return the color `black`).
 

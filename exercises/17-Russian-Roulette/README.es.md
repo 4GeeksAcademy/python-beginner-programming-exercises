@@ -1,4 +1,4 @@
-# `20` Ruleta rusa
+# `17` Ruleta rusa
 
 ¿Has jugado a la ruleta rusa? ¡Es muy divertida! Si no pierdes... (¡¡¡muuuajajajaja!!!).
 

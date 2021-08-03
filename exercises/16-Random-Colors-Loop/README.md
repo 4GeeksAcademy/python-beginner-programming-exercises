@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=8zH3JT3AuAw"
 ---
 
-# `18` Random Colors (Loop)
+# `16` Random Colors (Loop)
 
 We have created a function that returns a color based on a number between 1 and 4 (for any different number, it will return the color `black`).
 

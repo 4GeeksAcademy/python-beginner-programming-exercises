@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=30sizcnVdGg"
 ---
 
-# `15` Your First Loop
+# `14` Your First Loop
 
 If you run this code you'll see a count from 0 to 9 (White characters).  
 

@@ -1,4 +1,4 @@
-# `15` Tu primer bucle o loop
+# `14` Tu primer bucle o loop
 
 Si ejecutas este código verás una cuenta de 0 a 9 (caracteres blancos). 
 
