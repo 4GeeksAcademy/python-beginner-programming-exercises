@@ -3,8 +3,7 @@
 
 ## 📝 Instrucciones:
  
-1. La función `add_numbers` debería devolver la suma de 2 números dados. Por favor,
-completa el código necesario dentro de la función para hacer que se comporte como se espera.
+1. La función `add_numbers` debería devolver la suma de 2 números dados. Por favor, completa el código necesario dentro de la función para hacer que se comporte como se espera.
 
 ## Resultado esperado:
 
