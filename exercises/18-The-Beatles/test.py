@@ -3,7 +3,6 @@ import sys
 sys.stdout = buffer = io.StringIO()
 
 # from app import my_function
-from app import sing
 import pytest
 import app
 import re
