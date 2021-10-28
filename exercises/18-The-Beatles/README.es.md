@@ -19,17 +19,8 @@ Este es el coro de una de las canciones más famosas de la banda:
 
 ## Resultado esperado:
 
-```sh
-let it be,
-let it be,
-let it be,
-let it be,
-whisper words of wisdom, let it be, let it be,
-let it be,
-let it be,
-let it be,
-there will be an answer, let it be
-```
+`let it be, let it be, let it be, let it be, whisper words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be`
+
 
 ## 💡 Pista:
 

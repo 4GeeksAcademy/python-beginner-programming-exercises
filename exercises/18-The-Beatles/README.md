@@ -22,19 +22,9 @@ This is the chorus of one of the most famous Beatle songs:
 [you can hear from the 3:10 sec to the end of the song at 3:54 sec](https://www.youtube.com/watch?v=QDYfEBY9NM4).
 
 
-## Expected result:
+## Expected output: 
 
-```sh
-let it be,
-let it be,
-let it be,
-let it be,
-whisper words of wisdom, let it be, let it be,
-let it be,
-let it be,
-let it be,
-there will be an answer, let it be
-```
+`let it be, let it be, let it be, let it be, whisper words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be`
 
 ## 💡 Hint:
 
