@@ -1,4 +1,4 @@
-import io, mock, pytest, os, re, sys
+import pytest
 
 @pytest.mark.it('You should create a function named add_numbers')
 def test_function_exists(app):
