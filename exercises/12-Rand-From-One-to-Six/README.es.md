@@ -1,5 +1,4 @@
-# `14` Números aleatorios del 1 a 12
-
+# `12` Números aleatorios del 1 a 12
 
 ## 📝 Instrucciones:
 
@@ -11,6 +10,6 @@
 
 - Debería imprimir números entre 1 y 12, no entre 0 y 12.
 
-- Este ejercicio es super simple, no te compliques :smiley:...
+- Este ejercicio es super simple, no te compliques 😃...
 
 

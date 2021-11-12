@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=EdyMlVlNUT0"
 ---
 
-# `14` Rand From 1 to 12
+# `12` Rand From 1 to 12
 
 ## 📝 Instructions:
 
@@ -13,6 +13,6 @@ This time use `randrange()`function
 
 - It should print between 1 and 12, not between 0 and 12.
 
-- This exercise is super simple, don't over complicate things :smiley:....
+- This exercise is super simple, don't over complicate things 😃....
 
 
