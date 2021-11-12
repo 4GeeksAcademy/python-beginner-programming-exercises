@@ -1,10 +1,10 @@
-# `16` Crear un bucle (loop) For
+# `13` Crear un bucle (loop) For
 
 Los bucles o loops son muy útiles, no tienes que repetir código escribiendo las mismas líneas muchas veces.
 
 El bucle o loop `for` te permite ejecutar el mismo código varias veces para diferentes valores.
 
-## :mag.right: Importante:
+## 🔎 Importante:
 
 Puedes leer más al respecto aquí: https://ellibrodepython.com/for-python
 
