@@ -7,12 +7,10 @@ gira la cámara del revolver para hacer aleatorio el juego. Nadie sabrá dónde 
 
 ¡¡¡FUEGO!!!....... ¿has muerto?
 
-
 ## 📝 Instrucciones:
 
 1. El juego casi funciona, por favor completa la función `fire_gun` para hacer que el juego funcione
 (compara la posición de la bala contra la posición de la cámara.)
-
 
 ## 💡 Pista:
 

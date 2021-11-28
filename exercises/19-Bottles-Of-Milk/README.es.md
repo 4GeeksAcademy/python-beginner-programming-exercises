@@ -3,14 +3,13 @@
 ¿Has escuchado la canción sobre las 99 botellas de leche? Es una gran canción, para nada aburrida...
 Aquí puedes escucharla: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
-
 ## 📝 Instrucciones:
 
 1. Por favor, declara una función llamada `number_of_bottles()`.
 
 2. La función necesita **print** para imprimir la letra exacta de la canción (usa el método `print()` y no `return`).
 
-## :bulb: Pista:
+## 💡  Pista:
 
 - Al final de la canción, la letra cambia porque es solo una botella (singular en lugar del plural).
 

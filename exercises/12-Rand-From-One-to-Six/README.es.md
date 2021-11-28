@@ -1,5 +1,4 @@
-# `14` Números aleatorios del 1 a 12
-
+# `12` Números aleatorios del 1 a 12
 
 ## 📝 Instrucciones:
 

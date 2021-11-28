@@ -1,4 +1,4 @@
-# `16` Crear un bucle (loop) For
+# `13` Crear un bucle (loop) For
 
 Los bucles o loops son muy útiles, no tienes que repetir código escribiendo las mismas líneas muchas veces.
 

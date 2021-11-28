@@ -2,7 +2,6 @@
 
 Esta es una típica prueba de principiante que es exigida para las entrevistas en Google, Facebook y las demás grandes compañías de tecnología.
 
-
 ## 📝 Instrucciones:
 
 1. Escribe el código necesario para imprimer en la consola todos los números del 1 al 100:

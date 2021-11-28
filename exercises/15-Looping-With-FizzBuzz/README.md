@@ -6,7 +6,6 @@ tutorial: "https://www.youtube.com/watch?v=fw3ukgmlSwQ"
 
 This is a typical beginner test that is required to complete interviews in Google, Facebook and all the other big tech unicorns.
 
-
 ## 📝 Instructions:
 
 1. Write the code needed to print in the console all the numbers from 1 to 100:
@@ -16,7 +15,6 @@ This is a typical beginner test that is required to complete interviews in Googl
 + For multiples of 5, print "Buzz". 
 
 + For numbers which are multiples of both 3 and 5, print "FizzBuzz".
-
 
 ## Expected result:
 
