@@ -19,6 +19,7 @@ Este es el coro de una de las canciones más famosas de la banda:
 ## 💡 Pista:
 
 - La frase "let it be" se repite todo el tiempo. Probablemente deberías usar un bucle o loop para eso 😊
+
 ## Resultado esperado:
 
 `let it be, let it be, let it be, let it be, whisper words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be`
