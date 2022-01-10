@@ -4,7 +4,7 @@
 
 Si ejecutas este código verás una cuenta de 0 a 9 (caracteres blancos). 
 
-1. Corrígelo para que cuente hasta 11,verás 101 en verde después ¿Puedes?
+1. Corrígelo para que cuente hasta 11, verás 101 en verde después ¿Puedes?
 
 ## 🔎 Important: 
 
