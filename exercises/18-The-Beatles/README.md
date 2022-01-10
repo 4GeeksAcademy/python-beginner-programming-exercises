@@ -21,11 +21,11 @@ This is the chorus of one of the most famous Beatle songs:
 2. The function needs to **print** (use the `print` statement and not `return`) a string with the exact same lyrics
 [you can hear from the 3:10 sec to the end of the song at 3:54 sec](https://www.youtube.com/watch?v=QDYfEBY9NM4).
 
+## 💡 Hint:
+
+- The words "let it be" repeat all the time, you should probably create a loop for that.
 
 ## Expected output: 
 
 `let it be, let it be, let it be, let it be, whisper words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be`
 
-## 💡 Hint:
-
-- The words "let it be" repeat all the time, you should probably create a loop for that.

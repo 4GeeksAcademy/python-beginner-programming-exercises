@@ -7,12 +7,10 @@ spin the revolver chamber to make the game random, nobody knows the bullet posit
 
 FIRE!!!....... are you dead?
 
-
 ## 📝 Instructions:
 
 1. The game is almost working, please fill the function `fire_gun` to make the game work
 (compare the bullet position against the chamber position.)
-
 
 ## 💡 Hint:
 
