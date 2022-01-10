@@ -14,8 +14,7 @@ Este es el coro de una de las canciones más famosas de la banda:
 
 1. Crea una función llamada `sing()`
 
-2. La función necesita **print** (usa el método `print()` y no `return`) un texto con la misma letra
-[que puedes escuchar desde el segundo 3:10 hasta el final de la canción en el segundo 3:54](https://www.youtube.com/watch?v=QDYfEBY9NM4)..
+2. La función necesita **print** (usa el método `print()` y no `return`) un texto con la misma letra [que puedes escuchar desde el segundo 3:10 hasta el final de la canción en el segundo 3:54](https://www.youtube.com/watch?v=QDYfEBY9NM4)..
 
 ## 💡 Pista:
 
