@@ -13,6 +13,6 @@ This time use `randrange()`function
 
 - It should print between 1 and 12, not between 0 and 12.
 
-- This exercise is super simple, don't over complicate things :smiley:....
+- This exercise is super simple, don't over complicate things 😃....
 
 
