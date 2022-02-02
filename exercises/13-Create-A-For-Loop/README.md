@@ -9,7 +9,7 @@ Loops are very useful, you don't have to repeat yourself by writing the same lin
 The `for` loop lets you run the same code for different values.
 
 
-## :mag_right: Important:
+## 🔎 Important:
 
 Read more on loops: https://www.w3schools.com/python/python_for_loops.asp
 
