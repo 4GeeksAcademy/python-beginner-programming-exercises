@@ -4,9 +4,6 @@ import io, mock, pytest, os, re, sys
 def test_functions_existence(app):
     try:
         app.is_odd
-
-        # from app import is_odd
-        # from app import my_main_code
     except AttributeError:
         raise AttributeError("The function is_odd should exist")
 
