@@ -1,5 +1,20 @@
 # from app import my_function
 import pytest,os,re,io,sys, mock, json
+path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
+
+@pytest.mark.it('Use the if statement')
+def test_for_print(capsys):
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+        regex = re.compile(r"if\s*")
+        assert bool(regex.search(content)) == True
+
+@pytest.mark.it('Use the elif statement')
+def test_for_print(capsys):
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+        regex2 = re.compile(r"elif\s*")
+        assert bool(regex2.search(content)) == True or bool(regex2.search(content)) == False
 
 @pytest.mark.it("Between 101 and 199 guests sould be priced 15,000")
 def test__between_100_and_200(capsys, app):

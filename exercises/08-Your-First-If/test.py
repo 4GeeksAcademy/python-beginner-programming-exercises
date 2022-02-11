@@ -1,9 +1,24 @@
 # from app import my_function
 import pytest,os,re,io,sys, mock, json
+path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
+
+@pytest.mark.it('Use the if statement')
+def test_for_print(capsys):
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+        regex = re.compile(r"if\s*")
+        assert bool(regex.search(content)) == True
+
+@pytest.mark.it('Use the elif statement')
+def test_for_print(capsys):
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+        regex = re.compile(r"if\s*")
+        regex2 = re.compile(r"elif\s*")
+        assert bool(regex.search(content)) == True or bool(regex.search(content))==False
 
 @pytest.mark.it('Use the function print()')
 def test_for_print(capsys):
-    path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
     with open(path, 'r') as content_file:
         content = content_file.read()
         regex = re.compile(r"print\(.+\)")
@@ -29,6 +44,7 @@ def test_for_less(capsys, app):
         app()
         captured = capsys.readouterr()
         assert "You are a poor guy, go away!\n" == captured.out
+
 
 
 

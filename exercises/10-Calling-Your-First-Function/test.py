@@ -1,5 +1,22 @@
 import io, mock, pytest, os, re, sys
 
+@pytest.mark.it('The function is_odd should exist')
+def test_functions_existence(app):
+    try:
+        app.is_odd
+
+        # from app import is_odd
+        # from app import my_main_code
+    except AttributeError:
+        raise AttributeError("The function is_odd should exist")
+
+@pytest.mark.it('The function my_main_code should exist')
+def test_functions_existence(app):
+    try:
+        app.my_main_code
+    except AttributeError:
+        raise AttributeError("The function my_main_code should exist")
+
 @pytest.mark.it('Use the function print()')
 def test_for_print():
     path = os.path.dirname(os.path.abspath(__file__))+'/app.py'

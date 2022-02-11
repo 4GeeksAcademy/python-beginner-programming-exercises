@@ -7,7 +7,7 @@ en piezas y reusar esas piezas muchas veces sin tener que escribir todo el códi
 
 1. Por favor, escribe todo tu código dentro de la función `my_main_code`.
 
-2. La función `is_odd` está definida al inicio del código, por favor llama a esa función pasándole el número `45345` e imprime el resultado en la consola.
+2. La función `is_odd` está definida al inicio del código, por favor llama a esa función dentro de `my_main_code` pasándole el número `45345` e imprime el resultado en la consola.
 
 ## :mag_right: Importante:
 
