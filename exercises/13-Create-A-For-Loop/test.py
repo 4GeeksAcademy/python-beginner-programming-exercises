@@ -15,6 +15,13 @@ def test_variable_exists():
     except ImportError:
         raise ImportError("The function 'standards_maker' should exist on app.py")
 
+@pytest.mark.it('You should use a for loop')
+def test_for_loop():
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+        regex = re.compile(r"for")
+        assert bool(regex.search(content)) == True
+
 @pytest.mark.it("You should include in the function standards_maker a for loop which prints the string in the instructions 300 times")
 def test_for_file_output(capsys):
     captured = buffer.getvalue()
@@ -26,7 +33,7 @@ def test_for_print():
     path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
     with open(path, 'r') as content_file:
         content = content_file.read()
-        regex = re.compile(r"print\(.+\)")
+        regex = re.compile(r"print\s*\(.+\)")
         assert bool(regex.search(content)) == True
 
 @pytest.mark.it("You should call the function standards_maker ")
