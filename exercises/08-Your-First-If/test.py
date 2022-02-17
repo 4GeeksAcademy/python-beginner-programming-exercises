@@ -24,8 +24,15 @@ def test_between(capsys, app):
         assert "Buy me some coffee you cheap!\n" == captured.out
 
 @pytest.mark.it("When input exactly 50 should print: You are a poor guy, go away")
-def test_for_less(capsys, app):
+def test_for_equal(capsys, app):
     with mock.patch('builtins.input', lambda x: 50):
+        app()
+        captured = capsys.readouterr()
+        assert "You are a poor guy, go away!\n" == captured.out
+
+@pytest.mark.it("When input less than 50 should print: You are a poor guy, go away")
+def test_for_less(capsys, app):
+    with mock.patch('builtins.input', lambda x: 40):
         app()
         captured = capsys.readouterr()
         assert "You are a poor guy, go away!\n" == captured.out
