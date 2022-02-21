@@ -1,6 +1,6 @@
 # `16` Colores aleatorios (ciclo)
 
-Hemos creado una función que devuelve un color basado en un número entre 1 y 4 (for any different number, it will return the color `black`).
+Hemos creado una función que devuelve un color basado en un número entre 0 y 3 (cualquier número diferente, debe retornar el color `black`).
 
 ## 📝 Instrucciones:
 
@@ -14,7 +14,7 @@ Digamos que somos profesores en un aula con 10 estudiantes y queremos asignar a 
 
 - Tienes 10 estudiantes, necesitar que el ciclo itere 10 veces.
 
-- En cada iteración, genera un número aleatorio entre 1 y 4 usando la función `randint()` que hemos visto en ejercicios anteriores.
+- En cada iteración, genera un número aleatorio entre 0 y 3 usando la función `randint()` que hemos visto en ejercicios anteriores.
 
 - Usa la función `get_color` en este ejercicio saber qué color le corresponde al número obtenido.
 
