@@ -18,7 +18,7 @@ Let's say that we are teachers in a 10 student classroom and we want to randomly
 
 - You have 10 students, you need to loop 10 times.
 
-- Each time you loop, generate a random number between 0-3 using the `randint()` function we saw on the last exercise.
+- Each time you loop, generate a random number between 0 and 3 using the `randint()` function we saw on the last exercise.
 
 - Use the `get_color` function on this exercise to get the color name from the number you get.
 
