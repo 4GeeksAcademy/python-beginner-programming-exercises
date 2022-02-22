@@ -16,7 +16,7 @@ Let's say that we are teachers in a 10 student classroom and we want to randomly
 
 ## 💡 Hint:
 
-- You have 10 students, you need to loop 10 times.
+- You have 10 students, you need the loop to iterate 10 times and print what the `get_color` function returns right there using `print`.
 
 - Each time you loop, generate a random number between 0 and 3 using the `randint()` function we saw on the last exercise.
 

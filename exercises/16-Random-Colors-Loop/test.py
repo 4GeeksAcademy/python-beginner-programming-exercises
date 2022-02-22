@@ -21,16 +21,6 @@ def test_for_file_output(capsys, app):
     except AttributeError:
         raise AttributeError("The function 'get_allStudentColors' should exist on app.py")
 
-# @pytest.mark.it('Print the correct output on the console')
-# def test_for_file_output(capsys):
-#     path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
-#     with open(path, 'r') as content_file:
-#         content = content_file.read()
-#         pattern = r"print\(get_allStudentColors\(\)\)"
-#         regex = re.compile(pattern)
-#         assert bool(regex.search(content)) == True
-
-
 from unittest.mock import patch
 @pytest.mark.it('You should use print 10 times')
 @patch('builtins.print')
