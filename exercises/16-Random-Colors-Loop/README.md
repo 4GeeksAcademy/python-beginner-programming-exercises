@@ -16,11 +16,12 @@ Let's say that we are teachers in a 10 student classroom and we want to randomly
 
 ## 💡 Hint:
 
-- You have 10 students, you need the loop to iterate 10 times and print what the `get_color` function returns right there using `print`.
+- You have 10 students, you need the loop to iterate 10 times and add these values to a list.
 
-- Each time you loop, generate a random number between 0 and 3 using the `randint()` function we saw on the last exercise.
+- In each iteration, generate a random number between 0 and 3 using the `randint()` function that we have seen in previous exercises.
 
-- Use the `get_color` function on this exercise to get the color name from the number you get.
+- Use the `get_color` function, in this exercise to find out what color corresponds to the number obtained.
 
-- call the function `get_allStudentColors` and print the result on the console.
+- Call (execute) the function `get_allStudentColors` and print its result in the console.
+
 

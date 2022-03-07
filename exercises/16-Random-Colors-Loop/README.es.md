@@ -12,11 +12,11 @@ Digamos que somos profesores en un aula con 10 estudiantes y queremos asignar a 
 
 ## 💡 Pista:
 
-- Tienes 10 estudiantes, necesitas que el ciclo itere 10 veces e imprimir ahí mismo lo que retorna la función `get_color` usando `print`.
+- Tienes 10 estudiantes, necesitas que el ciclo itere 10 veces y añadir estos valores a una lista.
 
 - En cada iteración, genera un número aleatorio entre 0 y 3 usando la función `randint()` que hemos visto en ejercicios anteriores.
 
-- Usa la función `get_color` en este ejercicio saber qué color le corresponde al número obtenido.
+- Usa la función `get_color`, en este ejercicio para saber qué color le corresponde al número obtenido.
 
-- Llama (ejecuta) la funcion `get_allStudentColors` e imprime su resultado en la consola
+- Llama (ejecuta) la funcion `get_allStudentColors` e imprime su resultado en la consola.
 
