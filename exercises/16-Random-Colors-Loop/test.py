@@ -21,6 +21,11 @@ def test_for_file_output(capsys, app):
     except AttributeError:
         raise AttributeError("The function 'get_allStudentColors' should exist on app.py")
 
+@pytest.mark.it('Function get_allStudentColors should return ten colors')
+def test_for_file_output(capsys, app):
+    result = get_allStudentColors()
+    assert len(result) == 10
+
 from unittest.mock import patch
 @pytest.mark.it('You should use print 10 times')
 @patch('builtins.print')
