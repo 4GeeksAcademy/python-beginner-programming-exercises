@@ -15,13 +15,10 @@ def get_color(color_number=4):
 
 
 def get_allStudentColors():
-
-    example_color = 1
+    example_color = get_color(1)
     students_array = []
     #your loop here
 
-
-
-
+    return students_array
 
 print(get_allStudentColors())
