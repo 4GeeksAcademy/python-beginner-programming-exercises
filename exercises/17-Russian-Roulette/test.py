@@ -9,6 +9,21 @@ import re
 import os
 
 
+@pytest.mark.it('The function spin_chamber must exist')
+def test_function_spin_chamber(capsys, app):
+    assert app.spin_chamber
+
+@pytest.mark.it('The function fire_gun must exist')
+def test_function_fire_gun(capsys, app):
+    assert app.fire_gun
+
+@pytest.mark.it('The function fire_gun should return the expected output in both cases')
+def test_function_output(capsys, app):
+    if(app.spin_chamber == app.bullet_position):
+        assert "You're dead!"
+    else:
+        assert "Keep playing!"
+
 @pytest.mark.it('1. Your code needs to print the correct output on the console')
 def test_for_file_output(capsys):
 
@@ -19,4 +34,6 @@ def test_for_file_output(capsys):
     my_codeCallVar = content.index(my_codeCall[0])
     regex = r"print\(fire_gun\(\)\)"
     assert re.match(regex, content[my_codeCallVar])
+
+
 
