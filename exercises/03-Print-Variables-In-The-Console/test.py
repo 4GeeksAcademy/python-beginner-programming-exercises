@@ -10,13 +10,8 @@ path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
 
 @pytest.mark.it("Create a variable named 'color' with the string value red")
 def test_declare_variable():
-    result = app.color == "red"
-    assert result == True
-
-    # with open(path, 'r') as content_file:
-    #     content = content_file.read()
-    #     regex = re.compile(r"color(\s*)=(\s*)[\"']red[\"']")
-    #     assert bool(regex.search(content)) == True
+    result = app.color
+    assert result == "red"
 
 @pytest.mark.it('Print on the console the value of the variable ')
 def test_for_printing_variable():
