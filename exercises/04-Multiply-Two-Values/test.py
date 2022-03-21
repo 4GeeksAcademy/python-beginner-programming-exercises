@@ -19,14 +19,8 @@ def test_variable_exists():
 def test_use_variable_name():
     result = app.variables_are_cool == 17172435
     assert result == True
-    # with open(path, 'r') as content_file:
-    #     content = content_file.read()
-    #     regex = re.compile(r"variables_are_cool(\s*)=(\s*)2345(\s*)\*(\s*)7323")
-    #     assert bool(regex.search(content)) == True
 
 @pytest.mark.it('Print on the console the variables_are_cool value ')
 def test_for_file_output(capsys):
-    # from app import variables_are_cool
     captured = buffer.getvalue()
-    # assert captured == str(variables_are_cool)+'\n' # 17172435 -> output
     assert captured == '17172435\n'
