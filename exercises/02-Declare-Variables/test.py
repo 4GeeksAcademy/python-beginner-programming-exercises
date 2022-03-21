@@ -21,7 +21,7 @@ def test_for_variable():
     
     with open(path, 'r') as content_file:
         content = content_file.read()
-        regex = re.compile(r"\w*(\s*)=(\s*)\"Yellow\"")
+        regex = re.compile(r"\w*(\s*)=(\s*)(\"|\')Yellow(\"|\')")
         assert bool(regex.search(content)) == True
 
 @pytest.mark.it('Print the variable on the console')
