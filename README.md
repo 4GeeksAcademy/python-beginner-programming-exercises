@@ -12,7 +12,17 @@
   </tr>
 </table>
 
-This particular series are for Python beginners: Start learning python from the `print` function, data-types, lists and touples, functions and dictionaries. The entire tutorial is 👆 interactive, ✅ auto-graded and with. 📹 video tutorials.
+This particular series are for Python beginners. You will learn:
+
+1. the `print` function, 
+
+2. data-types, 
+
+3. lists and tuples, 
+
+4. functions and dictionaries.
+
+ The entire tutorial is 👆 interactive, ✅ auto-graded and with 📹 video tutorials.
 
 <h3>📚 Table of contents:</h3>
 <table>
@@ -35,7 +45,7 @@ These exercises were built in collaboration, we need you! If you find any bugs o
 </p>
 
 
-<h2>One click installation:</h2>
+## One click installation:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/python-beginner-programming-exercises.git)
 
@@ -78,9 +88,8 @@ Each exercise is a small react application containing the following files:
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
-2. [Paolo (plucodev)](https://github.com/plucodev), contribution: (bug reports) :bug:, contribution: (coder), (translation) :earth_americas:
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) 💻  (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 👀 (build-tutorial) ✅ (documentation) 📖
 
-This project follows the
-[all-contributors](https://github.com/kentcdodds/all-contributors)
-specification. Contributions of any kind are welcome!
+2. [Paolo (plucodev)](https://github.com/plucodev), contribution: (bug reports) 🐛, contribution: (coder), (translation) 🌎
+
+This project follows the[all-contributors](https://github.com/kentcdodds/all-contributors) specification.Contributions of any kind are welcome!
