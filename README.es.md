@@ -24,14 +24,10 @@ Esta serie en particular es para principiantes de Python. Aprenderás los siguie
 
 Todo el tutorial es 👆 interactivo, ✅ calificado automáticamente y con 📹 videos tutoriales.
 
-<h3>📚 Table of contents:</h3>
+<h3>📚 Tabla de contenidos</h3>
 <table>
-  <tr>
-    <td>1. <a href="https://github.com/4GeeksAcademy/python-beginner-programming-exercises">Python para principiantes</a> </td>
-    <td>← 🔥 estás aquí</td>
-    <td><a href="https://gitpod.io#https://github.com/4GeeksAcademy/python-beginner-programming-exercises.git"><img src="https://gitpod.io/button/open-in-gitpod.svg" /></a></td>
-  </tr>
-  <tr color="white"><td>2. <a href="https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises">Practica Loops en Listas and Tuplas</a></td></tr>
+  <tr><td>1. <a href="https://github.com/4GeeksAcademy/python-beginner-programming-exercises">Python para principiantes</a>← 🔥 estás aquí </td></tr>
+  <tr color="white"><td>2. <a href="https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises">Practica Loops en Listas y Tuplas</a></td></tr>
   <tr><td>3. <a href="https://github.com/4GeeksAcademy/python-functions-programming-exercises">Practica funciones</a></td></tr>
   <tr><td>4. <a href="https://github.com/4GeeksAcademy/master-python-programming-exercises">Master Python (intermedio)</a></td></tr>
   <tr><td>5. <a href="https://github.com/4GeeksAcademy/python-http-requests-api-tutorial-exercises">Python API Requests</a></td></tr>
