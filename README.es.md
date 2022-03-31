@@ -65,11 +65,11 @@ Nota: Una vez que termines de descargarlo, encontrarás una carpeta llamada "exe
 3. Inicializa el tutorial/exercises ejecutando el siguiente comando al mismo nivel en el que se encuentra tu archivo bc.json: 
 
 ```sh
-$ $ pip3 install pytest==4.4.2 pytest-testdox mock
+$ pip3 install pytest==4.4.2 pytest-testdox mock
 $ learnpack start
 ```
 
-Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
+Nota: Los ejercicios tienen tests automatizados, sin embargo, estos suelen ser muy rígidos y estrictos. Mi recomendación es que utilices los tests como recomendación o puedes frustrarte.
 
 ## ¿Cómo están organizados los ejercicios?
 
