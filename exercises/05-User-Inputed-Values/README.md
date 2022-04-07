@@ -14,6 +14,6 @@ For example, the application right now is prompting the user for its age, and th
 
 Remember that the content of the variable its being previously filled with whatever the user inputs.
 
-# 💡Hint
+## 💡Hint
 
-+ You can google "how to add number to a python variable".
++ You can Google "how to add a number to a python variable".

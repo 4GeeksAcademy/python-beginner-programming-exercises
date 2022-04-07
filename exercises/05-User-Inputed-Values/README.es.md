@@ -1,4 +1,4 @@
-# `05` Valores ingresados por el usuario
+# `05` User Imputed Values
 
 Otra cosa genial de las variables es que no necesitas saber su valor para poder trabajar con ellas.
 
@@ -12,4 +12,4 @@ Recuerda que el contenido de la variable está siendo definido con lo que sea qu
 
 ## 💡 Pista:
 
-+ Puedes buscar "how to add number to a python variable"
++ Puedes buscar en Google "Como sumarle una cantidad a una variable de Python".

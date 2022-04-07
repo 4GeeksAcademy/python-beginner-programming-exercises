@@ -12,7 +12,7 @@ The random module gives access to various useful functions and one of them, **ra
 
 The code now is returning random decimal numbers:
 
-1. Now, please update the function code to make it return an integer (no decimals) number between 1 and 10.
+1. Now, please update the function code to make it return an integer (no decimal) number between 1 and 10.
 
 
 

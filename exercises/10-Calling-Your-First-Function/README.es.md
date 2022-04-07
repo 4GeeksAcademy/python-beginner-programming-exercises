@@ -1,7 +1,6 @@
-# `10` Llamando a tu primera función
+# `10` Calling Your First Function
 
-Las funciones son increíbles por muchas cosas, pero principalmente porque puedes encapsular tu código
-en piezas y reusar esas piezas muchas veces sin tener que escribir todo el código cada vez.
+Las funciones son increíbles por muchas cosas, pero principalmente porque puedes encapsular tu código en piezas y reusar esas piezas muchas veces sin tener que escribir todo el código cada vez.
 
 ## 📝 Instrucciones:
 
