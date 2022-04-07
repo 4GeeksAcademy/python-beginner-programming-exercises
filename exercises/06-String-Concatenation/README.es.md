@@ -15,6 +15,3 @@ print(one+two); # esto imprimirá 'ab' en la consola.
 ## 📝 Instrucciones:
 
 1. Establece valores para las variables `my_var1` y `my_var2` de forma que el código imprima `Hello World` en la consola.
-
-
-

@@ -10,7 +10,7 @@ name = "Daniel"
 
 1. Declara una variable con el valor "Yellow" y luego imprímelo en la consola.
 
-2. Luego, imprime su valor en la consola usando ```print(name)```.
+2. Luego, imprime su valor en la consola usando `print(name)`.
 
 ## 💡 Pista:
 
