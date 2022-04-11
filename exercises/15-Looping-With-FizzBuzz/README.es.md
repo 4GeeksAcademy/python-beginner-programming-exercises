@@ -1,10 +1,12 @@
-# `15` Iterando con FizzBuzz
+# `15` Looping With FizzBuzz
 
 Esta es una típica prueba de principiante que es exigida para las entrevistas en Google, Facebook y las demás grandes compañías de tecnología.
 
 ## 📝 Instrucciones:
 
-1. Escribe el código necesario para imprimer en la consola todos los números del 1 al 100:
+1. Escribe el código necesario para imprimir en la consola todos los números del 1 al 100.
+
+## 💡 Pistas:
 
 + Para múltiplos de 3, en lugar de imprimir el número, imprime "Fizz".
 
@@ -12,10 +14,9 @@ Esta es una típica prueba de principiante que es exigida para las entrevistas e
 
 + Para números que son múltiplos de 3 y de 5, imprime "FizzBuzz".
 
-## Resultado esperado:
+### Resultado esperado:
 
 ```py
-
 1
 2
 Fizz
@@ -37,13 +38,10 @@ FizzBuzz
 98
 Fizz
 Buzz
-
-
 ```
 
+## 🔎 Importante: 
 
-### :mag_right: Important: 
-
-Hay una serie de ejercicios dedicados a listas y ciclos, te invitamos a realizar [esos](https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises) primero antes de continuar con el siguiente ejercicio.
++ Hay una serie de ejercicios dedicados a listas y ciclos, te invitamos a realizarlos antes de continuar: [https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises](https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises).
     
-¡Y luego, regresa! :smiley.
+¡Luego, regresa!😊

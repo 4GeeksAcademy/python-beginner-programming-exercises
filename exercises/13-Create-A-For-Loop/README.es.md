@@ -1,21 +1,21 @@
-# `13` Crear un bucle (loop) For
+# `13` Create A For Loop
 
-Los bucles o loops son muy útiles, no tienes que repetir código escribiendo las mismas líneas muchas veces.
+Los bucles o loops son muy útiles... No tienes que reescribir las mismas líneas muchas veces.
 
 El bucle o loop `for` te permite ejecutar el mismo código varias veces para diferentes valores.
 
 ## 🔎 Importante:
 
-Puedes leer más al respecto aquí: https://ellibrodepython.com/for-python
++ Puedes leer más al respecto aquí: https://ellibrodepython.com/for-python
 
 ## 📝 Instrucciones:
 
 1. Crea una función llamada `standards_maker()`.
 
-2. La función tiene que imprimir 300 veces la frase "I will write questions if I am stuck".
+2. La función tiene que imprimir 300 veces la frase "Escribiré preguntas si estoy atascado".
 
-3. Llama a la función `standards_maker()`
+3. Llama a la función `standards_maker()`.
 
 ## 💡 Pista:
 
-- Puedes usar la función `range()` para el ciclo `for`.
++ Puedes usar la función `range()` para el ciclo `for`.

@@ -1,22 +1,22 @@
-# `16` Colores aleatorios (ciclo)
+# `16` Random Colors (Loop)
 
 Hemos creado una función que devuelve un color basado en un número entre 0 y 3 (cualquier número diferente, debe retornar el color `black`).
 
 ## 📝 Instrucciones:
 
-Digamos que somos profesores en un aula con 10 estudiantes y queremos asignar a CADA ESTUDIANTE un color aleatorio entre `red`(rojo), `yellow` (amarillo),`blue` (azul) y `green` (verde).
+Digamos que somos profesores en un aula con 10 estudiantes y queremos asignar a **cada estudiante** un color aleatorio entre `red` (rojo), `yellow` (amarillo), `blue` (azul) y `green` (verde).
 
-(solo UN color POR estudiante)
+(solo 1 color por estudiante)
 
 1. Cambia la función `get_allStudentColors` para que devuelva una lista con 10 colores, en donde cada elemento de la lista representa el color asignado a cada estudiante.
 
-## 💡 Pista:
+## 💡 Pistas:
 
-- Tienes 10 estudiantes, necesitas que el ciclo itere 10 veces y añadir estos valores a una lista.
++ Tienes 10 estudiantes, necesitas que el ciclo itere 10 veces y añadir estos valores a una lista.
 
-- En cada iteración, genera un número aleatorio entre 0 y 3 usando la función `randint()` que hemos visto en ejercicios anteriores.
++ En cada iteración, genera un número aleatorio entre 0 y 3 usando la función `randint()` que hemos visto en ejercicios anteriores.
 
-- Usa la función `get_color`, en este ejercicio para saber qué color le corresponde al número obtenido.
++ Usa la función `get_color`, en este ejercicio para saber qué color le corresponde al número obtenido.
 
-- Llama (ejecuta) la funcion `get_allStudentColors` e imprime su resultado en la consola.
++ Llama (ejecuta) la funcion `get_allStudentColors` e imprime su resultado en la consola.
 

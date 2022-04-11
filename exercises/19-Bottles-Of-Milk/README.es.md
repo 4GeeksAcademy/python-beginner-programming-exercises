@@ -1,6 +1,7 @@
-# `19` Botellas de leche
+# `19` Bottles Of Milk
 
 ¿Has escuchado la canción sobre las 99 botellas de leche? Es una gran canción, para nada aburrida...
+
 Aquí puedes escucharla: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
 ## 📝 Instrucciones:
@@ -11,11 +12,11 @@ Aquí puedes escucharla: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
 ## 💡  Pista:
 
-- Al final de la canción, la letra cambia porque es solo una botella (singular en lugar del plural).
++ Al final de la canción, la letra cambia porque es solo una botella (singular en lugar del plural).
 
-- Lee la última parte de la letra y verás como cambia la última línea a "go to the store and by some more".
++ Lee la última parte de la letra y verás como cambia la última línea a "go to the store and by some more".
 
-## Resultado esperado:
+### Resultado esperado:
 
 El resultado debería ser algo como esto:
 
