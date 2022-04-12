@@ -14,8 +14,8 @@ name = "Daniel"
 
 1. Declare a new variable with the string value "Yellow" and print the value to the console.
 
-2. Then, print its value on the console using `print(name)`
+2. Then, print its value on the console using `print(name)`.
 
 ## 💡 Hint:
 
-The name of the variable can be whatever you want, but the value inside has to be the string "Yellow".
++ The name of the variable can be whatever you want, but the value inside has to be the string "Yellow".
