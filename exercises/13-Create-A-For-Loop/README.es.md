@@ -4,10 +4,6 @@ Los bucles o loops son muy útiles... No tienes que reescribir las mismas línea
 
 El bucle o loop `for` te permite ejecutar el mismo código varias veces para diferentes valores.
 
-## 🔎 Importante:
-
-+ Puedes leer más al respecto aquí: https://ellibrodepython.com/for-python
-
 ## 📝 Instrucciones:
 
 1. Crea una función llamada `standards_maker()`.
@@ -19,3 +15,7 @@ El bucle o loop `for` te permite ejecutar el mismo código varias veces para dif
 ## 💡 Pista:
 
 + Puedes usar la función `range()` para el ciclo `for`.
+
+## 🔎 Importante:
+
++ Puedes leer más al respecto aquí: https://ellibrodepython.com/for-python

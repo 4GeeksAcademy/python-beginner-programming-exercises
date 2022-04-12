@@ -6,11 +6,8 @@
 
 2. Esta vez, utiliza la función `randrange()`.
 
-## 💡 Pista:
+## 💡 Pistas:
 
 + Debería imprimir números entre 1 y 12, no entre 0 y 12.
 
 + Este ejercicio es super simple, no te compliques!😃
-
-
-

@@ -10,10 +10,8 @@ tutorial: "https://www.youtube.com/watch?v=EdyMlVlNUT0"
 
 2. This time use `randrange()`function.
 
-## 💡 Hint:
+## 💡 Hints:
 
 + It should print between 1 and 12, not between 0 and 12.
 
 + This exercise is super simple, don't complicate yourself!😃
-
-

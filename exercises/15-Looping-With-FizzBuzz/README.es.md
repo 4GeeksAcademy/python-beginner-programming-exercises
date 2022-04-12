@@ -6,15 +6,7 @@ Esta es una típica prueba de principiante que es exigida para las entrevistas e
 
 1. Escribe el código necesario para imprimir en la consola todos los números del 1 al 100.
 
-## 💡 Pistas:
-
-+ Para múltiplos de 3, en lugar de imprimir el número, imprime "Fizz".
-
-+ Para múltiplos de 5, imprime "Buzz".
-
-+ Para números que son múltiplos de 3 y de 5, imprime "FizzBuzz".
-
-### Resultado esperado:
+## Resultado esperado:
 
 ```py
 1
@@ -39,6 +31,14 @@ FizzBuzz
 Fizz
 Buzz
 ```
+
+## 💡 Pistas:
+
++ Para múltiplos de 3, en lugar de imprimir el número, imprime "Fizz".
+
++ Para múltiplos de 5, imprime "Buzz".
+
++ Para números que son múltiplos de 3 y de 5, imprime "FizzBuzz".
 
 ## 🔎 Importante: 
 

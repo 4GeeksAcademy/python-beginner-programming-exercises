@@ -8,12 +8,6 @@ Loops are very useful... You don't have to rewrite the same lines many times.
 
 The `for` loop lets you run the same code for different values.
 
-
-## 🔎 Important:
-
-+ Read more on loops: https://www.w3schools.com/python/python_for_loops.asp
-
-
 ## 📝 Instructions:
 
 1. Create a function called `standards_maker`.
@@ -25,3 +19,7 @@ The `for` loop lets you run the same code for different values.
 ## 💡 Hint:
 
 + You can use the `range()` function in the for loop.
+
+## 🔎 Important:
+
++ Read more on loops: https://www.w3schools.com/python/python_for_loops.asp

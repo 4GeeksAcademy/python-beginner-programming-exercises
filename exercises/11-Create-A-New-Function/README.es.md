@@ -28,12 +28,10 @@ El **módulo random** te da acceso a varias funciones útiles y una de ellas es,
 
 1. Por favor, ahora crea una función llamada `generate_random` que imprima y devuelva un número aleatorio entre 0 y 9 cada vez que le llame.
 
-## 💡 Pista:
+## 💡 Pistas:
 
 + Una posible solución involucra el uso de dos funciones predefinidas: las funciones `randint` o `randrange`.
 
 + No olvides importar el **módulo random**.
 
 + Puedes consultar la documentación en: https://docs.python.org/3/library/random.html#functions-for-integers
-
-
