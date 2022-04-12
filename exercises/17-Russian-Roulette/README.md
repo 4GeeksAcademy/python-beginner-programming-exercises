@@ -9,11 +9,12 @@ FIRE!!!....... are you dead?
 
 ## 📝 Instructions:
 
-1. The game is almost working, please fill the function `fire_gun` to make the game work
-(compare the bullet position against the chamber position.)
+1. The game is almost working, please fill the function `fire_gun` to make the game work.
+
+2. Compare the bullet position against the chamber position.
 
 ## 💡 Hint:
 
-- The function needs to return `You are dead!` or `Keep playing!` depending on the result.
++ The function needs to return `You are dead!` or `Keep playing!` depending on the result.
 
-- If the bullet is at the same slot as the revolver chamber, then it will be fired (`You are dead!`).
++ If the bullet is at the same slot as the revolver chamber, then it will be fired (`You are dead!`).
