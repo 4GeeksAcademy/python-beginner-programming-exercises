@@ -28,6 +28,10 @@ Please click on the `Next →` button on the top right to proceed to the first c
 
 + [https://www.python.org/doc/essays/blurb/](https://www.python.org/doc/essays/blurb/)
 
+## Useful Video: 
+
++ [https://youtu.be/Y8Tko2YC5hA](https://youtu.be/Y8Tko2YC5hA)
+
 ## Contributors:
 
 Thanks to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):

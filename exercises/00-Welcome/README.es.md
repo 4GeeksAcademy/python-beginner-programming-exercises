@@ -24,6 +24,11 @@ Por favor, haz clic en el botón `Next →` arriba a la derecha para dirigirte a
 
 + [https://www.capacitarte.org/blog/nota/que-es-y-para-que-sirve-python](https://www.capacitarte.org/blog/nota/que-es-y-para-que-sirve-python)
 
+## Video Útil:
+
++ [https://youtu.be/lc5JJTQa4r8](https://youtu.be/lc5JJTQa4r8)
+
+
 ## Colaboradores:
 
 Gracias a estas maravillosas personas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
