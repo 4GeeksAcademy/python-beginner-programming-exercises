@@ -44,8 +44,3 @@ def test_for_less(capsys, app):
         app()
         captured = capsys.readouterr()
         assert "You are a poor guy, go away!\n" == captured.out
-
-
-
-
-

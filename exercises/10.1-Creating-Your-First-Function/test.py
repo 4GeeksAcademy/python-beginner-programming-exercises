@@ -36,3 +36,8 @@ def test_for_return():
     result = addNumbers(3,4)
     assert result == 7
 
+@pytest.mark.it('Function should sum the two given numbers. Testing with different numbers')
+def test_for_return():
+    from app import addNumbers
+    result = addNumbers(10,5)
+    assert result == 15

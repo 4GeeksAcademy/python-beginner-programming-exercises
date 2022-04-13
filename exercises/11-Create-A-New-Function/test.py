@@ -30,10 +30,3 @@ def test_for_type_random():
         regex = re.compile(r"random.randint\s*\(")
         regex2 = re.compile(r"random.randrange\s*\(")
         assert bool(regex.search(content)) == True or bool(regex2.search(content)) == True
-
-# @pytest.mark.it("The function should also print the random number between 0 and 9")
-# def test_for_file_output(capsys):
-#     from app import generate_random
-#     result = generate_random()
-#     captured = capsys.readouterr()
-#     assert captured.out == str(result)+"\n"

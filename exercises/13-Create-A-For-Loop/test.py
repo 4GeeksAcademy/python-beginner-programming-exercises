@@ -7,6 +7,7 @@ import pytest
 import os
 import app
 import re
+path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
 
 @pytest.mark.it("You should declare a function named standards_maker")
 def test_variable_exists():
@@ -30,7 +31,6 @@ def test_for_file_output(capsys):
 
 @pytest.mark.it('Use the function print()')
 def test_for_print():
-    path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
     with open(path, 'r') as content_file:
         content = content_file.read()
         regex = re.compile(r"print\s*\(.+\)")
@@ -38,7 +38,6 @@ def test_for_print():
 
 @pytest.mark.it("You should call the function standards_maker ")
 def test_callTheFunction():
-    path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
     with open(path, 'r') as content_file:
         content = content_file.read()
         pattern = r"standards_maker\(\)"

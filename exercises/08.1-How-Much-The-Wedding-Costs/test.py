@@ -48,6 +48,3 @@ def test_t(capsys, app):
         captured = capsys.readouterr()
         price = 20000
         "Your wedding will cost "+str(price)+" dollars\n" == captured.out
-
-
-

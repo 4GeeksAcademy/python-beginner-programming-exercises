@@ -7,6 +7,7 @@ import pytest
 import os
 import app
 import re
+path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
 
 
 @pytest.mark.it('The function get_randomInt should exist')
@@ -19,7 +20,6 @@ def test_function_existence(app):
 
 @pytest.mark.it("Check that you are setting the correct values for the randrange function.")
 def test_conditional():
-    path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
     with open(path, 'r') as content_file:
         content = content_file.read()
         pattern = r"random_number(\s*)=(\s*)random\.randrange+\(1,13\)"

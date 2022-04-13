@@ -14,7 +14,7 @@ Digamos que somos profesores en un aula con 10 estudiantes y queremos asignar a 
 
 - Tienes 10 estudiantes, necesitar que el ciclo itere 10 veces.
 
-- En cada iteración, genera un número aleatorio entre 1 y 4 usando la función `randint()` que hemos visto en ejercicios anteriores.
+- En cada iteración, genera un número aleatorio entre 0 y 3 usando la función `randint()` que hemos visto en ejercicios anteriores.
 
 - Usa la función `get_color` en este ejercicio saber qué color le corresponde al número obtenido.
 
