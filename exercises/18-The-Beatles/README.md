@@ -6,7 +6,7 @@ tutorial: "https://www.youtube.com/watch?v=cuSaRROMTDY"
 
 Who does not like The Beatles?
 
-A BBC study has proved that 90% of kids don't know the band.. so sad.. :(
+A BBC study has proved that 90% of kids don't know the band... so sad. :(
 
 This is the chorus of one of the most famous Beatle songs:
 

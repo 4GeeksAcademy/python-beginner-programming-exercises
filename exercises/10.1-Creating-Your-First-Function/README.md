@@ -9,9 +9,7 @@ tutorial: "https://www.youtube.com/watch?v=K0aDrl41SnQ"
 1. The function `add_numbers` is supposed to return the sum of 2 given numbers, please
 complete the needed code inside of the function to make it behave as expected.
 
-## Expected Result:
-
-The exercise should print the number 7 in the console.
+2. Expected Result: the exercise should print the number 7 in the console.
 
 ## 💡 Hint:
 
@@ -20,9 +18,8 @@ The exercise should print the number 7 in the console.
 function content with the code needed to sum variable `a` with variable `b` and
 return the result of that operation.
 
-## :mag_right: Important:
+## 🔎 Important:
 
-For practicing more with functions, 4Geeks Academy has more than 20 incremental exercises [here](https://github.com/4GeeksAcademy/python-functions-programming-exercises). 
-You should those first and then....come back! :smiley: 
+For practicing with more functions, 4Geeks Academy has more than 20 exercises that increase in difficulty: [https://github.com/4GeeksAcademy/python-functions-programming-exercises](https://github.com/4GeeksAcademy/python-functions-programming-exercises). 
 
-
+Try them, and then come back!😃

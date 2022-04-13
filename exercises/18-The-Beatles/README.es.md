@@ -2,7 +2,7 @@
 
 ¿A quién no le gusta The Beatles?
 
-Un estudio de la BBC ha probado que el 90% de los niños y niñas no conocen la banda... muy triste... :(
+Un estudio de la BBC ha probado que el 90% de los niños y niñas no conocen la banda... muy triste. :(
 
 Este es el coro de una de las canciones más famosas de la banda:
 
