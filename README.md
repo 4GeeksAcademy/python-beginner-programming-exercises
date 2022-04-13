@@ -1,6 +1,7 @@
-<img height="280" align="right" src="https://github.com/ElviraQDP/python-beginner-programming-exercises/blob/master/badge-python-bg.png">
-
 <!-- hide -->
+<img height="280" align="right" src="https://github.com/ElviraQDP/python-beginner-programming-exercises/blob/master/badge-python-bg.png?raw=true">
+
+
 # 🐍 Python Beginner Tutorial and Exercises
 By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/python-beginner-programming-exercises/graphs/contributors) at [4Geeks Academy](http://4geeksacademy.com)
 <img align="left" src="https://img.shields.io/github/last-commit/4geeksacademy/python-beginner-programming-exercises">
