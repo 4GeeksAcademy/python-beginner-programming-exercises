@@ -19,6 +19,5 @@ def get_allStudentColors():
     students_array = []
     #your loop here
 
-    return students_array
 
 print(get_allStudentColors())

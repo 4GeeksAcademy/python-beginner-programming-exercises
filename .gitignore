@@ -12,6 +12,10 @@
 !/exercises
 !/exercises/*
 
+*.pyc
+__pycache__/
+.pytest_cache/
+
 !/.learn
 /.learn/**
 !/.learn/resets
