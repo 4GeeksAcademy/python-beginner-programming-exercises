@@ -1,30 +1,28 @@
 <img height="280" align="right" src="https://github.com/ElviraQDP/python-beginner-programming-exercises/blob/master/badge-python-bg.png">
 
-
+<!-- hide -->
 # 🐍 Python Beginner Tutorial and Exercises
 By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/python-beginner-programming-exercises/graphs/contributors) at [4Geeks Academy](http://4geeksacademy.com)
 <img align="left" src="https://img.shields.io/github/last-commit/4geeksacademy/python-beginner-programming-exercises">
+<!-- endhide -->
 
+This exercises are the ideal first step for anyone trying to learn Python, we start from the most simple challenge like printing a message on the terminal and slowly increase step by step.
 
 This particular series are for Python beginners. You will learn:
 
-1. the `print` function, 
+1. The `print` function, 
 
-2. data-types, 
+2. Data-Types, 
 
-3. lists and tuples, 
+3. Lists and Tuples, 
 
-4. functions and dictionaries.
+4. Functions and dictionaries.
 
- The entire tutorial is 👆 interactive, ✅ auto-graded and with 📹 video tutorials.
+The entire tutorial is 👆 interactive, ✅ auto-graded and with 📹 video tutorials.
 
 These exercises were built in collaboration, we need you! If you find any bugs or misspells plese contribute and report them.
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=GjQEotj3t6Y&list=PLCVs_S8Skwp9_apbj_ls2euakDALiWqSN"><img src="https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/master/python-intro.gif?raw=true"></a>
-</p>
-
-
+<!-- hide -->
 ## One click installation:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/python-beginner-programming-exercises.git)
@@ -56,6 +54,7 @@ $ learnpack start
 
 Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
+<!-- endhide -->
 ## How are the exercises organized?
 
 Each exercise is a small react application containing the following files:
