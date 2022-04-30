@@ -51,7 +51,8 @@ Nota: Una vez que termines de descargarlo, encontrarás una carpeta llamada "exe
 $ pip3 install pytest==4.4.2 pytest-testdox mock
 $ learnpack start
 ```
-<!-- hide -->
+
+<!-- endhide -->
 
 Nota: Los ejercicios tienen tests automatizados, sin embargo, estos suelen ser muy rígidos y estrictos. Mi recomendación es que utilices los tests como recomendación o puedes frustrarte.
 
