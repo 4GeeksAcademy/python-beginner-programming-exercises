@@ -1,17 +1,8 @@
-<table>
-  <tr>
-    <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
-    <td>
-      <h1> 🐍 Tutorial y Ejercicios para Principiantes de Python</h1>
-      <p>Por <a href="https://twitter.com/alesanchezr">@alesanchezr</a> y <a href="https://github.com/4GeeksAcademy/python-beginner-programming-exercises/graphs/contributors">otros colaboradores</a> en <a href="http://4geeksacademy.co/">4Geeks Academy</a><a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/ElviraQDP/python-beginner-programming-exercises/blob/master/badge-python-bg.png"></a></p>
-      <img src="https://img.shields.io/github/last-commit/4geeksacademy/python-beginner-programming-exercises" />
-      <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
-      <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
-      <a href="https://gitpod.io#https://github.com/4GeeksAcademy/python-beginner-programming-exercises.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
-    </td>
-  </tr>
-</table>
+<!-- hide -->
+# 🐍 Tutorial y Ejercicios para Principiantes de Python
 
+Por <a href="https://twitter.com/alesanchezr">@alesanchezr</a> y <a href="https://github.com/4GeeksAcademy/python-beginner-programming-exercises/graphs/contributors">otros colaboradores</a> en <a href="http://4geeksacademy.co/">4Geeks Academy</a><a href="https://www.4geeksacademy.com"><img height="280" align="right" src="https://github.com/ElviraQDP/python-beginner-programming-exercises/blob/master/badge-python-bg.png"></a>
+<!-- endhide -->
 Esta serie en particular es para principiantes de Python. Aprenderás los siguientes conceptos:
 
 1. La función `print`, 
@@ -24,15 +15,7 @@ Esta serie en particular es para principiantes de Python. Aprenderás los siguie
 
 Todo el tutorial es 👆 interactivo, ✅ calificado automáticamente y con 📹 videos tutoriales.
 
-<h3>📚 Tabla de contenidos</h3>
-<table>
-  <tr><td>1. <a href="https://github.com/4GeeksAcademy/python-beginner-programming-exercises">Python para principiantes</a>← 🔥 estás aquí </td></tr>
-  <tr color="white"><td>2. <a href="https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises">Practica Loops en Listas y Tuplas</a></td></tr>
-  <tr><td>3. <a href="https://github.com/4GeeksAcademy/python-functions-programming-exercises">Practica funciones</a></td></tr>
-  <tr><td>4. <a href="https://github.com/4GeeksAcademy/master-python-programming-exercises">Master Python (intermedio)</a></td></tr>
-  <tr><td>5. <a href="https://github.com/4GeeksAcademy/python-http-requests-api-tutorial-exercises">Python API Requests</a></td></tr>
-  <tr><td>6. Que sigue? <a href="https://github.com/4GeeksAcademy/About-4Geeks-Academy/issues/new">Solicita un nuevo tutorial</a> o <a href="https://github.com/4GeeksAcademy/About-4Geeks-Academy/labels/help%20wanted">colabora</a>.<br /> Añadiremos tu perfil a nuestra lista de colaboradores </td></tr>
-</table>
+<!-- hide -->
 
 ¡Te necesitamos! Estos ejercicios se crean y mantienen con colaboradores como tú. Si encuentra salgún error o falta de ortografía, contribuye y/o infórmanos.
 
@@ -68,6 +51,7 @@ Nota: Una vez que termines de descargarlo, encontrarás una carpeta llamada "exe
 $ pip3 install pytest==4.4.2 pytest-testdox mock
 $ learnpack start
 ```
+<!-- hide -->
 
 Nota: Los ejercicios tienen tests automatizados, sin embargo, estos suelen ser muy rígidos y estrictos. Mi recomendación es que utilices los tests como recomendación o puedes frustrarte.
 
