@@ -1,7 +1,6 @@
 import io
 import sys
 sys.stdout = buffer = io.StringIO()
-from app import number_of_bottles
 import pytest
 import os
 import app
@@ -9,11 +8,14 @@ import re
 
 @pytest.mark.it('The function number_of_bottles must exist')
 def test_function_spin_chamber(capsys, app):
-    assert app.number_of_bottles()
+    try:
+        assert app.number_of_bottles
+    except AttributeError:
+        raise AttributeError("The function 'number_of_bottles' should exist on app.py"
 
 @pytest.mark.it('The function must return the expected output')
 def test_for_function_output(capsys):
-    number_of_bottles()
+    app.number_of_bottles()
     captured = capsys.readouterr()
     text=''
     for x in range(99,-1,-1):
