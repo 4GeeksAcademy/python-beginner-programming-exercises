@@ -8,7 +8,7 @@ tutorial: "https://www.youtube.com/watch?v=30sizcnVdGg"
 
 1. Run this code, you'll see a count from 0 to 9 (White characters).  
 
-2. Fix it so that it counts up to 11, you'll see 101 on green afterwards. Can you?
+2. Fix it so that it counts up to 11.
 
 ##  🔎 Important: 
 

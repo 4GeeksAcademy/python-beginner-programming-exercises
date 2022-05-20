@@ -28,8 +28,3 @@ def test_for_loop():
         content = content_file.read()
         regex = re.compile(r"for\s*")
         assert bool(regex.search(content)) == True
-
-@pytest.mark.it("1. You should return a list of number between 0 and 11")
-def test_for_file_output(capsys):
-    captured = buffer.getvalue()
-    assert captured == "0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n" #add \n because the console jumps the line on every print
