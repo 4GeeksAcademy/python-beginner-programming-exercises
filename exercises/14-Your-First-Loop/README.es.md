@@ -4,7 +4,7 @@
 
 1. Ejecuta este código, verás una cuenta de 0 a 9 (caracteres blancos). 
 
-2. Corrígelo para que cuente hasta 11, verás 101 en verde después ¿Puedes?
+2. Corrígelo para que cuente hasta 11.
 
 ## 🔎 Importante: 
 
