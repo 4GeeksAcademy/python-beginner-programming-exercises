@@ -5,10 +5,11 @@ import app
 import re
 import os
 import pytest
+path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
 
 @pytest.mark.it('Use the function print()')
 def test_for_file_output(capsys):
-    path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
+    
     with open(path, 'r') as content_file:
         content = content_file.read()
         pattern = r"print\s*\("
