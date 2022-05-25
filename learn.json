@@ -10,9 +10,9 @@
     "video-solutions": true,
     "graded": true,
     "language": "python3",
-    "config": {
+    
         "editor": {
-            "version": "1.0.72"
+            "version": "1.0.73"
         }
-    }
+    
 }
