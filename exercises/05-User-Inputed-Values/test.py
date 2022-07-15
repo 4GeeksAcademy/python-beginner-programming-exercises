@@ -1,4 +1,4 @@
-import pytest,os,re,io,sys,mock,json
+import pytest,os,re,io,sys,mock,json 
 path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
 
 @pytest.mark.it('Use the function print()')
@@ -18,3 +18,11 @@ def test_plus_ten(stdin):
     import app
     captured = buffer.getvalue()
     assert captured == "Your age is: 60\n"
+
+@pytest.mark.it('There should be a variable named age')
+def test_variable_exists():
+    try:
+        import app
+        app.age
+    except AttributeError:
+        raise AttributeError('The variable "age" should exist on app.py')
