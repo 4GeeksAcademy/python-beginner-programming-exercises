@@ -26,12 +26,12 @@ def test_only_change_line_5():
         line_3 = r"return(\s)random_number"
         line_4 = r"print(\s*)\(get_randomInt(\s*)\((\s*)\)(\s*)\)"
 
-        regex = re.compile(line_1)
-        regex = re.compile(line_2)
-        regex = re.compile(line_3)
-        regex = re.compile(line_4)
+        regex_1 = re.compile(line_1)
+        regex_2 = re.compile(line_2)
+        regex_3 = re.compile(line_3)
+        regex_4 = re.compile(line_4)
 
-        assert bool(regex.search(content)) == True
-        assert bool(regex.search(content)) == True
-        assert bool(regex.search(content)) == True
-        assert bool(regex.search(content)) == True
+        assert bool(regex_1.search(content)) == True
+        assert bool(regex_2.search(content)) == True
+        assert bool(regex_3.search(content)) == True
+        assert bool(regex_4.search(content)) == True
