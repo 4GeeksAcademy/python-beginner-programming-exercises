@@ -18,3 +18,4 @@ def test_plus_ten(stdin):
     import app
     captured = buffer.getvalue()
     assert captured == "Your age is: 60\n"
+    
