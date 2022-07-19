@@ -35,11 +35,3 @@ def test_for_file_output(capsys):
     my_main_code()
     captured = capsys.readouterr()
     assert captured.out == "True\n"
-    
-@pytest.mark.it('You should not hardcode the expected output value on print() function')
-def test_for_hardcode_on_print():
-    path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
-    with open(path, 'r') as content_file:
-        content = content_file.read()
-        regex = re.compile(r"print\s*\(\s*\bTrue\b\s*\)")
-        assert bool(regex.search(content)) == False

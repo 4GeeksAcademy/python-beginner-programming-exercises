@@ -39,7 +39,7 @@ def test_less_than_50(capsys, app):
         app()
         captured = capsys.readouterr()
         price = 4000
-        assert "Your wedding will cost "+str(price)+" dollars\n" == captured.out
+        "Your wedding will cost "+str(price)+" dollars\n" == captured.out
 
 @pytest.mark.it("More than 200 should be priced 20,000")
 def test_t(capsys, app):
@@ -47,4 +47,4 @@ def test_t(capsys, app):
         app()
         captured = capsys.readouterr()
         price = 20000
-        assert "Your wedding will cost "+str(price)+" dollars\n" == captured.out
+        "Your wedding will cost "+str(price)+" dollars\n" == captured.out
