@@ -35,3 +35,4 @@ def test_for_file_output(capsys):
     my_main_code()
     captured = capsys.readouterr()
     assert captured.out == "True\n"
+    
