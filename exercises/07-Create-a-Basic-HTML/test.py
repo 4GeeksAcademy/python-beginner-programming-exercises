@@ -9,7 +9,7 @@ def test_html_document_exists():
     except ImportError:
         raise ImportError("The variable 'html_document' should exist on app.py")
 
-@pytest.mark.it("Create a variable named html_document")
+@pytest.mark.it("The value of html_document should be the expected")
 def test_html_document_exists():
     try:
         from app import html_document
