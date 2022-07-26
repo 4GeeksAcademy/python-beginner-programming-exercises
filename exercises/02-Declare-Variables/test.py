@@ -29,3 +29,4 @@ def test_for_file_output(capsys):
     captured = buffer.getvalue()
     assert captured == "Yellow\n" #add \n because the console jumps the line on every print
 
+    
