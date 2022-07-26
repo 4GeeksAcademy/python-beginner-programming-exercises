@@ -9,7 +9,10 @@ import re
 
 @pytest.mark.it('The function number_of_bottles must exist')
 def test_function_spin_chamber(capsys, app):
-    assert app.number_of_bottles
+    try:
+        app.number_of_bottles
+    except AttributeError:
+        raise AttributeError("The function number_of_bottles should exist")
 
 @pytest.mark.it('The function must return the expected output')
 def test_for_function_output(capsys):
