@@ -15,13 +15,13 @@ def test_for_print(capsys):
         content = content_file.read()
         regex = re.compile(r"if\s*")
         regex2 = re.compile(r"elif\s*")
-        assert bool(regex.search(content)) == True or bool(regex.search(content))==False
+        assert ((bool(regex.search(content)) == True) and (bool(regex2.search(content))==True))
 
 @pytest.mark.it('Use the function print()')
 def test_for_print(capsys):
     with open(path, 'r') as content_file:
         content = content_file.read()
-        regex = re.compile(r"print\(.+\)")
+        regex = re.compile(r"print\s*\(")
         assert bool(regex.search(content)) == True
 
 @pytest.mark.it("When input for more than 100 it should print: Give me your money!")
@@ -65,7 +65,3 @@ def test_for_output_when_49(capsys, app):
         app()
         captured = capsys.readouterr()
         assert "You are a poor guy, go away!\n" == captured.out
-
-
-
-

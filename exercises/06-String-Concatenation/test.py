@@ -10,7 +10,6 @@ def test_my_var1_exists():
     except ImportError:
         raise ImportError("The variable 'my_var1' should exist on app.py")
 
-    
 @pytest.mark.it("Create a variable named my_var2")
 def test_my_var2_exists():
     try:
@@ -24,9 +23,10 @@ def test_my_var1_value():
     assert my_var1 == "Hello"
 
 @pytest.mark.it("Variable my_var2 value should be 'World'")
-def test_my_var1_value():
+def test_my_var2_value():
     from app import my_var2
     assert my_var2 == "World"
+
 @pytest.mark.it("Variable my_var2 value should be 'World'")
 def test_the_new_string_exists():
     import app
@@ -39,10 +39,3 @@ def test_the_new_string_exists():
 def test_for_file_output():
     captured = buffer.getvalue()
     assert captured == "Hello World\n" #add \n because the console jumps the line on every print
-def test_for_print_variable():
-    
-    with open(path, 'r') as content_file:
-        content = content_file.read()
-        # makes sure we are calling print function with a variable and not the hard coded string
-        regex = re.compile(r"print\s*\(\s*[^\d\W][_a-zA-Z0-9]*\s*\)\s*")
-        assert bool(regex.search(content)) == True

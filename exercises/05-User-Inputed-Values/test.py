@@ -9,7 +9,6 @@ def test_for_file_output(capsys):
         regex = re.compile(pattern)
         assert bool(regex.search(content)) == True
 
-
 @pytest.mark.it("We tried with age 50 and it was supposed to return 60")
 @mock.patch('builtins.input', lambda x: 50)
 def test_plus_ten(stdin):
