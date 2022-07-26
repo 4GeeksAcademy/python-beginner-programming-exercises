@@ -2,18 +2,18 @@ import io, sys, os, re, pytest
 sys.stdout = buffer = io.StringIO()
 import app
 
-@pytest.mark.it('Use the function print()')
-def test_for_print():
-    path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
-    with open(path, 'r') as content_file:
-        content = content_file.read()
-        regex = re.compile(r"print\s*\(.+\)")
-        assert bool(regex.search(content)) == True
-
 @pytest.mark.it("Create a variable named html_document")
 def test_html_document_exists():
     try:
         from app import html_document
+    except ImportError:
+        raise ImportError("The variable 'html_document' should exist on app.py")
+
+@pytest.mark.it("The value of html_document should be the expected")
+def test_html_document_exists():
+    try:
+        from app import html_document
+        assert html_document == '<html><head><title></title></head><body></body></html>'
     except ImportError:
         raise ImportError("The variable 'html_document' should exist on app.py")
 
