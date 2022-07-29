@@ -14,7 +14,7 @@ def test_only_change_line_5():
     path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
     with open(path, 'r') as content_file:
         content = content_file.read()
-        line = r"print(\s*)\(get_randomInt(\s*)\((\s*)\)(\s*)\)"
+        line = r"print\s*\(\s*get_randomInt\s*\(\s*\)\s*\)"
         regex = re.compile(line)
         assert bool(regex.search(content)) == True
 
@@ -26,18 +26,18 @@ def test_function_exists():
         raise AttributeError('The function "get_randomInt" should return only values from 1 through 10 inclusive')
 
 @pytest.mark.it("get_randomInt function should return a random integer between 1 and 10")
-def test_function_exists():
+def test_function_exists1():
     try:
-        for i in range(100):
-            if app.get_randomInt() < 1 or app.get_randomInt() > 10:
-                # only asserting if value is outside the range, else it will pass
-                assert app.get_randomInt() < 1 or app.get_randomInt() > 10
+        for i in range(10):
+            # only asserting if value is outside the range, else it will pass
+            result = app.get_randomInt()
+            assert result > 1 and result < 10
     except AttributeError:
         raise AttributeError('The function "get_randomInt" is returning values outside the specified range')
 
 @pytest.mark.it("get_randomInt function should NOT be returning a static integer value")
 # in case user returns single value between [1 and 10]
-def test_function_exists():
+def test_function_exists2():
     try:
         tries = 0
         output = app.get_randomInt()
