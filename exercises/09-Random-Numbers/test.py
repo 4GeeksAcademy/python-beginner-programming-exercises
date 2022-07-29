@@ -47,4 +47,4 @@ def test_function_exists():
                 # only asserting if value is outside the range, else it will pass
                 assert tries < 20
     except AttributeError:
-        raise AttributeError('The function "get_randomInt" is returning values outside the specified range')
+        raise AttributeError('The function "get_randomInt" is returning a static value, not a random one')
