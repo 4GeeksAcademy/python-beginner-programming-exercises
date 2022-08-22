@@ -10,7 +10,6 @@ def test_my_var1_exists():
     except ImportError:
         raise ImportError("The variable 'my_var1' should exist on app.py")
 
-    
 @pytest.mark.it("Create a variable named my_var2")
 def test_my_var2_exists():
     try:
@@ -24,9 +23,17 @@ def test_my_var1_value():
     assert my_var1 == "Hello"
 
 @pytest.mark.it("Variable my_var2 value should be 'World'")
-def test_my_var1_value():
+def test_my_var2_value():
     from app import my_var2
     assert my_var2 == "World"
+
+@pytest.mark.it("Variable my_var2 value should be 'World'")
+def test_the_new_string_exists():
+    import app
+    try:
+        app.the_new_string
+    except AttributeError:
+        raise AttributeError('The variable "the_new_string" should exist on app.py')
 
 @pytest.mark.it('Print "Hello World" on the console')
 def test_for_file_output():

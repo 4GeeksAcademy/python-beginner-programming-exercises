@@ -1,4 +1,4 @@
-# `08.1` Cuánto costará la boda (if...else)
+# `08.2` Cuánto costará la boda (if...else)
 
 Aquí tenemos una tabla de precios de una compañía de catering de bodas:
 

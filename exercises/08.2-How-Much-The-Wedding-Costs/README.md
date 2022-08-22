@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=Wu7uK8BN4nI"
 ---
 
-# `08.1` How Much The Wedding Costs (if...else)
+# `08.2` How Much The Wedding Costs (if...else)
 
 Here is a table of prices for a wedding catering company:
 

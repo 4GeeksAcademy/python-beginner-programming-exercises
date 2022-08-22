@@ -18,7 +18,7 @@ def test_for_printing_variable():
    
     with open(path, 'r') as content_file:
         content = content_file.read()
-        regex = re.compile(r"print(\s*)\(\s*color\s*\)")
+        regex = re.compile(r"print\s*\(\s*color\s*\)")
         assert bool(regex.search(content)) == True
 
 @pytest.mark.it('The printed value on the console should be "red"')
