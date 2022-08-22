@@ -1,6 +1,6 @@
 import io, sys, os, re, pytest
 sys.stdout = buffer = io.StringIO()
-path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
+
 import app
 
 @pytest.mark.it("Create a variable named my_var1")

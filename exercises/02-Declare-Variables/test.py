@@ -28,10 +28,5 @@ def test_for_variable():
 def test_for_file_output(capsys):
     captured = buffer.getvalue()
     assert captured == "Yellow\n" #add \n because the console jumps the line on every print
-def test_for_print():
+
     
-    with open(path, 'r') as content_file:
-        content = content_file.read()
-        # makes sure we are calling print function with a variable and not the hard coded string
-        regex = re.compile(r"print\s*\(\s*[^\d\W][_a-zA-Z0-9]*\s*\)\s*")
-        assert bool(regex.search(content)) == True
