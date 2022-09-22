@@ -18,4 +18,4 @@ The current application is prompting asking how much money the user has. Once th
 
 + Use an If/else statement to check the value of the `total` variable.
 
-+ Further informetion [here](https://docs.python.org/3/tutorial/controlflow.html#if-statements).
++ Further information [here](https://docs.python.org/3/tutorial/controlflow.html#if-statements).
