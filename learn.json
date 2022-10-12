@@ -7,8 +7,8 @@
     "description": "Python Exercises for beginners, from Hello World to variables, loops and a little bit of functions",
     "duration": 10,
     "difficulty": "easy",
-    "video-solutions": true,
-    "bugs-link": "https://github.com/learnpack/learnpack/issues/new",
+    "videoSolutions": true,
+    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "graded": true,
     "language": "python3",
     
