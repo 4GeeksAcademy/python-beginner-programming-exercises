@@ -7,9 +7,9 @@ By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](http
 <img align="left" src="https://img.shields.io/github/last-commit/4geeksacademy/python-beginner-programming-exercises">
 <!-- endhide -->
 
-This exercises are the ideal first step for anyone trying to learn Python, we start from the most simple challenge like printing a message on the terminal and slowly increase step by step.
+These exercises are the ideal first step for anyone trying to learn Python, we start from the most simple challenge like printing a message on the terminal and slowly increase step by step.
 
-This particular series are for Python beginners. You will learn:
+These particular series are for beginners in learning Python. You will learn:
 
 1. The `print` function, 
 
@@ -37,7 +37,7 @@ $ npm i learnpack -g
 $ learnpack plugins:install learnpack-python
 ```
 
-2. Download this particular exercise using learnpack and `cd` into the folder:
+2. Download this exercise using learnpack and `cd` into the folder:
 
 ```
 $ learnpack download python-beginner-programming-exercises
@@ -53,7 +53,7 @@ $ $ pip3 install pytest==4.4.2 pytest-testdox mock
 $ learnpack start
 ```
 
-Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
+Note: The exercises have automatic grading but it's very rigid and string, so my recomendation is to ignore the tests and use them only as a recommendation or you can get frustrated.
 
 <!-- endhide -->
 ## How are the exercises organized?
@@ -66,10 +66,10 @@ Each exercise is a small react application containing the following files:
 
 ## Contributors
 
-Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+Thanks to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) 💻  (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 👀 (build-tutorial) ✅ (documentation) 📖
 
 2. [Paolo (plucodev)](https://github.com/plucodev), contribution: (bug reports) 🐛, contribution: (coder), (translation) 🌎
 
-This project follows the[all-contributors](https://github.com/kentcdodds/all-contributors) specification.Contributions of any kind are welcome!
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind are welcome!
