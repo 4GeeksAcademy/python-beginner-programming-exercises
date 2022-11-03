@@ -9,7 +9,7 @@ By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](http
 
 These exercises are the ideal first step for anyone trying to learn Python, we start from the most simple challenge like printing a message on the terminal and slowly increase step by step.
 
-These particular series are for beginners in learning Python. You will learn:
+These particular series are for beginners in Python. You will learn:
 
 1. The `print` function, 
 
