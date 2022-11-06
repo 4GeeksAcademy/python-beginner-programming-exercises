@@ -8,6 +8,7 @@
     "duration": 10,
     "difficulty": "easy",
     "videoSolutions": true,
+    "projectType": "tutorial",
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "graded": true,
     "language": "python3",
