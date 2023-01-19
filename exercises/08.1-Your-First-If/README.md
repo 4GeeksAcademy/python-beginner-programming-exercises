@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=x9wqa5WQZiM"
 ---
 
-# `08` Your First if...
+# `08.1` Your First if...
 
 The current application is prompting asking how much money the user has. Once the user inputs the amount, we need to **print** one of the following answers:
 
@@ -18,4 +18,4 @@ The current application is prompting asking how much money the user has. Once th
 
 + Use an If/else statement to check the value of the `total` variable.
 
-+ Further informetion [here](https://docs.python.org/3/tutorial/controlflow.html#if-statements).
++ Further information [here](https://docs.python.org/3/tutorial/controlflow.html#if-statements).
