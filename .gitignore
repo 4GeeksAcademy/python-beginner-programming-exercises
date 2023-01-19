@@ -7,9 +7,14 @@
 !learn.json
 !bc.json
 !README.md
+!README.es.md
 
 !/exercises
 !/exercises/*
+
+*.pyc
+__pycache__/
+.pytest_cache/
 
 !/.learn
 /.learn/**

@@ -7,21 +7,21 @@ import pytest
 import app
 import os
 import re
+path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
 
-@pytest.mark.it("1. Don't change or remove the existing code")
-def test_forExistingCode(capsys):
-    f = open(os.path.dirname(os.path.abspath(__file__))+ '/app.py')
-    content = f.readlines()
-    content = [x.strip() for x in content]
-    my_code = [s for s in content if "def fizz_buzz():" in s]
-    my_codeVar = content.index(my_code[0])
-    regex = r"def fizz_buzz\(\):"
-    my_codeCall = [s for s in content[3:] if "fizz_buzz()" in s]
-    my_codeCallVar = content.index(my_codeCall[0])
-    regexCall = r"fizz_buzz\(\)"
+@pytest.mark.it('The function fizz_buzz should exist')
+def test_function_existence():
+    try:
+        app.fizz_buzz
+    except AttributeError:
+        raise AttributeError('The function fizz_buzz should exist')
 
-    assert re.match(regex, content[my_codeVar])
-    assert re.match(regexCall, content[my_codeCallVar])
+@pytest.mark.it('Use for loop')
+def test_for_loop():
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+        regex = re.compile(r"for\s*")
+        assert bool(regex.search(content)) == True
     
 @pytest.mark.it('2. Your function needs to print the correct output')
 def test_for_function_output(capsys):

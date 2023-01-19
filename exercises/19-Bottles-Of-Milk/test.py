@@ -2,14 +2,17 @@ import io
 import sys
 sys.stdout = buffer = io.StringIO()
 from app import number_of_bottles
-# from app import my_function
 import pytest
 import os
 import app
 import re
 
-@pytest.mark.it('1. You need to declare a function called number_of_bottles that print the correct lyrics, and calling it correctly')
-def test_for_file_output(capsys):
+@pytest.mark.it('The function number_of_bottles must exist')
+def test_function_spin_chamber(capsys, app):
+    try:
+        app.number_of_bottles
+    except AttributeError:
+        raise AttributeError("The function number_of_bottles should exist")
 
     f = open(os.path.dirname(os.path.abspath(__file__))+'/app.py')
     content = f.readlines()
@@ -21,7 +24,6 @@ def test_for_file_output(capsys):
     my_printCallVar = content.index(my_printCall[0])
     regex = r"number_of_bottles\(\)"
     assert re.match(regex, content[my_printCallVar])
-
 
 @pytest.mark.it('The function must return the expected output')
 def test_for_function_output(capsys):
@@ -37,5 +39,6 @@ def test_for_function_output(capsys):
             text+=("2 bottles of milk on the wall, 2 bottles of milk. Take one down and pass it around, 1 bottle of milk on the wall.\n")
         else:
             text+=(str(x) + " bottles of milk on the wall, " + str(x) + " bottles of milk. Take one down and pass it around, " + str(x-1)+ " bottles of milk on the wall.\n")
+
     assert captured.out ==  text
 
