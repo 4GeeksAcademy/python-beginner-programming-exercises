@@ -10,11 +10,11 @@ import os
 
 @pytest.mark.it('The function spin_chamber must exist')
 def test_function_spin_chamber(capsys, app):
-    assert app.spin_chamber()
+    assert app.spin_chamber
 
 @pytest.mark.it('The function fire_gun must exist')
 def test_function_fire_gun(capsys, app):
-    assert app.fire_gun()
+    assert app.fire_gun
 
 @pytest.mark.it('The function fire_gun should return the expected output in both cases')
 def test_function_output(capsys, app):
