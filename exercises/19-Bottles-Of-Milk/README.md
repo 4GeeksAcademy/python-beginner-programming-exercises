@@ -4,9 +4,9 @@ tutorial: "https://www.youtube.com/watch?v=mKNqjPh1JE0"
 
 # `19` Bottles Of Milk
 
-Have you heard the song about 99 bottles of milk? Is a great song, is not boring at all...
+Have you ever heard the song about 99 bottles of milk? Is a great song, is not boring at all...
 
-Here you can here it: https://www.youtube.com/watch?v=Xy-da43E6Lo
+Here you can listen to the song: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
 ## 📝 Instructions:
 
