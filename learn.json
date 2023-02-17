@@ -1,10 +1,16 @@
 {
     "slug": "python-beginner-programming-exercises",
-    "title": "Learn Python Interactively (beginner)",
+    "title": {
+        "us": "Learn Python Interactively (beginner)",
+        "es": "Aprende Python Interactivamente (Principiante)"
+    },
     "intro": "https://www.youtube.com/watch?v=amyDNhZwGJQ",
     "repository": "https://github.com/4GeeksAcademy/python-beginner-programming-exercises",
     "preview": "https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/master/preview.png?raw=true",
-    "description": "Python Exercises for beginners, from Hello World to variables, loops and a little bit of functions",
+    "description": {
+        "us": "Python Exercises for beginners, from Hello World to variables, loops and a little bit of functions.",
+        "es": "Ejercicios de Python para principiantos, desde Hello World hasta variables, ciclos y un poco de funciones."
+    },
     "duration": 10,
     "difficulty": "easy",
     "videoSolutions": true,
