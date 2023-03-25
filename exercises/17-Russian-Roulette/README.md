@@ -15,6 +15,6 @@ FIRE!!!....... are you dead?
 
 ## 💡 Hint:
 
-+ The function needs to return `You are dead!` or `Keep playing!` depending on the result.
++ The function needs to return `You're dead!` or `Keep playing!` depending on the result.
 
 + If the bullet is at the same slot as the revolver chamber, then it will be fired (`You are dead!`).
