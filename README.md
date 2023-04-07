@@ -24,9 +24,12 @@ The entire tutorial is 👆 interactive, ✅ auto-graded and with 📹 video tut
 These exercises were built in collaboration, we need you! If you find any bugs or misspells plese contribute and report them.
 
 <!-- hide -->
-## One click installation:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/python-beginner-programming-exercises.git)
+## One click installation (recommended):
+
+You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/python-beginner-programming-exercises) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/python-beginner-programming-exercises).
+
+> Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 
 ## Local Installation
 
