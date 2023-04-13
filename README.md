@@ -7,6 +7,8 @@ By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](http
 <img align="left" src="https://img.shields.io/github/last-commit/4geeksacademy/python-beginner-programming-exercises">
 <!-- endhide -->
 
+*Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/Lorenagubaira/python-beginner-programming-exercises/blob/master/README.es.md) :es:*
+
 This exercises are the ideal first step for anyone trying to learn Python, we start from the most simple challenge like printing a message on the terminal and slowly increase step by step.
 
 This particular series are for Python beginners. You will learn:
@@ -56,9 +58,9 @@ $ $ pip3 install pytest==4.4.2 pytest-testdox mock
 $ learnpack start
 ```
 
-Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
 <!-- endhide -->
+
 ## How are the exercises organized?
 
 Each exercise is a small react application containing the following files:
@@ -66,6 +68,8 @@ Each exercise is a small react application containing the following files:
 1. **app.py:** represents the entry python file that will be executed by the computer.
 2. **README.md:** contains exercise instructions.
 3. **test.py:** you don't have to open this file, it contains the testing script for the exercise.
+
+> Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
 ## Contributors
 
