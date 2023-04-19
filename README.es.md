@@ -15,9 +15,10 @@ Esta serie en particular es para principiantes de Python. Aprenderás los siguie
 
 Todo el tutorial es 👆 interactivo, ✅ calificado automáticamente y con 📹 videos tutoriales.
 
-<!-- hide -->
 
 ¡Te necesitamos! Estos ejercicios se crean y mantienen con colaboradores como tú. Si encuentra salgún error o falta de ortografía, contribuye y/o infórmanos.
+
+<!-- hide -->
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=GjQEotj3t6Y&list=PLCVs_S8Skwp9_apbj_ls2euakDALiWqSN"><img src="https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/master/python-intro.gif?raw=true"></a>
@@ -45,7 +46,7 @@ $ learnpack download python-beginner-programming-exercises
 $ cd python-beginner-programming-exercises
 ```
 
-Nota: Una vez que termines de descargarlo, encontrarás una carpeta llamada "exercises" que contiene los ejercicios. 
+> Nota: Una vez que termines de descargarlo, encontrarás una carpeta llamada "exercises" que contiene los ejercicios. 
 
 3. Inicializa el tutorial/exercises ejecutando el siguiente comando al mismo nivel en el que se encuentra tu archivo bc.json: 
 
@@ -56,7 +57,6 @@ $ learnpack start
 
 <!-- endhide -->
 
-Nota: Los ejercicios tienen tests automatizados, sin embargo, estos suelen ser muy rígidos y estrictos. Mi recomendación es que utilices los tests como recomendación o puedes frustrarte.
 
 ## ¿Cómo están organizados los ejercicios?
 
@@ -65,6 +65,8 @@ Cada ejercicio es una pequeña aplicación de react que contiene los siguientes 
 1. **app.py:** representa el archivo de entrada de python que será ejecutado por el computador.
 2. **README.es.md:** Contiene las instrucciones del ejercicio.
 3. **test.py:** Contiene el script del test para el ejercicio (no es necesario que abras este archivo) 
+
+> Nota: Los ejercicios tienen tests automatizados, sin embargo, estos suelen ser muy rígidos y estrictos. Mi recomendación es que utilices los tests como recomendación o puedes frustrarte.
 
 ## Colaboradores
  
