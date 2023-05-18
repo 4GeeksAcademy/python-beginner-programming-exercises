@@ -27,7 +27,11 @@ def test_for_loop():
 def test_for_file_output(capsys):
     captured = buffer.getvalue()
     expected = ["I will write questions if I am stuck\n" for x in range(300)]
-    assert captured == "".join(expected) #add \n because the console jumps the line on every print
+    expected_2 = ["Escribiré preguntas si estoy atascado\n" for x in range(300)]
+    
+    hasCorrectAnswer = ((captured == "".join(expected)) or (captured == "".join(expected_2)))
+    
+    assert hasCorrectAnswer #add \n because the console jumps the line on every print
 
 @pytest.mark.it('Use the function print()')
 def test_for_print():
