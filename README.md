@@ -5,9 +5,10 @@
 # 🐍 Python Beginner Tutorial and Exercises
 By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](https://github.com/4GeeksAcademy/python-beginner-programming-exercises/graphs/contributors) at [4Geeks Academy](http://4geeksacademy.com)
 <img align="left" src="https://img.shields.io/github/last-commit/4geeksacademy/python-beginner-programming-exercises">
-<!-- endhide -->
+
 
 *Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/Lorenagubaira/python-beginner-programming-exercises/blob/master/README.es.md) :es:*
+<!-- endhide -->
 
 This exercises are the ideal first step for anyone trying to learn Python, we start from the most simple challenge like printing a message on the terminal and slowly increase step by step.
 
@@ -34,6 +35,8 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 > Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 
 ## Local Installation
+
+Clone the repository in your local environment and follow the steps below:
 
 1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 14+:
 
