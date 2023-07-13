@@ -22,6 +22,9 @@ Take one down and pass it around, 98 bottles of milk on the wall.
 Take one down and pass it around, 97 bottles of milk on the wall.
 ...
 ...
+2 bottles of milk on the wall, 2 bottles of milk. 
+Take one down and pass it around, 1 bottle of milk on the wall.
+
 1 bottle of milk on the wall, 1 bottle of milk.
 Take one down and pass it around, no more bottles of milk on the wall.
 
