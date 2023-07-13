@@ -32,3 +32,10 @@ def test_for_print():
         # makes sure we are calling print function with a variable and not the hard coded value
         regex = re.compile(r"print\s*\(\s*variables_are_cool\s*\)")
         assert bool(regex.search(content)) == True
+
+@pytest.mark.it('You should not hardcode the result')
+def test_for_print():
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+        # makes sure we are calling print function with a variable and not the hard coded value
+        assert str(17172435) not in content
