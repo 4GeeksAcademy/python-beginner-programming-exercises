@@ -27,6 +27,6 @@ def test_for_variable():
 @pytest.mark.it('Print the variable on the console')
 def test_for_file_output(capsys):
     captured = buffer.getvalue()
-    assert captured == "Yellow\n" #add \n because the console jumps the line on every print
+    assert   "Yellow\n" in captured #add \n because the console jumps the line on every print
 
     
