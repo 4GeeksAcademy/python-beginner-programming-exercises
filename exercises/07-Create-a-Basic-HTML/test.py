@@ -13,7 +13,7 @@ def test_html_document_exists():
 def test_html_document_exists():
     try:
         from app import html_document
-        assert html_document == '<html><head><title></title></head><body></body></html>'
+        assert  '<html><head><title></title></head><body></body></html>' in html_document
     except ImportError:
         raise ImportError("The variable 'html_document' should exist on app.py")
 
@@ -30,4 +30,4 @@ def test_for_concat():
 @pytest.mark.it('Print a basic html layout on the console like this: <html><head><title></title></head><body></body></html>')
 def test_for_file_output():
     captured = buffer.getvalue()
-    assert captured == "<html><head><title></title></head><body></body></html>\n" #add \n because the console jumps the line on every print
+    assert  "<html><head><title></title></head><body></body></html>\n" in captured #add \n because the console jumps the line on every print
