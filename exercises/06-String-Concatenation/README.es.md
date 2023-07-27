@@ -15,3 +15,5 @@ print(one+two); # esto imprimirá 'ab' en la consola.
 ## 📝 Instrucciones:
 
 1. Establece valores para las variables `my_var1` y `my_var2` de forma que el código imprima `Hello World` en la consola.
+
+- **Nota** : Ten en cuenta el uso de mayúsculas y minúsculas en tu valor y los espacios extra. Por ejemplo, "hello World " hará que la prueba falle porque tienes una 'h' en minúscula y un espacio al final.
