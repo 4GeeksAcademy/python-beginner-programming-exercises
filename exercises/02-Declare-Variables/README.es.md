@@ -1,10 +1,13 @@
 # `02` Declare Variables
 
-Las variables actúan como una caja (contenedor) que te permite almacenar distintos tipos de datos. Así es como se define una variable:
+En la programación, usamos variables como si fueran cajas (o contenedores) para guardar diferentes tipos de información. Así es cómo creamos una variable:
 
 ```py
-name = "Daniel"
+
+nombre = "Daniel"
 ```
+
+En este ejemplo, `nombre` es la variable. Le estamos diciendo a la computadora: "Recuerda `nombre` y déjalo ser igual a `Daniel`". El nombre de tu variable puede ser casi cualquier cosa que quieras, pero debe comenzar con una letra o con el carácter de subrayado (`_`). Es bueno elegir un nombre que te ayude a recordar qué guardaste en la "caja".
 
 ## 📝 Instrucciones:
 
