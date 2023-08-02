@@ -23,7 +23,7 @@ def test_use_variable_name():
 @pytest.mark.it('Print on the console the variables_are_cool value ')
 def test_for_file_output(capsys):
     captured = buffer.getvalue()
-    assert   '17172435\n' in captured
+    assert    captured ==  '17172435\n'
 
 @pytest.mark.it('Print on the console the variables_are_cool variable')
 def test_for_print():
