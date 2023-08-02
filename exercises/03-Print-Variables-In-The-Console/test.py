@@ -24,4 +24,4 @@ def test_for_printing_variable():
 @pytest.mark.it('The printed value on the console should be "red"')
 def test_for_file_output(capsys):
     captured = buffer.getvalue()
-    assert  "red\n" in captured
+    assert captured == "red\n" 
