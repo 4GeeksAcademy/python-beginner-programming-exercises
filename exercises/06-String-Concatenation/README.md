@@ -19,5 +19,3 @@ print(one+two); #this will print 'ab' on the console.
 ## 📝 Instructions:
 
 1. Set the values for `my_var1` and `my_var2` so the code prints `Hello World` in the console.
-
-- **Note**: Be mindful of the casing of your value and extra spaces. For instance, "hello World " will make the test fail because you have a lower case 'h' and space at the end.
