@@ -7,11 +7,11 @@ En la programación, usamos variables como si fueran cajas (o contenedores) para
 nombre = "Daniel"
 ```
 
-En este ejemplo, `nombre` es la variable. Le estamos diciendo a la computadora: "Recuerda `nombre` y déjalo ser igual a `Daniel`". El nombre de tu variable puede ser casi cualquier cosa que quieras, pero debe comenzar con una letra o con el carácter de subrayado (`_`). Es bueno elegir un nombre que te ayude a recordar qué guardaste en la "caja".
+En este ejemplo, `name` es la variable, actuando como una etiqueta para el valor `"Daniel"`. Piénsalo como una etiqueta en una caja. Dentro de esta 'caja', estamos almacenando el valor `"Daniel"`, y podemos usar la etiqueta `name` para referirnos a él más tarde. Al nombrar tus variables, puedes elegir casi cualquier nombre, pero debe comenzar con una letra o un guión bajo (`_`). Es útil elegir un nombre que describa lo que hay dentro de la 'caja' para que puedas entender fácilmente lo que representa más adelante.
 
 ## 📝 Instrucciones:
 
-1. Declara una variable con el valor "Yellow" y luego imprímelo en la consola.
+1. Declara una variable con el valor `"Yellow"` y luego imprímelo en la consola.
 
 2. Luego, imprime su valor en la consola usando `print(name)`.
 

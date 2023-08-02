@@ -10,11 +10,11 @@ In programming, we use variables like boxes (or containers) to keep different ki
 name = "Daniel"
 ```
 
-In this example, `name` is the variable. We're telling the computer: "Remember `name` and let it equal `Daniel`." The name for your variable can be almost anything you want, but it must start with a letter or the underscore character (`_`). It's good to choose a name that helps you remember what you stored in the "box".
+In this example, `name` is the variable, acting like a label for the value `"Daniel"`. Think of it as a nametag on a box. Inside this 'box', we're storing the value `"Daniel"`, and we can use the label `name` to refer to it later. When naming your variables, you can choose almost any name, but it must begin with a letter or an underscore (`_`). It's helpful to pick a name that describes what's inside the 'box' so you can easily understand what it represents later on.
 
 ## 📝 Instructions:
 
-1. Declare a new variable with the string value "Yellow" and print the value to the console.
+1. Declare a new variable with the string value `"Yellow"` and print the value to the console.
 
 2. Then, print its value on the console using `print(name)`.
 
