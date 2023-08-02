@@ -20,12 +20,12 @@ def test_my_var2_exists():
 @pytest.mark.it("Variable my_var1 value should be 'Hello'")
 def test_my_var1_value():
     from app import my_var1
-    assert "Hello" in my_var1
+    assert  my_var1.lower() == "hello"
 
 @pytest.mark.it("Variable my_var2 value should be 'World'")
 def test_my_var2_value():
     from app import my_var2
-    assert  "World" in my_var2
+    assert   my_var2.lower() == "world"
 
 @pytest.mark.it("Variable my_var2 value should be 'World'")
 def test_the_new_string_exists():
@@ -38,4 +38,4 @@ def test_the_new_string_exists():
 @pytest.mark.it('Print "Hello World" on the console')
 def test_for_file_output():
     captured = buffer.getvalue()
-    assert "Hello World\n" in captured#add \n because the console jumps the line on every print
+    assert "hello world\n" in captured.lower() #add \n because the console jumps the line on every print
