@@ -20,5 +20,4 @@ Aquí, las variables `one` y `two` contienen los strings individuales `'a'` y `'
 
 
 ## 💡 Pista:
-- Si necesitas más explicación sobre como la **concatenación** funciona en Python, puedes ver este clip: https://www.youtube.com/watch?v=T1nyPuAhd1U&ab_channel=ProgramaResuelto (`ctrl + click` en el enlance para abrir el video)
-- Si necesitas más explicación sobre qué son los **strings** y cómo funcionan en Python, puedes ver este clip: https://www.youtube.com/watch?v=yT0jixU3M2c&ab_channel=ProgramaResuelto (`ctrl + click` en el enlance para abrir el video)
++ Si necesitas más explicación sobre como la **concatenación** funciona en Python, puedes ver este clip: https://www.youtube.com/watch?v=T1nyPuAhd1U&ab_channel=ProgramaResuelto (`ctrl + click` en el enlance para abrir el video)

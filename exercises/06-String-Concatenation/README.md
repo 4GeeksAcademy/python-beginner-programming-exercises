@@ -23,5 +23,4 @@ Here, the variables `one` and `two` hold the individual strings `'a'` and `'b'`.
 1. Set the values for `my_var1` and `my_var2` so that when concatenated, the code prints `Hello World` in the console.
 
 ## 💡 Hint:
-- If you need further explanation on how string **concatenation** works in python, you can watch this clip: https://www.youtube.com/watch?v=28FUVmWU_fA&ab_channel=PortfolioCourses (`ctrl + click` on the link to open the video)
-- If you need further explanation on what **strings** are and how they work in python, you can watch this clip: https://youtube.com/clip/UgkxyQ_JLmgSUL4l25c8Ly7cCRvk1Gm-EchU (`ctrl + click` on the link to open the video)
++ If you need further explanation on how string **concatenation** works in python, you can watch this clip: https://www.youtube.com/watch?v=28FUVmWU_fA&ab_channel=PortfolioCourses (`ctrl + click` on the link to open the video)

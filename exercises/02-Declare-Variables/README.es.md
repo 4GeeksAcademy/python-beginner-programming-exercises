@@ -18,3 +18,5 @@ En este ejemplo, `name` es la variable, actuando como una etiqueta para el valor
 ## 💡 Pista:
 
 + Puedes darle el nombre que quieras a la variable, pero su valor tiene que ser el texto "Yellow".
+
++ Si necesitas más explicación sobre qué son los **strings** y cómo funcionan en Python, puedes ver este clip: https://www.youtube.com/watch?v=yT0jixU3M2c&ab_channel=ProgramaResuelto (`ctrl + click` en el enlance para abrir el video)
