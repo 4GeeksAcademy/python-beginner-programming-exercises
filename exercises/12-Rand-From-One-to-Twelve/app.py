@@ -1,7 +1,8 @@
 import random
 
 def get_randomInt():
-	# Your code here
+	# ✅🢃 Write your code here. 🢃✅
 	return None
 
+# ❌ 🢃 DON'T CHANGE THE CODE BELOW 🢃 ❌
 print(get_randomInt())
