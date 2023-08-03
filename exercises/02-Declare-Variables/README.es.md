@@ -6,7 +6,7 @@ En la programación, usamos variables como si fueran cajas (o contenedores) para
 name = "Daniel"
 ```
 
-En este ejemplo, `name` es la variable, actuando como una etiqueta para el valor `"Daniel"`. Piénsalo como una etiqueta en una caja. Dentro de esta 'caja', estamos almacenando el valor `"Daniel"`, y podemos usar la etiqueta `name` para referirnos a él más tarde. Al nombrar tus variables, puedes elegir casi cualquier nombre, pero debe comenzar con una letra o un guión bajo (`_`). Es útil elegir un nombre que describa lo que hay dentro de la 'caja' para que puedas entender fácilmente lo que representa más adelante.
+En este ejemplo, `name` es la variable, actuando como una caja para almacenar el valor `"Daniel"`. Dentro de esta 'caja', estamos almacenando el valor `"Daniel"`, y podemos usar `name` para referirnos a este valor más tarde. Al nombrar tus variables, puedes elegir casi cualquier nombre, pero debe comenzar con una letra o un guión bajo (`_`). Es útil elegir un nombre que describa lo que hay dentro de la 'caja' para que puedas entender fácilmente lo que representa más adelante.
 
 ## 📝 Instrucciones:
 
