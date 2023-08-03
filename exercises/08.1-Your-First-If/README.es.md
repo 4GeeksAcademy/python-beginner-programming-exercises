@@ -15,3 +15,14 @@ La aplicación actual está preguntando cuánto dinero tiene el usuario. Una vez
 +  Usa un condicional `if/else` para verificar el valor de la variable `total`.
 
 +  Puedes leer más al respecto [aquí](https://docs.python.org/3/tutorial/controlflow.html#if-statements).
+
++ Aquí tienes un recordatorio sobre los operadores relacionales:
+
+  | Operador | Descripción                                                                  | Sintaxis |
+  |----------|------------------------------------------------------------------------------|----------|
+  | >        | Mayor que: Verdadero si el operando izquierdo es mayor que el derecho        | x > y    |
+  | <        | Menor que: Verdadero si el operando izquierdo es menor que el derecho        | x < y    |
+  | ==       | Igual a: Verdadero si ambos operandos son iguales                            | x == y   |
+  | !=       | No igual a – Verdadero si los operandos no son iguales                       | x != y   |
+  | >=       | Mayor o igual que: Verdadero si el operando izquierdo es mayor o igual       | x >= y   |
+  | <=       | Menor o igual que: Verdadero si el operando izquierdo es menor o igual       | x <= y   |
