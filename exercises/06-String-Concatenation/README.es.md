@@ -1,10 +1,10 @@
 # `06` String Concatenation
 
-La concatenación de strings es una tarea común en la programación que implica combinar o unir dos strings.
+La concatenación de strings es una tarea común en la programación que implica combinar o unir dos o más strings.
 
-Puedes pensar en este proceso como conectar dos vagones de tren. Si cada string es un vagón, la concatenación es el acoplamiento que los une para formar un tren único.
+Puedes pensar en este proceso como conectar dos o más vagones de tren. Si cada string es un vagón, la concatenación es el acoplamiento que los une para formar un tren único.
 
-En Python, puedes concatenar o unir dos strings usando el operador `+`. Así es como funciona:
+En Python, puedes concatenar o unir dos o más strings usando el operador `+`. Así es como funciona:
 
 ```py
 

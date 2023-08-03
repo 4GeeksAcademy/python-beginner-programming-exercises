@@ -4,11 +4,11 @@ tutorial: "https://www.youtube.com/watch?v=kS4qpQmHwCs"
 
 # `06` String Concatenation
 
-String concatenation is a common task in programming that involves combining or linking two strings together.
+String concatenation is a common task in programming that involves combining or linking two or more strings together.
 
-You can think of this process as similar to connecting two train cars. If each string is a train car, concatenation is the coupling that joins them to form a single train.
+You can think of this process as similar to connecting two or more train cars. If each string is a train car, concatenation is the coupling that joins them to form a single train.
 
-In Python, you can concatenate, or join together, two strings using the `+` operator. This is how it works:
+In Python, you can concatenate, or join together, two or more strings using the `+` operator. This is how it works:
 
 ```py
 
