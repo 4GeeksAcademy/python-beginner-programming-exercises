@@ -13,7 +13,7 @@ def test_html_document_exists():
 def test_html_document_exists():
     try:
         from app import html_document
-        assert  '<html><head><title></title></head><body></body></html>' in html_document
+        assert  html_document == '<html><head><title></title></head><body></body></html>' 
     except ImportError:
         raise ImportError("The variable 'html_document' should exist on app.py")
 
