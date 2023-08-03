@@ -13,10 +13,13 @@ Here is a table of prices for a wedding catering company:
 | Up to 200 people      | $15,000   |
 | More than 200 people  | $20,000   |
 
+> Note: The quantities in the table include the specified number. For example, "Up to 50 people" is inclusive of 50.
 
 ## 📝 Instructions:
 
-1. Please write an algorithm that prompts the user for the number of people attending their wedding and prints the corresponding price in the console.
+1. Complete the algorithm that prompts the user for the number of people attending their wedding and prints the corresponding price in the console. 
+2. Extend the given code on the left to cover all possible ranges of guests. 
+3. Make sure that your code correctly calculates and prints the price in the console based on the user's input.
 
 For example, if the user says that `20` people are attending to the wedding, it must cost `$4,000` dollars.
 
