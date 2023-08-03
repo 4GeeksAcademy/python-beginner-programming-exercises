@@ -21,7 +21,7 @@ r1 = random.randint(0, 10)
 print("Random number between 0 and 10 is % s" % (r1))
 ```
 
-You can use the `randint()` function to get a random decimal number. `Randint()` is an inbuilt function of the **random module** in Python3. 
+You can use the `randint()` function to get a random whole number. `randint()` is an inbuilt function of the **random module** in Python3. 
 
 The **random module** gives access to various useful functions and one of them being able to generate random numbers, which is `randint()`.
 
