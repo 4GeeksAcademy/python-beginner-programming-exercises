@@ -8,7 +8,7 @@ def test_functions_existence(app):
         raise AttributeError("The function is_odd should exist")
 
 @pytest.mark.it('The function my_main_code should exist')
-def test_functions_existence(app):
+def test_functions_existence_main(app):
     try:
         app.my_main_code
     except AttributeError:
