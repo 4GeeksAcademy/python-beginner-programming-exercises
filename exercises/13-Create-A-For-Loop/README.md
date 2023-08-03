@@ -10,7 +10,7 @@ The `for` loop lets you run the same code for different values.
 
 ## 📝 Instructions:
 
-1. Create a function called `standards_maker`.
+1. Complete the function called `standards_maker`.
 
 2. The function has to print 300 times the phrase "I will write questions if I am stuck".
 

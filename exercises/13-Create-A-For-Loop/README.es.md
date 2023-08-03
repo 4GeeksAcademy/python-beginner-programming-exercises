@@ -6,7 +6,7 @@ El bucle o loop `for` te permite ejecutar el mismo código varias veces para dif
 
 ## 📝 Instrucciones:
 
-1. Crea una función llamada `standards_maker()`.
+1. Completa la función llamada `standards_maker()`.
 
 2. La función tiene que imprimir 300 veces la frase "Escribiré preguntas si estoy atascado".
 
