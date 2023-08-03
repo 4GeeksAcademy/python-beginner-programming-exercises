@@ -32,6 +32,13 @@ Fizz
 Buzz
 ```
 
+## 🔎 Importante: 
+
++ Hay una serie de ejercicios dedicados a listas y ciclos, te invitamos a realizarlos antes de continuar: [https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises](https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises).
+    
+¡Luego, regresa!😊
+
+
 ## 💡 Pistas:
 
 + Para múltiplos de 3, en lugar de imprimir el número, imprime "Fizz".
@@ -40,8 +47,3 @@ Buzz
 
 + Para números que son múltiplos de 3 y de 5, imprime "FizzBuzz".
 
-## 🔎 Importante: 
-
-+ Hay una serie de ejercicios dedicados a listas y ciclos, te invitamos a realizarlos antes de continuar: [https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises](https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises).
-    
-¡Luego, regresa!😊
