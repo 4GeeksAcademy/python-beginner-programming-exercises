@@ -26,7 +26,9 @@ El **módulo random** te da acceso a varias funciones útiles y una de ellas es,
 
 ## 📝 Instrucciones:
 
-1. Por favor, ahora crea una función llamada `generate_random` que imprima y devuelva un número aleatorio entre 0 y 9 cada vez que le llame.
+1. Por favor, ahora crea una función llamada `generate_random` que devuelva un número aleatorio entre 0 y 9 cada vez que le llame.
+
+2. Imprime el resultado que la función retorna al ser llamada.
 
 ## 💡 Pistas:
 

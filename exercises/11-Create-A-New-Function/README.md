@@ -27,7 +27,9 @@ The **random module** gives access to various useful functions and one of them b
 
 ## 📝 Instructions:
 
-1. Please now create a function called `generate_random` that prints and returns a random number between 0 and 9 every time it is called.
+1. Please now create a function called `generate_random` that returns a random number between 0 and 9 every time it is called.
+
+2. Print the result that the function call returns. 
 
 ## 💡 Hints:
 
