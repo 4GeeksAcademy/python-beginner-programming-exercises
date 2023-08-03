@@ -20,7 +20,7 @@ def test_function_existence(app):
 def test_conditional():
     with open(path, 'r') as content_file:
         content = content_file.read()
-        pattern = r"random\.randrange\s*\(\s*1\s*,\s*13\s*\)"
+        pattern = r"random\s*\.\s*randrange\s*\(\s*1\s*,\s*13\s*\)"
         regex = re.compile(pattern)
         assert bool(regex.search(content)) == True
 
