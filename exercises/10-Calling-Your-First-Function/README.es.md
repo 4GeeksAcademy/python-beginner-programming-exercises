@@ -11,3 +11,8 @@ Las funciones son increíbles por muchas cosas, pero principalmente porque puede
 ## :mag_right: Importante:
 
  + Hay una serie de ejercicios dedicados a las funciones [aquí](https://github.com/4GeeksAcademy/python-functions-programming-exercises), te recomendamos realizarlos después de hacer **tu primera función** en este ejercicio. (luego..¡Regresa! :smiley:).
+ 
+
+ ## 💡Pista:
+
+ + Puedes consultar esta pagina para obtener información adicional sobre funciones y llamadas a funciones: https://www.freecodecamp.org/espanol/news/guia-de-funciones-de-python-con-ejemplos/

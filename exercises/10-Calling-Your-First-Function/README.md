@@ -16,3 +16,8 @@ Functions are amazing because of many things, but mainly because you can encapsu
 ## :mag_right: Important:
 
 There's a series of exercises dedicated to Functions [here](https://github.com/4GeeksAcademy/python-functions-programming-exercises), we encourage you to go and finish those after your **first Function exercise** (And then... come back! :smiley).
+
+
+## 💡Hint: 
+
++ Check this out for additional information on functions and function calls: https://www.w3schools.com/python/python_functions.asp
