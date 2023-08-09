@@ -38,6 +38,6 @@ Go to the store and buy some more, 99 bottles of milk on the wall.
 
 ## 💡Hints:
 
-+ At the end of the song, the lyrics change because is only one bottle (singular instead of plural).
++ At the end of the song, the lyrics change because it is only **one** bottle (singular instead of plural).
 
 + Read the last lyrics and you will see how the last line changes to `"go to the store and buy some more"`.
