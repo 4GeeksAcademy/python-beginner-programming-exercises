@@ -13,11 +13,13 @@ def get_color(color_number=4):
               }
     return switcher.get(color_number,"Invalid Color Number")
 
+# ❌ ⬆ DON'T CHANGE THE CODE ABOVE ⬆ ❌
 
 def get_allStudentColors():
     example_color = get_color(1)
     students_array = []
-    #your loop here
+    # ✅ ↓ your loop here ↓ ✅\
+    
 
 
 print(get_allStudentColors())
