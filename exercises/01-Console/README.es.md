@@ -14,10 +14,12 @@ print("Un texto en la consola")
 
 ## 📝 Instrucciones:
 
-1. usa **print** para escribir `Hello World!` en la consola. Siéntete libre de intentar otras cosas también.
+1. usa **print** para escribir `Hello World!` en la consola. 
 
 ## 💡 Pista:
 
 + Recuerda, para ejecutar el código y ver el resultado en la consola, haz clic en el ícono de caja en la esquina superior izquierda de la pantalla:
 
 https://i.imgur.com/w6u4aDd.png
+
++ Siéntete libre de intentar otras cosas también.

@@ -18,7 +18,7 @@ print("How are you?")
 
 ## 📝 Instructions:
 
-1. Use **print** to print `Hello World!` on the console. Feel free to try other things as well.
+1. Use **print** to print `Hello World!` on the console. 
 
 
 ## 💡 Hint:
@@ -26,3 +26,5 @@ print("How are you?")
 + Remember, to run the code and see the output on the console, click on the box icon in the top left of the screen:
 
 https://i.imgur.com/w6u4aDd.png
+
++ Feel free to try other things as well.
