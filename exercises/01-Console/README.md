@@ -21,7 +21,7 @@ print("How are you?")
 1. Use **print** to print `Hello World!` on the console. 
 
 
-## 💡 Hint:
+## 💡 Hints:
 
 + Remember, to run the code and see the output on the console, click on the box icon in the top left of the screen:
 
