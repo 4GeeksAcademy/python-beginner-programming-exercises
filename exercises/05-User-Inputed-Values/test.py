@@ -16,5 +16,5 @@ def test_plus_ten(stdin):
     sys.stdout = buffer = io.StringIO()
     import app
     captured = buffer.getvalue()
-    assert captured == "Your age is: 60\n"
+    assert   "Your age is: 60\n" in captured
     

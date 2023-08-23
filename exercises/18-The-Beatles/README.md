@@ -25,3 +25,5 @@ This is the chorus of one of the most famous Beatle songs:
 ## 💡 Hint:
 
 + The words "let it be" repeat all the time, you should probably create a loop for that.
+
++ If you need a refresher on loops and conditionals, check out this awesome resource: https://docs.python.org/3/tutorial/controlflow.html

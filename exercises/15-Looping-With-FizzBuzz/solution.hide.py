@@ -1,5 +1,5 @@
 def fizz_buzz():
-    # your code here
+    # ✅↓ Write your code here. ↓✅
     for i in range(1, 101):
         if i % 3 == 0 and i % 5 == 0:
             print("FizzBuzz")
@@ -10,4 +10,5 @@ def fizz_buzz():
         else:
             print(i)
 
+# ❌↓ DON'T CHANGE THE CODE BELOW ↓❌
 fizz_buzz()

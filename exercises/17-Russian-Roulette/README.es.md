@@ -7,12 +7,13 @@ gira la cámara del revolver para hacer aleatorio el juego. Nadie sabrá dónde 
 
 ¡¡¡FUEGO!!!....... ¿has muerto?
 
-## 📝 Instrucciones:
+## 📝 Instrucciones: 
+1. El juego casi funciona, por favor completa la función `fire_gun` para que el juego funcione. 
 
-1. El juego casi funciona, por favor completa la función `fire_gun` para hacer que el juego funcione.
+2. Compara la posición de la bala con la posición de la recámara. 
 
-2. Compara la posición de la bala contra la posición de la cámara.
+3. Si la posición de la bala es igual a la posición de la recámara, entonces la función debe retornar `You are dead!`, de lo contrario, debe retornar `Keep playing!`
 
-## 💡 Pista:
-
-+ La función necesita devolver `You are dead!` (Estás muerto) o `Keep playing!` (Sigue jugando) dependiendo del resultado. Si la bala está en la misma recámara que la del revolver, entonces fue disparada (You are dead!).
+## 💡 Pista: 
+- Puedes obtener la posición de la recámara llamando a la función `spin_chamber`. 
+- Si la bala está en el mismo compartimento que la recámara del revólver, entonces será disparada (`You are dead!`).

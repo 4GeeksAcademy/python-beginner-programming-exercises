@@ -36,6 +36,13 @@ Fizz
 Buzz
 ```
 
+
+## 🔎 Important: 
+
+There's a series of exercises dedicated to Lists and Loops, we encourage you to go and finish them before continuing: [https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises](https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises) 
+
+Then, come back!😊
+
 ## 💡 Hints:
 
 + For multiples of 3, instead of the number, print "Fizz".
@@ -43,9 +50,3 @@ Buzz
 + For multiples of 5, print "Buzz". 
 
 + For numbers which are multiples of both 3 and 5, print "FizzBuzz".
-
-## 🔎 Important: 
-
-There's a series of exercises dedicated to Lists and Loops, we encourage you to go and finish them before continuing: [https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises](https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises) 
-
-Then, come back!😊

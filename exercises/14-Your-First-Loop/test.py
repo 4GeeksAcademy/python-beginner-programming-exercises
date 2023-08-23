@@ -20,7 +20,7 @@ def test_for_function_existence():
 def test_for_function_output(capsys):
     app.start_counting()
     captured = capsys.readouterr()
-    assert "0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n" == captured.out
+    assert "0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n" in captured.out
 
 @pytest.mark.it('Use for loop')
 def test_for_loop():

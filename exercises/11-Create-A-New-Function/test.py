@@ -30,3 +30,10 @@ def test_for_type_random():
         regex = re.compile(r"random.randint\s*\(")
         regex2 = re.compile(r"random.randrange\s*\(")
         assert bool(regex.search(content)) == True or bool(regex2.search(content)) == True
+
+@pytest.mark.it('You should be using print()')
+def test_for_type_random():
+    with open(path, 'r') as content_file:
+        content = content_file.read()
+       
+        assert "print" in content

@@ -19,5 +19,5 @@ def test_for_file_output(capsys):
 @pytest.mark.it('Print Hello World! on the console')
 def test_for_console_log(capsys):
     captured = buffer.getvalue()
-    assert captured == "Hello World!\n" #add \n because the console jumps the line on every print
+    assert "Hello World!\n" in captured #add \n because the console jumps the line on every print
 

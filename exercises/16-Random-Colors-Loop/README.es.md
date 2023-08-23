@@ -1,6 +1,6 @@
 # `16` Random Colors (Loop)
 
-Hemos creado una función que devuelve un color basado en un número entre 0 y 3 (cualquier número diferente, debe retornar el color `black`).
+Hemos creado una función que devuelve un color basado en un número entre 0 y 3 (cualquier número diferente, debe retornar el color `black` (negro)).
 
 Digamos que somos profesores en un aula con 10 estudiantes y queremos asignar a **cada estudiante** un color aleatorio entre `red` (rojo), `yellow` (amarillo), `blue` (azul) y `green` (verde).
 

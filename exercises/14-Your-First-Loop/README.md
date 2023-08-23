@@ -15,3 +15,6 @@ tutorial: "https://www.youtube.com/watch?v=30sizcnVdGg"
 + There's a series of exercises dedicated to Lists and Loops, we encourage you to go and finish those before continuing: [https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises](https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises).
 
 Then, come back!😊
+
+## 💡Hint:
++ You can find additional information on loops here: https://www.w3schools.com/python/python_for_loops.asp

@@ -12,7 +12,7 @@ To multiply 2 values in python, you have to use the asterisk operator like this:
 resulting_value = 2 * 3
 ```
 
-In this case, we stored the result value of the multiplication into a variable called `resulting_value`.
+In this case, we stored the resulting value of the multiplication into a variable called `resulting_value`.
 
 ## 📝 Instructions:
 

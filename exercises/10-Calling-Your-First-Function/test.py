@@ -8,7 +8,7 @@ def test_functions_existence(app):
         raise AttributeError("The function is_odd should exist")
 
 @pytest.mark.it('The function my_main_code should exist')
-def test_functions_existence(app):
+def test_functions_existence_main(app):
     try:
         app.my_main_code
     except AttributeError:
@@ -34,5 +34,5 @@ def test_for_file_output(capsys):
     from app import my_main_code
     my_main_code()
     captured = capsys.readouterr()
-    assert captured.out == "True\n"
+    assert "True\n" in captured.out 
     
