@@ -9,4 +9,4 @@ if user_input <= 50:
 
 
 # ❌ ↓ DON'T CHANGE THE CODE BELOW ↓ ❌
-print('Your wedding will cost $'+str(price)+' dollars')
+print('Your wedding will cost '+str(price)+' dollars')
