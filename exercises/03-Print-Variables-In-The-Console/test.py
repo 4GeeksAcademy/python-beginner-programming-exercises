@@ -8,12 +8,12 @@ import os
 import re
 path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
 
-@pytest.mark.it("Create a variable named 'color' with the string value red")
+@pytest.mark.it('Create a variable named "color" with the string value "red"')
 def test_declare_variable():
     result = app.color
     assert  result == "red"
 
-@pytest.mark.it('Print on the console the value of the variable ')
+@pytest.mark.it('Print on the console the value of the variable')
 def test_for_printing_variable():
    
     with open(path, 'r') as content_file:
