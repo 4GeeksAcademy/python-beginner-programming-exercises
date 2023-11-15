@@ -24,9 +24,9 @@ Please click on the `Next →` button on the top right to proceed to the first c
 
 ## Useful Readings:
 
-+ https://www.w3schools.com/python/python_intro.asp
++ [https://www.w3schools.com/python/python_intro.asp](https://www.w3schools.com/python/python_intro.asp)
 
-+ https://www.python.org/doc/essays/blurb/
++ [https://www.python.org/doc/essays/blurb/](https://www.python.org/doc/essays/blurb/)
 
 ## Useful Video: 
 
