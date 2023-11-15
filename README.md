@@ -57,7 +57,7 @@ Note: Once you finish downloading, you will find an "exercises" folder that cont
 3. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
 ```bash
-$ $ pip3 install pytest==4.4.2 pytest-testdox mock
+$ pip3 install pytest==4.4.2 pytest-testdox mock
 $ learnpack start
 ```
 
