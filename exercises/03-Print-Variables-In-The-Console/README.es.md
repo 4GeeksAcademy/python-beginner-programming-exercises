@@ -1,4 +1,4 @@
-# `03` Print Variables in The Console
+# `03` Print more Variables in The Console
 
 También puedes imprimir más de una variable en la misma función `print()` separando con una coma `,` las variables a imprimir. De esta manera:
 
