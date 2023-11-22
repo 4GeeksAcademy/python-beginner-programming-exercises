@@ -7,7 +7,7 @@ By [@alesanchezr](https://twitter.com/alesanchezr) and [other contributors](http
 <img align="left" src="https://img.shields.io/github/last-commit/4geeksacademy/python-beginner-programming-exercises">
 
 
-*Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/Lorenagubaira/python-beginner-programming-exercises/blob/master/README.es.md) :es:*
+*Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/master/README.es.md) :es:*
 <!-- endhide -->
 
 These exercises are the ideal first step for anyone trying to learn Python. We start with the most simple challenge, like printing a message on the terminal and slowly increase step by step.
