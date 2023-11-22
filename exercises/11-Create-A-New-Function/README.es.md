@@ -13,7 +13,7 @@ Pero Python viene con un conjunto de funciones "pre-definidas" que puedes usar, 
 
 ```py
 import random
-# Genera un número aleatorio dentro de un rango posiivo dado
+# Genera un número aleatorio dentro de un rango positivo dado
 
 r1 = random.randint(0, 10)
 print("Random number between 0 and 10 is % s" % (r1))
