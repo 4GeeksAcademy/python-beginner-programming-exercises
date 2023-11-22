@@ -1,13 +1,12 @@
 # ✅↓ Write your code here ↓✅
 def sing():
-    song = ""
     for i in range(11):
         if i == 4:
-            song += "there will be an answer,\n"
+            print("there will be an answer,")
         elif i == 10:
-            song += "whisper words of wisdom, let it be"
+            print("whisper words of wisdom, let it be")
         else:
-            song += "let it be,\n"
-    return song
+            print("let it be,")
+    return None
 
-print(sing())
+sing()
