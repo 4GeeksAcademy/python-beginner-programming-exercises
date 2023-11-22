@@ -20,6 +20,6 @@ Let's say that we are teachers in a 10 student classroom, and we want to randoml
 
 - In each iteration, generate a random number between 0 and 3 using the `randint()` function that we have seen in previous exercises.
 
-- Use the `get_color` function, in this exercise to find out what color corresponds to the number obtained.
+- Use the `get_color` function in this exercise, to find out what color corresponds to the number obtained.
 
 - Call (execute) the function `get_allStudentColors` and print its result in the console.
