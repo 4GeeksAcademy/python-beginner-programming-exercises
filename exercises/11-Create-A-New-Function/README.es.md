@@ -2,20 +2,19 @@
 
 Como sabes, las funciones son un bloque de código útil que puedes reusar tantas veces como necesites.
 
-En el último ejercicio, tenías una función que recibía dos parámetros 
-(dos entradas) y devolvía la suma de ellos. Así:
+En el último ejercicio, tenías una función que recibía dos parámetros (dos entradas) y devolvía la suma de ellos. Así:
 
 ```py
 def add_numbers(a, b):
-  print(a + b)
+    print(a + b)
 ```
 
 Pero Python viene con un conjunto de funciones "pre-definidas" que puedes usar, por ejemplo:
 
 ```py
 import random
-# Genera un número aleatorio dentro
-# de un rango posiivo dado
+# Genera un número aleatorio dentro de un rango posiivo dado
+
 r1 = random.randint(0, 10)
 print("Random number between 0 and 10 is % s" % (r1))
 ```
@@ -26,14 +25,14 @@ El **módulo random** te da acceso a varias funciones útiles y una de ellas es,
 
 ## 📝 Instrucciones:
 
-1. Por favor, ahora crea una función llamada `generate_random` que devuelva un número aleatorio entre 0 y 9 cada vez que le llame.
+1. Por favor, crea una función llamada `generate_random` que devuelva un número aleatorio entre 0 y 9 cada vez que se llame.
 
 2. Imprime el resultado que la función retorna al ser llamada.
 
 ## 💡 Pistas:
 
-+ Una posible solución involucra el uso de dos funciones predefinidas: las funciones `randint` o `randrange`.
++ Una posible solución involucra el uso de una de dos funciones predefinidas: la función `randint` o `randrange`.
 
-+ No olvides importar el **módulo random**.
++ No olvides importar el módulo `random`.
 
 + Puedes consultar la documentación en: https://docs.python.org/3/library/random.html#functions-for-integers
