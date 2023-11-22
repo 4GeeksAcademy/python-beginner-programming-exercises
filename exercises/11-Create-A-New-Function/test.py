@@ -32,7 +32,7 @@ def test_for_type_random():
         assert bool(regex.search(content)) == True or bool(regex2.search(content)) == True
 
 @pytest.mark.it('You should print() the output of the function')
-def test_for_function_print():
+def test_function_called_for():
     
     with open(path, 'r') as content_file:
         content = content_file.read()
