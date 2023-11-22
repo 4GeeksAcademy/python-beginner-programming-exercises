@@ -18,7 +18,7 @@ Here you can listen to the song: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
 The result should be something like this:
 
-```sh
+```text
 99 bottles of milk on the wall, 99 bottles of milk.
 Take one down and pass it around, 98 bottles of milk on the wall.
 
@@ -40,4 +40,4 @@ Go to the store and buy some more, 99 bottles of milk on the wall.
 
 + At the end of the song, the lyrics change because there is only **one** bottle (singular instead of plural).
 
-+ Read the last lyrics, and you will see how the last line changes to `"go to the store and buy some more"`.
++ Read the last lyrics, and you will see how the last line changes to `"Go to the store and by some more, 99 bottles of milk on the wall."`.
