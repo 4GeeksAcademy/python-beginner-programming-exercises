@@ -6,7 +6,7 @@ La aplicación actual está preguntando cuánto dinero tiene el usuario. Una vez
 
 1. Si el usuario tiene más de $100, respondemos: "Give me your money!" (¡Dame tu dinero!).
 
-2. Si el usuario tiene más de $50, respondemos: "Buy me some coffee, you cheap!" (¡Comprame un café!).
+2. Si el usuario tiene más de $50, respondemos: "Buy me some coffee, you cheap!" (¡Cómprame un café!).
 
 3. Si el usuario tiene igual o menos de $50, respondemos: "You are a poor guy, go away!" (¡Eres pobre!).
 
