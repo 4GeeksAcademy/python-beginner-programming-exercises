@@ -31,7 +31,7 @@ def test_black_in_array(capsys, app):
     result = app.get_allStudentColors()
     assert result.count("black") == 0
 
-@pytest.mark.it('You should use for to iterate 10 times')
+@pytest.mark.it('You should use a for loop to iterate 10 times')
 def use_for_loop(capsys):
     path = os.path.dirname(os.path.abspath(__file__))+'/app.py'
     with open(path, 'r') as content_file:
