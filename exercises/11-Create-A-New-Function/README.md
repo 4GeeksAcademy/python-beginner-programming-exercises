@@ -33,7 +33,7 @@ The **random module** gives access to various useful functions, one of them bein
 
 ## 💡 Hints:
 
-+ One possible solution involves using two predefined functions: the `randint()` or `randrange()` function.
++ One possible solution involves using one out of two predefined functions: the `randint()` or `randrange()` functions.
 
 + Don't forget to import the `random` module.
 
