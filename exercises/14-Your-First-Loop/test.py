@@ -22,7 +22,7 @@ def test_for_function_output(capsys):
     captured = capsys.readouterr()
     assert "0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n" in captured.out
 
-@pytest.mark.it('Use for loop')
+@pytest.mark.it('Use a for loop')
 def test_for_loop():
     with open(path, 'r') as content_file:
         content = content_file.read()
