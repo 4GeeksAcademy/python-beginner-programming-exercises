@@ -10,9 +10,9 @@ A BBC study has proved that 90% of kids don't know the band... so sad. :(
 
 This is the chorus of one of the most famous Beatles songs:
 
-> Let it be, let it be, let it be, let it be
+> Let it be, let it be, let it be, let it be,
 > 
-> Whisper words of wisdom
+> Whisper words of wisdom,
 > 
 > Let it be
 
