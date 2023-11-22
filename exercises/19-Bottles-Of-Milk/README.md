@@ -14,7 +14,7 @@ Here you can listen to the song: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
 2. The function needs to **print** (use the `print` statement and not `return`) the exact same lyrics in the song.
 
-## Expected result:
+## 💻 Expected result:
 
 The result should be something like this:
 
@@ -36,8 +36,8 @@ No more bottles of milk on the wall, no more bottles of milk.
 Go to the store and buy some more, 99 bottles of milk on the wall.
 ```
 
-## 💡Hints:
+## 💡 Hints:
 
-+ At the end of the song, the lyrics change because it is only **one** bottle (singular instead of plural).
++ At the end of the song, the lyrics change because there is only **one** bottle (singular instead of plural).
 
-+ Read the last lyrics and you will see how the last line changes to `"go to the store and buy some more"`.
++ Read the last lyrics, and you will see how the last line changes to `"go to the store and buy some more"`.
