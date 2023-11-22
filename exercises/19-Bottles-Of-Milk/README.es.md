@@ -36,4 +36,4 @@ Go to the store and buy some more, 99 bottles of milk on the wall.
 
 + Al final de la canción, la letra cambia porque es solo una botella (singular en lugar del plural).
 
-+ Lee la última parte de la letra y verás como cambia la última línea a `"Go to the store and by some more, 99 bottles of milk on the wall."`.
++ Lee la última parte de la letra y verás como cambia la última línea a `"Go to the store and buy some more, 99 bottles of milk on the wall."`.
