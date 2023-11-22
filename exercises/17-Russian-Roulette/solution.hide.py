@@ -8,7 +8,7 @@ def spin_chamber():
 
 # ❌ ⬆ DON'T CHANGE THE CODE ABOVE ⬆ ❌
 def fire_gun():
-	# ✅ ↓ your loop here ↓ ✅
+	# ✅ ↓ your code here ↓ ✅
 	if spin_chamber() == bullet_position:
 		return "You're dead!"
 	else:
