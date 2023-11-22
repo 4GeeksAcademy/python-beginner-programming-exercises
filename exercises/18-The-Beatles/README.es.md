@@ -36,6 +36,6 @@ whisper words of wisdom, let it be
 
 + La frase "let it be" se repite todo el tiempo. Probablemente, deberías usar un bucle o loop para eso. 😊
 
-+ Para hacer un salto de línea en un string debes insertar los siguientes caracteres dentro del string `\n`. Por ejemplo, `"let it be,\n"`.
++ Para hacer un salto de línea en un string debes insertar los siguientes caracteres dentro del string `\n`. Por ejemplo, `"let it be,\n"`. Ahora cuando imprimas tu string en la consola lo podrás visualizar mejor si lo necesitas.
 
 + Si necesitas un repaso sobre los loops y/o condicionales, échale un vistazo a esto: https://docs.python.org/es/3/tutorial/controlflow.html
