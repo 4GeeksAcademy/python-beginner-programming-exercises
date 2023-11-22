@@ -16,14 +16,14 @@ def test_function_existence():
     except AttributeError:
         raise AttributeError('The function fizz_buzz should exist')
 
-@pytest.mark.it('Use for loop')
+@pytest.mark.it('Use a for loop')
 def test_for_loop():
     with open(path, 'r') as content_file:
         content = content_file.read()
         regex = re.compile(r"for\s*")
         assert bool(regex.search(content)) == True
     
-@pytest.mark.it('2. Your function needs to print the correct output')
+@pytest.mark.it('Your function needs to print the correct output')
 def test_for_function_output(capsys):
     fizz_buzz()
     captured = capsys.readouterr()
