@@ -12,8 +12,8 @@ For example, the application right now is prompting the user for its age, and th
 
 1. Please add 10 years to the value of the age variable.
 
-## 💡Hint
+## 💡 Hints:
 
-+ You can Google "how to add a number to a python variable".
++ You can Google "how to add a number to a Python variable".
 
-+ Remember that the content of the variable its being previously filled with whatever the user inputs.
++ Remember that the content of the variable is being previously filled with whatever the user inputs.
