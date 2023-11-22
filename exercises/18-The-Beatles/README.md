@@ -18,7 +18,9 @@ This is the chorus of one of the most famous Beatles songs:
 
 ## 📝 Instructions:
 
-1. Create a function called `sing()` that returns a string with the lyrics that you can hear from 3:21 sec to the end of the song at 3:50 sec https://www.youtube.com/watch?v=QDYfEBY9NM4
+1. Create a function called `sing()` that prints on the console the lyrics that you can hear from 3:21 sec to the end of the song at 3:50 sec https://www.youtube.com/watch?v=QDYfEBY9NM4
+   
+2. Call your function at the end.
 
 ## 💻 Expected output: 
 
@@ -39,7 +41,5 @@ whisper words of wisdom, let it be
 ## 💡 Hints:
 
 + The words "let it be" repeat all the time, you should probably create a loop for that.
-
-+ To make a line jump in a string, you must insert the following characters inside your string `\n`. For example, `"let it be,\n"`. Now when you print your string in the console, you will visualize it better if you need to.
 
 + If you need a refresher on loops and conditionals, check out this awesome resource: https://docs.python.org/3/tutorial/controlflow.html
