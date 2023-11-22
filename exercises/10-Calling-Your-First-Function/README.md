@@ -15,7 +15,7 @@ Functions are amazing because of many things, but mainly because you can encapsu
 
 ## 🔎 Important:
 
-There's a series of exercises dedicated to functions [here](https://github.com/4GeeksAcademy/python-functions-programming-exercises), we encourage you to go and finish those after your **first Function exercise** (And then... come back! 😃).
+There's a series of exercises dedicated to functions [here](https://github.com/4GeeksAcademy/python-functions-programming-exercises), we encourage you to go and finish those after your **first function exercise** (And then... come back! 😃).
 
 
 ## 💡 Hint: 
