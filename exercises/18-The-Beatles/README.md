@@ -18,7 +18,7 @@ This is the chorus of one of the most famous Beatles songs:
 
 ## 📝 Instructions:
 
-1. Create a function called `sing()` that returns a string with the lyrics that you can hear from 3:21 sec to the end of the song at 3:50 sec https://www.youtube.com/watch?v=QDYfEBY9NM4.
+1. Create a function called `sing()` that returns a string with the lyrics that you can hear from 3:21 sec to the end of the song at 3:50 sec https://www.youtube.com/watch?v=QDYfEBY9NM4
 
 ## 💻 Expected output: 
 
