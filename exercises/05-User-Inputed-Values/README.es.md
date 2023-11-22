@@ -2,13 +2,13 @@
 
 Otra cosa genial de las variables es que no necesitas saber su valor para poder trabajar con ellas.
 
-Por ejemplo, justo ahora la aplicación está preguntando la edad del usuario, y luego la imprime en la cónsola.
+Por ejemplo, justo ahora la aplicación está preguntando la edad del usuario, y luego la imprime en la consola.
 
 ## 📝 Instrucciones:
 
 1. Por favor, añade 10 años al valor de la variable `age`.
 
-## 💡 Pista:
+## 💡 Pistas:
 
 + Puedes buscar en Google "Como sumarle una cantidad a una variable de Python".
 
