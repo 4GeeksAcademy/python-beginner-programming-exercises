@@ -1,11 +1,11 @@
-# ✅↓ Write your code here. ↓✅
+# ✅↓ Write your code here ↓✅
 def sing():
     song = ""
     for i in range(11):
         if i == 4:
-            song += "whisper words of wisdom, "
+            song += "there will be an answer, "
         elif i == 10:
-            song += "there will be an answer, let it be"
+            song += "whisper words of wisdom, let it be"
         else:
             song += "let it be, "
     return song
