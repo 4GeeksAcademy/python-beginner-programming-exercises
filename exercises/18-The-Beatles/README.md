@@ -40,6 +40,6 @@ whisper words of wisdom, let it be
 
 + The words "let it be" repeat all the time, you should probably create a loop for that.
 
-+ To make a line jump in a string you must insert the following characters inside of your string `\n`. For example, `"let it be,\n"`. Now when you print your string in the console you will visualize it better if you need to.
++ To make a line jump in a string, you must insert the following characters inside your string `\n`. For example, `"let it be,\n"`. Now when you print your string in the console, you will visualize it better if you need to.
 
 + If you need a refresher on loops and conditionals, check out this awesome resource: https://docs.python.org/3/tutorial/controlflow.html
