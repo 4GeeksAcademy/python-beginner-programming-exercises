@@ -8,7 +8,7 @@ Aquí puedes escucharla: https://www.youtube.com/watch?v=Xy-da43E6Lo
 
 1. Por favor, declara una función llamada `number_of_bottles()`.
 
-2. La función necesita **print** para imprimir la letra exacta de la canción (usa el método `print()` y no `return`).
+2. La función necesita imprimir la letra exacta de la canción (usa el método `print()` y no `return`).
 
 ## Resultado esperado:
 
