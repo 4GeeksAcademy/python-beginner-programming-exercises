@@ -16,7 +16,7 @@ def test_function_existence(app):
     except AttributeError:
         raise AttributeError("The function get_randomInt should exist")
 
-@pytest.mark.it("Check that you are setting the correct values for the randrange function.")
+@pytest.mark.it("Check that you are setting the correct values for the randrange function")
 def test_conditional():
     with open(path, 'r') as content_file:
         content = content_file.read()
@@ -29,7 +29,7 @@ def test_print_output(capsys, app):
     result = app.get_randomInt()
     assert result >= 1 or result <= 12
 
-@pytest.mark.it('You must call the function inside the print() function.')
+@pytest.mark.it('You must call the function inside the print() function')
 def test_function_called_for():
     with open(path, 'r') as content_file:
         content = content_file.read()

@@ -25,4 +25,4 @@ For example, if the user says that `20` people are attending to the wedding, it 
 
 ## 💡 Hint:
 
-+ Use if/else to divide your code and set the value of the `price` variable the right way.
++ Use `if...else` to divide your code and set the value of the `price` variable the right way.

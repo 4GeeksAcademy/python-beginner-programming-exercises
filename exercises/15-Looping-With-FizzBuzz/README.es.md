@@ -6,7 +6,13 @@ Esta es una típica prueba de principiante que es exigida para las entrevistas e
 
 1. Escribe el código necesario para imprimir en la consola todos los números del 1 al 100.
 
-## Resultado esperado:
+2. Para múltiplos de 3, en lugar de imprimir el número, imprime "Fizz".
+
+3. Para múltiplos de 5, imprime "Buzz".
+
+4. Para números que son múltiplos de 3 y de 5, imprime "FizzBuzz".
+
+## 💻 Resultado esperado:
 
 ```py
 1
@@ -34,16 +40,14 @@ Buzz
 
 ## 🔎 Importante: 
 
-+ Hay una serie de ejercicios dedicados a listas y ciclos, te invitamos a realizarlos antes de continuar: [https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises](https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises).
+Hay una serie de ejercicios dedicados a listas y bucles, te invitamos a realizarlos antes de continuar: [https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises](https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises).
     
-¡Luego, regresa!😊
+¡Luego, regresa! 😊
 
 
 ## 💡 Pistas:
 
-+ Para múltiplos de 3, en lugar de imprimir el número, imprime "Fizz".
++ Debes usar instrucciones `if`.
 
-+ Para múltiplos de 5, imprime "Buzz".
-
-+ Para números que son múltiplos de 3 y de 5, imprime "FizzBuzz".
++ Piensa en el orden correcto de esos `if` para hacer que tu código haga lo que quieres. 
 

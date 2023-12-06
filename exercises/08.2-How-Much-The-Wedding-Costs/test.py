@@ -16,6 +16,7 @@ def test_for_print(capsys):
         regex2 = re.compile(r"elif\s*")
         assert bool(regex2.search(content)) == True
 
+
 @pytest.mark.it("Between 101 and 200 guests sould be priced 15,000")
 def test__between_100_and_200(capsys, app):
     with mock.patch('builtins.input', lambda x: 200):
@@ -23,6 +24,7 @@ def test__between_100_and_200(capsys, app):
         captured = capsys.readouterr()
         price = 15000
         assert "Your wedding will cost "+str(price)+" dollars\n" in captured.out
+
 
 @pytest.mark.it("Between 51 and 100 guests sould be priced 10,000")
 def test_between_101_and_51(capsys, app):
@@ -33,7 +35,7 @@ def test_between_101_and_51(capsys, app):
         assert "Your wedding will cost "+str(price)+" dollars\n" in captured.out
 
 
-@pytest.mark.it("Less than 50 guests sould be priced 4,000")
+@pytest.mark.it("Less than 50 guests, it should cost 4,000")
 def test_less_than_50(capsys, app):
     with mock.patch('builtins.input', lambda x: 50):
         app()
@@ -41,7 +43,7 @@ def test_less_than_50(capsys, app):
         price = 4000
         "Your wedding will cost "+str(price)+" dollars\n" in captured.out
 
-@pytest.mark.it("More than 200 should be priced 20,000")
+@pytest.mark.it("More than 200 guests, it should cost 20,000")
 def test_t(capsys, app):
     with mock.patch('builtins.input', lambda x: 201):
         app()

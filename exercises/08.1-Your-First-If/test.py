@@ -31,35 +31,35 @@ def test_for_output_when_101(stdin, capsys, app):
         captured = capsys.readouterr()
         assert "Give me your money!\n" in captured.out 
 
-@pytest.mark.it("When input exactly 100 should print: Buy me some coffee you cheap ")
+@pytest.mark.it("When input exactly 100 should print: Buy me some coffee, you cheap!")
 def test_for_output_when_100(capsys, app):
     with mock.patch('builtins.input', lambda x: 100):
         app()
         captured = capsys.readouterr()
-        assert "Buy me some coffee you cheap!\n" in captured.out
+        assert "Buy me some coffee, you cheap!\n" in captured.out
 
-@pytest.mark.it("When input is 99 should print: Buy me some coffee you cheap ")
+@pytest.mark.it("When input is 99 should print: Buy me some coffee, you cheap!")
 def test_for_output_when_99(capsys, app):
     with mock.patch('builtins.input', lambda x: 99):
         app()
         captured = capsys.readouterr()
-        assert "Buy me some coffee you cheap!\n" in captured.out
+        assert "Buy me some coffee, you cheap!\n" in captured.out
 
-@pytest.mark.it("When input is 51 should print: Buy me some coffee you cheap ")
+@pytest.mark.it("When input is 51 should print: Buy me some coffee, you cheap!")
 def test_for_output_when_51(capsys, app):
     with mock.patch('builtins.input', lambda x: 51):
         app()
         captured = capsys.readouterr()
-        assert "Buy me some coffee you cheap!\n" in captured.out
+        assert "Buy me some coffee, you cheap!\n" in captured.out
 
-@pytest.mark.it("When input exactly 50 should print: You are a poor guy, go away")
+@pytest.mark.it("When input exactly 50 should print: You are a poor guy, go away!")
 def test_for_output_when_50(capsys, app):
     with mock.patch('builtins.input', lambda x: 50):
         app()
         captured = capsys.readouterr()
         assert "You are a poor guy, go away!\n" in captured.out
 
-@pytest.mark.it("When input less than 50 should print: You are a poor guy, go away")
+@pytest.mark.it("When input less than 50 should print: You are a poor guy, go away!")
 def test_for_output_when_49(capsys, app):
     with mock.patch('builtins.input', lambda x: 49):
         app()
