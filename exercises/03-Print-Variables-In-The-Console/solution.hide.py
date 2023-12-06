@@ -1,4 +1,5 @@
 # ✅ ↓ your code here ↓ ✅
 
 color = "red"
-print(color)
+item = "marker"
+print(color, item)

@@ -18,7 +18,8 @@ In this example, `name` is the variable, acting like a box to store the value `"
 
 2. Then, print its value on the console using `print(name)`.
 
-## 💡 Hint:
+## 💡 Hints:
 
 + The name of the variable can be whatever you want, but the value inside has to be the string "Yellow".
-+ If you need further explanation on what **strings** are and how they work in python, you can watch this clip: https://youtube.com/clip/UgkxyQ_JLmgSUL4l25c8Ly7cCRvk1Gm-EchU (`ctrl + click` on the link to open the video)
+  
++ If you need further explanation on what **strings** are and how they work in Python, you can watch this clip: https://youtube.com/clip/UgkxyQ_JLmgSUL4l25c8Ly7cCRvk1Gm-EchU (`ctrl + click` on the link to open the video)
