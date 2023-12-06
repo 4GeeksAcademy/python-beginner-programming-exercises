@@ -25,7 +25,7 @@ def test_function_spin_chamber(capsys, app):
     regex = r"number_of_bottles\(\)"
     assert re.match(regex, content[my_printCallVar])
 
-@pytest.mark.it('The function must return the expected output')
+@pytest.mark.it('The function must print the expected output')
 def test_for_function_output(capsys):
     number_of_bottles()
     captured = capsys.readouterr()

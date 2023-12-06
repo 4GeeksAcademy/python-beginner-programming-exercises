@@ -8,7 +8,7 @@ import app
 import re
 import os
 
-@pytest.mark.it("You should declare a function named sing and call it in the correct way")
+@pytest.mark.it("You should declare a function named sing()")
 def test_function_sing_exists(app):
     try:
         assert app.sing
@@ -23,9 +23,9 @@ def test_function_hardcode_output():
         regex = re.compile(r"\breturn\s*[^\"][a-zA-Z0-9]*\b\s*")
         assert bool(regex.search(content)) == True
 
-@pytest.mark.it("The function sing should return astring with the song lyrics")
+@pytest.mark.it("The function sing() should return a string with the song lyrics")
 def test_function_sing_exists(app):
     try:
-        assert app.sing() == "let it be, let it be, let it be, let it be, whisper words of wisdom, let it be, let it be, let it be, let it be, let it be, there will be an answer, let it be"
+        assert app.sing() == "let it be,\nlet it be,\nlet it be,\nlet it be,\nthere will be an answer,\nlet it be,\nlet it be,\nlet it be,\nlet it be,\nlet it be,\nwhisper words of wisdom, let it be"
     except AttributeError:
         raise AttributeError("The function 'sing' should exist on app.py")

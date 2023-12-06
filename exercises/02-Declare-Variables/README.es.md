@@ -6,7 +6,7 @@ En la programación, usamos variables como si fueran cajas (o contenedores) para
 name = "Daniel"
 ```
 
-En este ejemplo, `name` es la variable, actuando como una caja para almacenar el valor `"Daniel"`. Dentro de esta 'caja', estamos almacenando el valor `"Daniel"`, y podemos usar `name` para referirnos a este valor más tarde. Al nombrar tus variables, puedes elegir casi cualquier nombre, pero debe comenzar con una letra o un guión bajo (`_`). Es útil elegir un nombre que describa lo que hay dentro de la 'caja' para que puedas entender fácilmente lo que representa más adelante.
+En este ejemplo, `name` es la variable, actuando como una caja para almacenar el valor `"Daniel"`. Dentro de esta 'caja', estamos almacenando el valor `"Daniel"`, y podemos usar `name` para referirnos a este valor más tarde. Al nombrar tus variables, puedes elegir casi cualquier nombre, pero debe comenzar con una letra o un guion bajo (`_`). Es útil elegir un nombre que describa lo que hay dentro de la 'caja' para que puedas entender fácilmente lo que representa más adelante.
 
 ## 📝 Instrucciones:
 
@@ -14,8 +14,8 @@ En este ejemplo, `name` es la variable, actuando como una caja para almacenar el
 
 2. Luego, imprime su valor en la consola usando `print(name)`.
 
-## 💡 Pista:
+## 💡 Pistas:
 
 + Puedes darle el nombre que quieras a la variable, pero su valor tiene que ser el texto "Yellow".
 
-+ Si necesitas más explicación sobre qué son los **strings** y cómo funcionan en Python, puedes ver este clip: https://www.youtube.com/watch?v=yT0jixU3M2c&ab_channel=ProgramaResuelto (`ctrl + click` en el enlance para abrir el video)
++ Si necesitas más explicación sobre qué son los **strings** y cómo funcionan en Python, puedes ver este clip: https://www.youtube.com/watch?v=yT0jixU3M2c&ab_channel=ProgramaResuelto (`ctrl + click` en el enlace para abrir el video)

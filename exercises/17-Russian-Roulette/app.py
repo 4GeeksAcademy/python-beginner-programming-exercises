@@ -8,7 +8,7 @@ def spin_chamber():
 
 # ❌ ⬆ DON'T CHANGE THE CODE ABOVE ⬆ ❌
 def fire_gun():
-	# ✅ ↓ your loop here ↓ ✅
+	# ✅ ↓ your code here ↓ ✅
 	return None
 
 

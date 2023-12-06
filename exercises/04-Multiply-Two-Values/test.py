@@ -15,12 +15,12 @@ def test_variable_exists():
     except ImportError:
         raise ImportError("The variable 'variables_are_cool' should exist on app.py")
 
-@pytest.mark.it('Variables_are_cool value should be like 2345 * 7323 ')
+@pytest.mark.it('The value of variables_are_cool should be 2345 * 7323')
 def test_use_variable_name():
     result = app.variables_are_cool == 17172435
     assert result == True
 
-@pytest.mark.it('Print on the console the variables_are_cool value ')
+@pytest.mark.it('Print on the console the value of variables_are_cool')
 def test_for_file_output(capsys):
     captured = buffer.getvalue()
     assert '17172435\n' in captured

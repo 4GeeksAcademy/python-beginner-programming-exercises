@@ -14,7 +14,7 @@ def test_function_exists():
     except ImportError:
         raise ImportError("The function 'generate_random' should exist on app.py")
 
-@pytest.mark.it("The function 'generate_random' should return random number between 0 and 9")
+@pytest.mark.it("The function 'generate_random' should return a random number between 0 and 9")
 def test_for_return():
     from app import generate_random
     result = generate_random()
@@ -31,9 +31,10 @@ def test_for_type_random():
         regex2 = re.compile(r"random.randrange\s*\(")
         assert bool(regex.search(content)) == True or bool(regex2.search(content)) == True
 
-@pytest.mark.it('You should be using print()')
-def test_for_type_random():
+@pytest.mark.it('You should print() the output of the function')
+def test_function_called_for():
+    
     with open(path, 'r') as content_file:
         content = content_file.read()
-       
-        assert "print" in content
+        regex = re.compile(r"print\s*\(\s*generate_random\s*\(\s*\)\s*\)")
+        assert bool(regex.search(content)) == True

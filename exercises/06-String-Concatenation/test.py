@@ -27,7 +27,7 @@ def test_my_var2_value():
     from app import my_var2
     assert   my_var2.lower() == "world"
 
-@pytest.mark.it("Variable my_var2 value should be 'World'")
+@pytest.mark.it("Don't remove the_new_string variable")
 def test_the_new_string_exists():
     import app
     try:

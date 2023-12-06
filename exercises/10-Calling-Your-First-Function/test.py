@@ -29,7 +29,7 @@ def test_call_is_odd():
         my_main_code()
         mocked_is_odd.assert_called_with(45345)
 
-@pytest.mark.it('The console should output "True" inside the function my_main_code ')
+@pytest.mark.it('The console should output "True" inside the function my_main_code')
 def test_for_file_output(capsys):
     from app import my_main_code
     my_main_code()

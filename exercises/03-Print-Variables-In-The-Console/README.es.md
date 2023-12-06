@@ -1,14 +1,15 @@
-# `03` Print Variables in The Console
+# `03` Print more Variables in The Console
 
-También puedes usar la función **print** para imprimir variables en la consola. Es una excelente forma de verificar su valor actual, así:
+También puedes imprimir más de una variable en la misma función `print()` separando con una coma `,` las variables a imprimir. De esta manera:
 
 ```py
-my_super_variable = 'hello'
-print(my_super_variable)
+my_variable = 'hello'
+my_second_variable = "world"
+print(my_variable, my_second_variable)  # --> hello world
 ```
 
 ## 📝 Instrucciones:
 
-1. Declara una nueva variable llamada `color` y asígnale el valor `"red"`.
+1. Declara dos nuevas variables llamadas `color` y `item` y asígnales el valor `"red"` y `marker` respectivamente.
 
-2. Luego, imprime su valor en la consola (puede que tengas que desplazarte en la consola para poder verlo).
+2. Luego, imprime sus valores en la consola (puede que tengas que desplazarte en la consola para poder verlo).

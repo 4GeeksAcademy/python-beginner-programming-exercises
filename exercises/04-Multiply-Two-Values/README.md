@@ -6,7 +6,7 @@ tutorial: "https://www.youtube.com/watch?v=tATIrAWiLLU"
 
 Any programming language lets you do basic Math operations like multiplication, division, etc.
 
-To multiply 2 values in python, you have to use the asterisk operator like this:
+To multiply 2 values in Python, you have to use the asterisk operator like this:
 
 ```py
 resulting_value = 2 * 3

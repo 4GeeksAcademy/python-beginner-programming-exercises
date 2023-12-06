@@ -13,11 +13,11 @@ Functions are amazing because of many things, but mainly because you can encapsu
 2. The function `is_odd` is defined at the beginning of the code, please call that function inside `my_main_code` passing it the number `45345` and print the result on the console.
 
 
-## :mag_right: Important:
+## 🔎 Important:
 
-There's a series of exercises dedicated to Functions [here](https://github.com/4GeeksAcademy/python-functions-programming-exercises), we encourage you to go and finish those after your **first Function exercise** (And then... come back! :smiley).
+There's a series of exercises dedicated to functions [here](https://github.com/4GeeksAcademy/python-functions-programming-exercises), we encourage you to go and finish those after your **first function exercise** (And then... come back! 😃).
 
 
-## 💡Hint: 
+## 💡 Hint: 
 
 + Check this out for additional information on functions and function calls: https://www.w3schools.com/python/python_functions.asp
