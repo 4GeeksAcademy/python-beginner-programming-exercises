@@ -29,28 +29,18 @@ Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Co
 
 ## Instalación local:
 
-Clona el repositorio en tu ambiente local y sigue los siguientes pasos:
+1. Clona el repositorio en tu ambiente local y sigue los siguientes pasos.
 
-1. Instala LearnPack, el package manager para tutoriales y el plugin compilador de HTML para LearnPack, asegúrate de tener instalado node.js 14+:
-
-```bash
-$ npm i learnpack -g
-$ learnpack plugins:install learnpack-python
-```
-
-2.  Descarga estos ejercicios en particular usando LearnPack y `cd` dentro de la carpeta:
+2. Instala LearnPack, el package manager para tutoriales y el plugin compilador de Python para LearnPack, asegúrate de tener instalado node.js 14+:
 
 ```bash
-$ learnpack download python-beginner-programming-exercises
-$ cd python-beginner-programming-exercises
+$ npm i @learnpack/learnpack@2.1.20 -g && learnpack plugins:install @learnpack/python@1.0.0
 ```
-
-Nota: Una vez que termines de descargarlo, encontrarás una carpeta llamada "exercises" que contiene los ejercicios. 
 
 3. Inicializa el tutorial ejecutando el siguiente comando al mismo nivel en el que se encuentra tu archivo learn.json: 
 
 ```bash
-$ pip3 install pytest==4.4.2 pytest-testdox mock
+$ pip3 install pytest==6.2.5 pytest-testdox mock
 $ learnpack start
 ```
 
@@ -59,7 +49,7 @@ $ learnpack start
 
 ## ¿Cómo están organizados los ejercicios?
 
-Cada ejercicio es una pequeña aplicación de React que contiene los siguientes archivos:
+Cada ejercicio es una pequeña aplicación de Python que contiene los siguientes archivos:
 
 1. **app.py:** representa el archivo de entrada de Python que será ejecutado por el computador.
 2. **README.es.md:** Contiene las instrucciones del ejercicio.
@@ -71,7 +61,7 @@ Cada ejercicio es una pequeña aplicación de React que contiene los siguientes 
  
 Gracias a estas personas maravillosas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribución: (programador) 💻 (idea) 🤔, (build-tests) ⚠️, (pull-request-review) 🤓, (build-tutorial) ✅, (documentación) 📖
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribución: (programador) 💻 (idea) 🤔, (build-tests) ⚠️, (pull-request-review) 👀, (build-tutorial) ✅, (documentación) 📖
 
 2. [Paolo (plucodev)](https://github.com/plucodev), contribución: (bug reports) 🐛, (programador) 💻, (traducción) 🌎
 
