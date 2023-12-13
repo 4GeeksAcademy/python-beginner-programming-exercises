@@ -36,7 +36,7 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 
 ## Local Installation
 
-1. Install LearnPack, the package manager for learning tutorials, and the Python compiler plugin for LearnPack. Make sure you also have node.js 14+:
+1. Make sure you have [LearnPack](https://learnpack.co) installed, node.js version 14+, and Python version 3+. This is the command to install LearnPack:
 
 ```bash
 $ npm i @learnpack/learnpack@2.1.20 -g && learnpack plugins:install @learnpack/python@1.0.0
