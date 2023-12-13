@@ -36,17 +36,22 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 
 ## Local Installation
 
-1. Clone the repository in your local environment and follow the steps below.
-
-2. Install LearnPack, the package manager for learning tutorials, and the Python compiler plugin for LearnPack. Make sure you also have node.js 14+:
+1. Install LearnPack, the package manager for learning tutorials, and the Python compiler plugin for LearnPack. Make sure you also have node.js 14+:
 
 ```bash
 $ npm i @learnpack/learnpack@2.1.20 -g && learnpack plugins:install @learnpack/python@1.0.0
 ```
 
+2) Clone or download this repository.
+
+```bash
+$ git clone https://github.com/4GeeksAcademy/python-beginner-programming-exercises.git
+```
+
 3. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
 ```bash
+$ cd python-beginner-programming-exercises
 $ pip3 install pytest==6.2.5 pytest-testdox mock
 $ learnpack start
 ```
