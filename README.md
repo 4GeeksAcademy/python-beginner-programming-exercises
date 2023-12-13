@@ -36,28 +36,18 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 
 ## Local Installation
 
-Clone the repository in your local environment and follow the steps below:
+1. Clone the repository in your local environment and follow the steps below.
 
-1. Install LearnPack, the package manager for learning tutorials, and the HTML compiler plugin for LearnPack. Make sure you also have node.js 14+:
-
-```bash
-$ npm i learnpack -g
-$ learnpack plugins:install learnpack-python
-```
-
-2. Download these particular exercises using LearnPack and `cd` into the folder:
+2. Install LearnPack, the package manager for learning tutorials, and the Python compiler plugin for LearnPack. Make sure you also have node.js 14+:
 
 ```bash
-$ learnpack download python-beginner-programming-exercises
-$ cd python-beginner-programming-exercises
+$ npm i @learnpack/learnpack@2.1.20 -g && learnpack plugins:install @learnpack/python@1.0.0
 ```
-
-Note: Once you finish downloading, you will find an "exercises" folder that contains all the exercises within.
 
 3. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
 ```bash
-$ pip3 install pytest==4.4.2 pytest-testdox mock
+$ pip3 install pytest==6.2.5 pytest-testdox mock
 $ learnpack start
 ```
 
@@ -65,7 +55,7 @@ $ learnpack start
 
 ## How are the exercises organized?
 
-Each exercise is a small React application containing the following files:
+Each exercise is a small Python application containing the following files:
 
 1. **app.py:** represents the entry Python file that will be executed by the computer.
 2. **README.md:** contains exercise instructions.
