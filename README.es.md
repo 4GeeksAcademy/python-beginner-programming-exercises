@@ -29,17 +29,22 @@ Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Co
 
 ## Instalación local:
 
-1. Clona el repositorio en tu ambiente local y sigue los siguientes pasos.
-
-2. Instala LearnPack, el package manager para tutoriales y el plugin compilador de Python para LearnPack, asegúrate de tener instalado node.js 14+:
+1. Instala LearnPack, el package manager para tutoriales y el plugin compilador de Python para LearnPack, asegúrate de tener instalado node.js 14+:
 
 ```bash
 $ npm i @learnpack/learnpack@2.1.20 -g && learnpack plugins:install @learnpack/python@1.0.0
 ```
 
+2. Clona o descarga este repositorio en tu ambiente local.
+
+```bash
+$ git clone https://github.com/4GeeksAcademy/python-beginner-programming-exercises.git
+```
+
 3. Inicializa el tutorial ejecutando el siguiente comando al mismo nivel en el que se encuentra tu archivo learn.json: 
 
 ```bash
+$ cd python-beginner-programming-exercises
 $ pip3 install pytest==6.2.5 pytest-testdox mock
 $ learnpack start
 ```
