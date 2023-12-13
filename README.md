@@ -49,7 +49,7 @@ $ git clone https://github.com/4GeeksAcademy/python-beginner-programming-exercis
 $ cd python-beginner-programming-exercises
 ```
 
-> Nota: Una vez que termine de descargar, encontrarás la carpeta "exercises" que contiene todos los ejercicios.
+> Note: Once you finish downloading, you will find an "exercises" folder that contains all the exercises within.
 
 3. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
