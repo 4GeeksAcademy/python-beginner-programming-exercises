@@ -46,12 +46,14 @@ $ npm i @learnpack/learnpack@2.1.20 -g && learnpack plugins:install @learnpack/p
 
 ```bash
 $ git clone https://github.com/4GeeksAcademy/python-beginner-programming-exercises.git
+$ cd python-beginner-programming-exercises
 ```
+
+> Nota: Una vez que termine de descargar, encontrarás la carpeta "exercises" que contiene todos los ejercicios.
 
 3. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
 ```bash
-$ cd python-beginner-programming-exercises
 $ pip3 install pytest==6.2.5 pytest-testdox mock
 $ learnpack start
 ```
