@@ -42,7 +42,7 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 $ npm i @learnpack/learnpack@2.1.20 -g && learnpack plugins:install @learnpack/python@1.0.0
 ```
 
-2) Clone or download this repository.
+2. Clone or download this repository in your local environment.
 
 ```bash
 $ git clone https://github.com/4GeeksAcademy/python-beginner-programming-exercises.git
