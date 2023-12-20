@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=-HQtwsBnbMQ"
 ---
 
-# `13` Create A For Loop
+# `14` Create A For Loop
 
 Loops are very useful. You don't have to rewrite the same lines many times.
 
