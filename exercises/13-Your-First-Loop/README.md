@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=30sizcnVdGg"
 ---
 
-# `14` Your First Loop
+# `13` Your First Loop
 
 ## 📝 Instructions:
 
