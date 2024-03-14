@@ -19,21 +19,16 @@ Here you can listen to the song: https://www.youtube.com/watch?v=Xy-da43E6Lo
 The result should be something like this:
 
 ```text
-99 bottles of milk on the wall, 99 bottles of milk.
-Take one down and pass it around, 98 bottles of milk on the wall.
+99 bottles of milk on the wall, 99 bottles of milk. Take one down and pass it around, 98 bottles of milk on the wall.
 
-98 bottles of milk on the wall, 98 bottles of milk.
-Take one down and pass it around, 97 bottles of milk on the wall.
+98 bottles of milk on the wall, 98 bottles of milk. Take one down and pass it around, 97 bottles of milk on the wall.
 ...
 ...
-2 bottles of milk on the wall, 2 bottles of milk. 
-Take one down and pass it around, 1 bottle of milk on the wall.
+2 bottles of milk on the wall, 2 bottles of milk. Take one down and pass it around, 1 bottle of milk on the wall.
 
-1 bottle of milk on the wall, 1 bottle of milk.
-Take one down and pass it around, no more bottles of milk on the wall.
+1 bottle of milk on the wall, 1 bottle of milk. Take one down and pass it around, no more bottles of milk on the wall.
 
-No more bottles of milk on the wall, no more bottles of milk.
-Go to the store and buy some more, 99 bottles of milk on the wall.
+No more bottles of milk on the wall, no more bottles of milk. Go to the store and buy some more, 99 bottles of milk on the wall.
 ```
 
 ## 💡 Hints:
