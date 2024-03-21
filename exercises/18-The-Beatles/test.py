@@ -23,9 +23,12 @@ def test_function_hardcode_output():
         regex = re.compile(r"\breturn\s*[^\"][a-zA-Z0-9]*\b\s*")
         assert bool(regex.search(content)) == True
 
+
 @pytest.mark.it("The function sing() should return a string with the song lyrics")
 def test_function_sing_exists(app):
     try:
-        assert app.sing() == "let it be,\nlet it be,\nlet it be,\nlet it be,\nthere will be an answer,\nlet it be,\nlet it be,\nlet it be,\nlet it be,\nlet it be,\nwhisper words of wisdom, let it be"
+        assert callable(getattr(app, 'sing', None)), "The function 'sing' should exist on app.py"
+        expected_output = "let it be,\nlet it be,\nlet it be,\nlet it be,\nthere will be an answer,\nlet it be,\nlet it be,\nlet it be,\nlet it be,\nlet it be,\nwhisper words of wisdom, let it be"
+        assert app.sing() == expected_output
     except AttributeError:
         raise AttributeError("The function 'sing' should exist on app.py")
