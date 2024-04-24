@@ -1,3 +1,4 @@
+
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
@@ -21,7 +22,7 @@
 			"extensions": ["learn-pack.learnpack-vscode"]
 		}
 	},
-	"onCreateCommand": "sudo apt-get update -y && sudo apt-get install xdg-utils -y && pip3 install pytest==6.2.5 pytest-testdox mock && npm i @learnpack/learnpack@2.1.47 -g && learnpack plugins:install @learnpack/python@1.0.3"
+	"onCreateCommand": "sudo apt-get update -y && sudo apt-get install xdg-utils -y && pip3 install pytest==6.2.5 pytest-testdox mock && npm i @learnpack/learnpack@2.1.50 -g && learnpack plugins:install @learnpack/python@1.0.3"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
