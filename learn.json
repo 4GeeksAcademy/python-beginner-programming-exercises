@@ -1,33 +1,37 @@
-{
-    "slug": "python-beginner-programming-exercises",
-    "title": {
-        "us": "Learn Python Interactively (beginner)",
-        "es": "Aprende Python Interactivamente (Principiante)"
-    },
-    "intro": "https://www.youtube.com/watch?v=amyDNhZwGJQ",
-    "repository": "https://github.com/4GeeksAcademy/python-beginner-programming-exercises",
-    "preview": "https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/master/preview.png?raw=true",
-    "description": {
-        "us": "Python Exercises for beginners, from Hello World to variables, loops and a little bit of functions.",
-        "es": "Ejercicios de Python para principiantos, desde Hello World hasta variables, ciclos y un poco de funciones."
-    },
-    "duration": 10,
-    "difficulty": "easy",
-    "videoSolutions": true,
-    "projectType": "tutorial",
-    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
-    "graded": true,
-    "language": "python3",
-    
-    "editor": {
-        "version": "3.1.24"
-    },
-    "video": {
-        "intro": {
-            "es": "https://www.youtube.com/watch?v=amyDNhZwGJQ",
-            "en": "https://www.youtube.com/watch?v=amyDNhZwGJQ"
-        }
-    }
 
-    
+{
+"slug": "python-beginner-programming-exercises",
+"title": {
+    "us": "Learn Python Interactively (beginner)",
+    "es": "Aprende Python Interactivamente (Principiante)"
+},
+"intro": "https://www.youtube.com/watch?v=amyDNhZwGJQ",
+"repository": "https://github.com/4GeeksAcademy/python-beginner-programming-exercises",
+"preview": "https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/master/preview.png?raw=true",
+"description": {
+    "us": "Python Exercises for beginners, from Hello World to variables, loops and a little bit of functions.",
+    "es": "Ejercicios de Python para principiantos, desde Hello World hasta variables, ciclos y un poco de funciones."
+},
+"duration": 10,
+"difficulty": "easy",
+"videoSolutions": true,
+"projectType": "tutorial",
+"bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+"graded": true,
+"language": "python3",
+
+"editor": {
+    "version": "3.1.36"
+},
+"telemetry": {
+    "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+},
+"video": {
+    "intro": {
+        "es": "https://www.youtube.com/watch?v=amyDNhZwGJQ",
+        "en": "https://www.youtube.com/watch?v=amyDNhZwGJQ"
+    }
+}
+
+
 }
