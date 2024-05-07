@@ -14,13 +14,13 @@ These exercises are the ideal first step for anyone trying to learn Python. We s
 
 This particular series is for Python beginners. You will learn:
 
-1. The `print` function.
+1.- The `print` function.
 
-2. Data-Types. 
+2.- Data-Types. 
 
-3. Lists and Tuples. 
+3.- Lists and Tuples. 
 
-4. Functions and dictionaries.
+4.- Functions and dictionaries.
 
 The entire tutorial is 👆 interactive, ✅ auto-graded, and has 📹 video tutorials.
 
