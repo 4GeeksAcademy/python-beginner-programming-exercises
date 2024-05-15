@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=z6OnN4s__TU"
+---
+
 # `01` Console
 
 En Python, usamos **print** para que el computador escriba cualquier cosa que queramos (el contenido de una variable, una string dado, etc.) en algo llamado "la consola".

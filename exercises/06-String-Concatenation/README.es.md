@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=4y8xYy273f4"
+---
+
 # `06` String Concatenation
 
 La concatenación de strings es una tarea común en la programación que implica combinar o unir dos o más strings.

@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=KqO8ebdqs5I"
+---
+
 # `17`  Russian Roulette
 
 ¿Has jugado a la ruleta rusa? ¡Es muy divertido! Si no pierdes... (¡¡¡muuuajajajaja!!!).

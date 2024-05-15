@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=pe_DEzC-528"
+---
+
 # `05` User Inputed Values
 
 Otra cosa genial de las variables es que no necesitas saber su valor para poder trabajar con ellas.

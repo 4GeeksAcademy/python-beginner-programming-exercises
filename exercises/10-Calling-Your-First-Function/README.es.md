@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=0Jxyc4eClNA"
+---
+
 # `10` Calling Your First Function
 
 Las funciones son increíbles por muchas cosas, pero principalmente porque puedes encapsular tu código en piezas y reusar esas piezas muchas veces sin tener que escribir todo el código cada vez.

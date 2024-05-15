@@ -1,3 +1,8 @@
+---
+tutorial: "https://www.youtube.com/watch?v=jYK2i0_dtns"
+---
+
+
 # `16` Random Colors (Loop)
 
 Hemos creado una función que devuelve un color basado en un número entre 0 y 3 (cualquier otro número retornará el color `black`).
