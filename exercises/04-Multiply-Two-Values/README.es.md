@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=p4PY8s6asfw"
+---
+
 # `04` Multiply Two Values
 
 Cualquier lenguaje de programación te permite realizar operaciones matemáticas básicas como multiplicación, división, etc.

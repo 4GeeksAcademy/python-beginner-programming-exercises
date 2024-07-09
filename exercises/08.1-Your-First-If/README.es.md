@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=n5skqOQfQ84"
+---
+
 # `08.1` Your First If...
 
 La aplicación actual está preguntando cuánto dinero tiene el usuario. Una vez el usuario ingresa la cantidad, debemos 'imprimir' usando **print** una de las siguientes respuestas:

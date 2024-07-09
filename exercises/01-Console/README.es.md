@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=z6OnN4s__TU"
+---
+
 # `01` Console
 
 En Python, usamos **print** para que el computador escriba cualquier cosa que queramos (el contenido de una variable, una string dado, etc.) en algo llamado "la consola".
@@ -20,6 +24,6 @@ print("Un texto en la consola")
 
 + Recuerda, para ejecutar el código y ver el resultado en la consola, haz clic en el ícono de caja en la esquina superior izquierda de la pantalla:
 
-![Botón de compilar](https://i.imgur.com/w6u4aDd.png)
+![Botón de compilar](https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/1d9d7f83b678411be8ff9efc3bad9dab4265d057/.learn/assets/run-exercise.png)
 
 + Siéntete libre de intentar otras cosas también.

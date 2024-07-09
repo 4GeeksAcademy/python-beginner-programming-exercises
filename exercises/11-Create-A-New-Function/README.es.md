@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=6LhV15O9kvQ"
+---
+
 # `11` Create a New Function
 
 Como sabes, las funciones son un bloque de código útil que puedes reusar tantas veces como necesites.

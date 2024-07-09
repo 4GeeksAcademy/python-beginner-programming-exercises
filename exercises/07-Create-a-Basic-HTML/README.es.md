@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=zbTM_T6an4k"
+---
+
 # `07` Create a Basic HTML
 
 Continuemos concatenando strings para generar un documento HTML básico...

@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=FeSo8xlnrTI"
+---
+
 # `02` Declare Variables
 
 En la programación, usamos variables como si fueran cajas (o contenedores) para guardar diferentes tipos de información. Así es cómo creamos una variable:

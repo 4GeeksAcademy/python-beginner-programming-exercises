@@ -25,6 +25,6 @@ print("How are you?")
 
 + Remember, to run the code and see the output on the console, click on the box icon in the top left of the screen:
 
-![The compile button](https://i.imgur.com/w6u4aDd.png)
+![The compile button](https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/1d9d7f83b678411be8ff9efc3bad9dab4265d057/.learn/assets/run-exercise.png)
 
 + Feel free to try other things as well.

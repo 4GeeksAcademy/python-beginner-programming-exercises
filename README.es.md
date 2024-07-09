@@ -1,7 +1,7 @@
 <!-- hide -->
 # 🐍 Tutorial y Ejercicios para Principiantes de Python
 
-Por <a href="https://twitter.com/alesanchezr">@alesanchezr</a> y <a href="https://github.com/4GeeksAcademy/python-beginner-programming-exercises/graphs/contributors">otros colaboradores</a> en <a href="http://4geeksacademy.co/">4Geeks Academy</a><a href="https://www.4geeksacademy.com"><img height="280" align="right" src="https://github.com/ElviraQDP/python-beginner-programming-exercises/blob/master/badge-python-bg.png"></a>
+Por <a href="https://twitter.com/alesanchezr">@alesanchezr</a> y <a href="https://github.com/4GeeksAcademy/python-beginner-programming-exercises/graphs/contributors">otros colaboradores</a> en <a href="http://4geeksacademy.co/">4Geeks Academy</a><a href="https://www.4geeksacademy.com"><img height="280" align="right" src="https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/master/.learn/assets/badge-python-bg.png"></a>
 <!-- endhide -->
 
 Esta serie en particular es para principiantes de Python. Aprenderás los siguientes conceptos:

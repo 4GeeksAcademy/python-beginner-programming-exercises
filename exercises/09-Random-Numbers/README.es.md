@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=9IjotW64sxA"
+---
+
 # `09` Random Numbers
 
 Puedes usar la función `randint()` para obtener un número entero aleatorio. `randint()` es una función interna del módulo `random` en Python3.
