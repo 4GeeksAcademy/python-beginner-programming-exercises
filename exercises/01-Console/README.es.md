@@ -24,6 +24,6 @@ print("Un texto en la consola")
 
 + Recuerda, para ejecutar el código y ver el resultado en la consola, haz clic en el ícono de caja en la esquina superior izquierda de la pantalla:
 
-![Botón de compilar](https://i.imgur.com/w6u4aDd.png)
+![Botón de compilar](https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/1d9d7f83b678411be8ff9efc3bad9dab4265d057/.learn/assets/run-exercise.png)
 
 + Siéntete libre de intentar otras cosas también.
