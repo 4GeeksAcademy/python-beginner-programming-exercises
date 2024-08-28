@@ -21,7 +21,7 @@
 "language": "python3",
 
 "editor": {
-    "version": "3.1.40"
+    "version": "4.0.8"
 },
 "telemetry": {
     "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
