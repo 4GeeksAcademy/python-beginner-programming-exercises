@@ -1,3 +1,7 @@
+---
+tutorial: "https://www.youtube.com/watch?v=SM71mzjuvfA"
+---
+
 # `03` Print more Variables in The Console
 
 También puedes imprimir más de una variable en la misma función `print()` separando con una coma `,` las variables a imprimir. De esta manera:

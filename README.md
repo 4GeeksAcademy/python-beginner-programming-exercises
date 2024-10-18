@@ -1,5 +1,5 @@
 <!-- hide -->
-<img height="280" align="right" src="https://github.com/ElviraQDP/python-beginner-programming-exercises/blob/master/badge-python-bg.png?raw=true">
+<img height="280" align="right" src="https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/master/.learn/assets/badge-python-bg.png?raw=true">
 
 
 # 🐍 Python Beginner Tutorial and Exercises

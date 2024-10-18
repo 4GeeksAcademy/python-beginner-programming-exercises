@@ -1,3 +1,8 @@
+---
+tutorial: "https://www.youtube.com/watch?v=z3_0x8MlpFs"
+---
+
+
 # `08.2` How Much The Wedding Costs (if...else)
 
 Aquí tenemos una tabla de precios de una compañía de catering de bodas:
