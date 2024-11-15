@@ -30,7 +30,7 @@ These exercises were built in collaboration, we need you! If you find any bugs o
 
 ## One click installation (recommended):
 
-You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/python-beginner-programming-exercises) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/python-beginner-programming-exercises).
+You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/python-beginner-programming-exercises) (recommended), [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/python-beginner-programming-exercises) or [Open in Codeanywhere](https://app.codeanywhere.com/#https://github.com/4GeeksAcademy/python-beginner-programming-exercises).
 
 > Once you have VSCode open, the LearnPack exercises should start automatically. If exercises don't run automatically, you can try typing on your terminal: `$ learnpack start`
 
