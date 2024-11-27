@@ -22,7 +22,7 @@ This particular series is for Python beginners. You will learn:
 
 4. Functions and dictionaries.
 
-The entire tutorial is 👆 interactive, ✅ auto-graded, and has 📹 video tutorials.
+The entire tutorials are 👆 interactive, ✅ auto-graded, and has 📹 video tutorials.
 
 These exercises were built in collaboration, we need you! If you find any bugs or misspellings please contribute and report them.
 
