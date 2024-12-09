@@ -18,8 +18,7 @@
 "projectType": "tutorial",
 "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
 "graded": true,
-"language": "python3",
-
+"technologies": ["strings", "python", "functions", "conditionals", "variables", "conditionales", "cadenas-de-caracteres"],
 "editor": {
     "version": "4.0"
 },
