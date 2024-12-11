@@ -2,7 +2,7 @@
 intro: "https://www.youtube.com/watch?v=IXNSwnN-YqM"
 ---
 
-# Welcome to the Python Beginner Course!
+# Bienvenid@ al curso de Python para principiantes!
 
 ¡Estamos muy entusiasmados por tenerte aquí! 🎉 😂
 
