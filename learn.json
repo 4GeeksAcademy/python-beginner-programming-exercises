@@ -20,7 +20,7 @@
 "graded": true,
 "technologies": ["strings", "python", "functions", "conditionals", "variables", "conditionales", "cadenas-de-caracteres"],
 "editor": {
-    "version": "4.0"
+    "version": "5.0"
 },
 "telemetry": {
     "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
