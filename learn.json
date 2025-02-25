@@ -18,7 +18,7 @@
 "projectType": "tutorial",
 "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
 "graded": true,
-"technologies": ["strings", "python-functions", "conditionals", "variables", "conditionales", "funciones-de-python"],
+"technologies": ["strings", "python-functions", "conditionals", "variables", "condicionales", "funciones-de-python"],
 "editor": {
     "version": "5.0"
 },
