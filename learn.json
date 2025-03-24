@@ -9,8 +9,8 @@
 "repository": "https://github.com/4GeeksAcademy/python-beginner-programming-exercises",
 "preview": "https://github.com/4GeeksAcademy/python-beginner-programming-exercises/blob/master/.learn/assets/preview.png?raw=true",
 "description": {
-    "us": "Python exercises for beginners, starting from the basics like 'Hello World' to more advanced concepts like variables, loops, functions, and data structures. These hands-on challenges guide you step by step through Python programming, offering interactive and auto-graded lessons to build a solid foundation.",
-    "es": "Ejercicios de Python para principiantes, comenzando desde lo básico como 'Hola Mundo' hasta conceptos más avanzados como variables, bucles, funciones y estructuras de datos. Estos desafíos prácticos te guían paso a paso en la programación con Python, ofreciendo lecciones interactivas y autoevaluadas para construir una base sólida."
+    "us": "Python exercises for beginners, starting from the basics like `Hello World` to more advanced concepts like variables, loops, functions, and data structures. These hands-on challenges guide you step by step through Python programming, offering interactive and auto-graded lessons to build a solid foundation.",
+    "es": "Ejercicios de Python para principiantes, comenzando desde lo básico como `Hola Mundo` hasta conceptos más avanzados como variables, bucles, funciones y estructuras de datos. Estos desafíos prácticos te guían paso a paso en la programación con Python, ofreciendo lecciones interactivas y autoevaluadas para construir una base sólida."
 },
 "duration": 10,
 "difficulty": "easy",
