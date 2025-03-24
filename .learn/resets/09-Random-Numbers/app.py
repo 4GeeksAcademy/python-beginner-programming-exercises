@@ -6,6 +6,3 @@ def get_randomInt():
 	return random_number
 
 print(get_randomInt())
-get_randomInt
-random_number = random.random
-print(get_randomInt())
