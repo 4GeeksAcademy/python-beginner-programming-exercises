@@ -14,12 +14,12 @@ En este ejemplo, `name` es la variable, actuando como una caja para almacenar el
 
 ## 📝 Instrucciones:
 
-1. Declara una variable con el valor `"Yellow"` y luego imprímelo en la consola.
+1. Declara una variable llamada `name` con el valor `"Yellow"` y luego imprímelo en la consola.
 
 2. Luego, imprime su valor en la consola usando `print(name)`.
 
 ## 💡 Pistas:
 
-+ Puedes darle el nombre que quieras a la variable, pero su valor tiene que ser el texto "Yellow".
++ El nombre de la variable debe ser `name` para pasar los tests y su valor tiene que ser el texto "Yellow".
 
 + Si necesitas más explicación sobre qué son los **strings** y cómo funcionan en Python, puedes ver este clip: https://www.youtube.com/watch?v=yT0jixU3M2c&ab_channel=ProgramaResuelto (`ctrl + click` en el enlace para abrir el video)
