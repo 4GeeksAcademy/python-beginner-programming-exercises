@@ -26,16 +26,16 @@ def test_for_file_output(capsys):
     assert '17172435\n' in captured
 
 @pytest.mark.it('Print on the console the variables_are_cool variable')
-def test_for_print():
+def test_prints_variable():
     with open(path, 'r') as content_file:
         content = content_file.read()
         # makes sure we are calling print function with a variable and not the hard coded value
         regex = re.compile(r"print\s*\(\s*variables_are_cool\s*\)")
-        assert bool(regex.search(content)) == True
+        assert bool(regex.search(content)) == True, "Expected print statement to use the variable 'variables_are_cool'"
 
 @pytest.mark.it('You should not hardcode the result')
-def test_for_print():
+def test_does_not_hardcode_result():
     with open(path, 'r') as content_file:
         content = content_file.read()
         # makes sure we are calling print function with a variable and not the hard coded value
-        assert str(17172435) not in content
+        assert str(17172435) not in content, "Do not hardcode the result directly in print()"
