@@ -1,3 +1,6 @@
+Si encuentras algún error o falta de ortografía, por favor contribuye o avísanos.
+
+
 <!-- hide -->
 # 🐍 Tutorial y Ejercicios para Principiantes de Python
 
