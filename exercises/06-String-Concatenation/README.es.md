@@ -19,7 +19,7 @@ print(one + two)  # Esto imprimirá 'ab' en la consola.
 Aquí, las variables `one` y `two` contienen los strings individuales `'a'` y `'b'`, respectivamente. Cuando usas el operador `+` entre ellos, actúa como un pegamento, uniendo los strings de extremo a extremo. En este caso, une `'a'` y `'b'`, dando como resultado el string concatenado `'ab'`, que se imprime en la consola.
 
 ## 📝 Instrucciones: 
-1. Establece los valores para `my_var1` y `my_var2` de manera que, al concatenarlos, el código imprima `Hello World` en la consola.
+1. Establece los valores para `my_var1` y `my_var2` de manera que, al concatenarlos, el código imprima `Hello World` en la consola, no olvides colocar las palabras Hello y World dentro  de comillas.
 
 
 ## 💡 Pista:
