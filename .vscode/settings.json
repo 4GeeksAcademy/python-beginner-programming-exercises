@@ -4,5 +4,10 @@
     "editor.minimap.enabled": false,
     "workbench.editorAssociations": {   
         "*.md": "vscode.markdown.preview.editor"
-    }
+    },
+    "python.testing.pytestArgs": [
+        "__pycache__"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }
