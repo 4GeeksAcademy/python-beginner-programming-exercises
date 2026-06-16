@@ -25,7 +25,11 @@
 	"onCreateCommand": "sudo apt-get update -y && sudo apt-get install xdg-utils -y && pip3 install pytest==6.2.5 pytest-testdox mock && npm i @learnpack/learnpack@5.0.348 -g && learnpack plugins:install @learnpack/python@1.0.6"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	// "features": {
+        "ghcr.io/devcontainers/features/sshd:1": {
+        "version": "latest"
+    }
+    },
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
