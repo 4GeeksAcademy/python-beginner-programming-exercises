@@ -8,9 +8,13 @@
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {
 			"nodeGypDependencies": true,
-			"version": "16"
+			"version": "22"
 		}
-	},
+	,
+        "ghcr.io/devcontainers/features/sshd:1": {
+        "version": "latest"
+    }
+    },
 	"customizations": {
 		"vscode": {
 			"settings": {
@@ -25,11 +29,7 @@
 	"onCreateCommand": "sudo apt-get update -y && sudo apt-get install xdg-utils -y && pip3 install pytest==6.2.5 pytest-testdox mock && npm i @learnpack/learnpack@5.0.348 -g && learnpack plugins:install @learnpack/python@1.0.6"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {
-        "ghcr.io/devcontainers/features/sshd:1": {
-        "version": "latest"
-    }
-    },
+	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
