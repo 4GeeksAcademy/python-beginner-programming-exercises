@@ -16,6 +16,6 @@ FIRE!!!...... are you dead?
 
 ## 💡 Hints:
 
-+ You can get the chamber position by calling the `spin_chamber` function
++ You can get the chamber position by calling the `spin_chamber` function.
 
 + If the bullet is at the same slot as the revolver chamber, then it will be fired (`You are dead!`).
