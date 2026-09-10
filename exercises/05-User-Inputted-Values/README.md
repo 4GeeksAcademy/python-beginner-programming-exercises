@@ -2,7 +2,7 @@
 tutorial: "https://www.youtube.com/watch?v=zeWN4ujg6yU"
 ---
 
-# `05` User Inputed Values
+# `05` User Inputted Values
 
 The other cool thing about variables is that you don't need to know their value to be able to work with them.
 
