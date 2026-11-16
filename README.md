@@ -26,6 +26,21 @@ The entire tutorial is 👆 interactive, ✅ auto-graded, and has 📹 video tut
 
 These exercises were built in collaboration, we need you! If you find any bugs or misspellings please contribute and report them.
 
+## 🗺️ Python practice path
+
+This LearnPack is part of a series. We recommend completing them in order:
+
+| # | LearnPack | What you practice |
+| - | --------- | ----------------- |
+| 1 | **Python for Beginners** (📍 you are here) | print, variables, input and basic operations |
+| 2 | [Python Functions](https://github.com/4GeeksAcademy/python-functions-programming-exercises/blob/master/README.md) | defining and calling functions, parameters and return |
+| 3 | [Python Lists and Loops](https://github.com/4GeeksAcademy/python-lists-loops-programming-exercises/blob/master/README.md) | lists, for/while loops and iteration patterns |
+| 4 | [Master Python: Functions and Numbers](https://github.com/4GeeksAcademy/master-python-functions-exercises/blob/main/README.md) | functions, arithmetic operators, the math module, conditionals and simple loops |
+| 5 | [Master Python: Strings and Collections](https://github.com/4GeeksAcademy/master-python-collections-exercises/blob/main/README.md) | strings, lists, tuples, dictionaries, sets, comprehensions and sorting |
+| 6 | [Master Python: Classes and OOP](https://github.com/4GeeksAcademy/master-python-classes-exercises/blob/main/README.md) | classes, special methods, inheritance, properties, composition, dataclasses and iterators |
+
+➡️ **Next:** [Python Functions](https://github.com/4GeeksAcademy/python-functions-programming-exercises)
+
 <!-- hide -->
 
 ## One click installation (recommended):
