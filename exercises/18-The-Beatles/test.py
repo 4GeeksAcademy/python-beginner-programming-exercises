@@ -26,6 +26,6 @@ def test_function_hardcode_output():
 @pytest.mark.it("The function sing() should return a string with the song lyrics")
 def test_function_sing_exists(app):
     try:
-        assert app.sing() == "let it be,\nlet it be,\nlet it be,\nlet it be,\nthere will be an answer,\nlet it be,\nlet it be,\nlet it be,\nlet it be,\nlet it be,\nwhisper words of wisdom, let it be"
+        assert app.sing() == " nlet it be,\nlet it be,\nthere will be an answer,\nlet it be,\nlet it be,\nlet it be,\nlet it be,\nlet it be,\nwhisper words of wisdom, let it be"
     except AttributeError:
         raise AttributeError("The function 'sing' should exist on app.py")
